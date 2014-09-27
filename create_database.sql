@@ -9,5 +9,5 @@ create table if not exists courses(
 	room_cap int
 );
 
-load data local infile 'C:/Users/Mohamed Ahmed/Documents/GitHub/course-selection-assistant/courses.csv' into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP);
+load data local infile 'C:/xampp/htdocs/course-selection-assistant/courses.csv' into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP);
 
