@@ -57,5 +57,23 @@ echo $hint==="" ? "no suggestion" : $hint;*/
 echo "result";
 echo "result";
 
+if(true){
+  echo "true" . "\n";
+}
+
+// Create connection 
+$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
+
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+$result = mysqli_query($con, "SELECT * from courses limit 5;");
+
+while($row = mysqli_fetch_array($result)){
+  echo $row['course'] . "\n";
+}
+
 
 ?>

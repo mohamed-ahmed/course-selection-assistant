@@ -1,3 +1,5 @@
-$.get( "../server/main.php", function( data ) {
-	console.log(data);
-});
+function getData(){
+	$.get( "../server/main.php", function( data ) {
+		console.log(data);
+	});
+}
