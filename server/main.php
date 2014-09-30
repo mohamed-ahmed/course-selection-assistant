@@ -54,12 +54,12 @@ if ($q !== "") {
 // or output the correct values 
 echo $hint==="" ? "no suggestion" : $hint;*/
 
-echo "result";
+/*echo "result";
 echo "result";
 
 if(true){
   echo "true" . "\n";
-}
+}*/
 
 // Create connection 
 $con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");

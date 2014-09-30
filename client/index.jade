@@ -2,8 +2,24 @@ doctype html
 html
 	head
 		title Course Selection Assistant
+		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+		link(rel='stylesheet', href='css/style.css')
 		script(src="http://code.jquery.com/jquery-2.1.1.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
 		script(src="/course-selection-assistant/client/js/main.js")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
 
 	body
-		p Courses
+		div(class="container-fluid")
+			each year in [1,2,3,4]
+				div(class="col-md-2 year")
+					p Year 
+						span= year
+					table(class="course-table")
+						each sem in [1,2,3,4,5]
+							tr(class="semester-column")
+								each course in [1,2]
+									td
+										div(class="course")
+
+
