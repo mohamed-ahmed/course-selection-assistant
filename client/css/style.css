@@ -2,6 +2,8 @@
 	background-color : rgb(218, 218, 218);
 	border-radius : 10px;
 	margin: 20px;
+	padding: 10px;
+	width: 200px;
 }
 
 .course{
@@ -12,4 +14,12 @@
 	height:80px;
 	width:80px;
 	margin: 5px;
+}
+
+.course-table{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	text-align: center;
 }
