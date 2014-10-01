@@ -11,3 +11,10 @@ create table if not exists courses(
 
 load data local infile 'C:/xampp/htdocs/course-selection-assistant/courses.csv' into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP);
 
+create table if not exists prereqs(
+	course varchar(20),
+	requires varchar(20),
+	optional varchar(20)
+);
+
+load data local infile 'C:/xampp/htdocs/course-selection-assistant/prereqs.csv' into table prereqs fields terminated by ',' enclosed by '"' lines terminated by '\n'(course, requires, optional);
