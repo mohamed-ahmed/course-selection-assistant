@@ -1,8 +1,7 @@
-function getData(){
+function getData(callback){
 	var globaldata;
 	$.get( "../server/main.php", function( data ) {
 		console.log(data);
-		globaldata = data;
+		callback(data);
 	});
-	return globaldata;
 }
