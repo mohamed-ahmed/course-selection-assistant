@@ -63,6 +63,13 @@ function setCookiesFromForm(){
 	createCookie("JSON", $("#inputJSON").val().toString().replace(/(\r\n|\n|\r)/gm,'') );
 }
 
+/*adds functions to the dom
+
+it works such as dom("element_type like div or h1", {attribute:"value"}, list_of_doms)
+
+*/
+
+
 function dom(name, attributes) {
 	var node = document.createElement(name);
 	if (attributes) {
