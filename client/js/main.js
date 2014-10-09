@@ -1,8 +1,11 @@
+var globaldata;
+
+
 function getData(callback){
-	var globaldata;
-	$.get( "../server/main.php", function( data ) {
+	$.get( "../server/main2.php/courses", function( data ) {
 		console.log(data);
 		callback(data);
+		globaldata = data;
 	});
 }
 
@@ -13,4 +16,8 @@ function addCourseToYear(yearNumber, courseName){
 
 	yearObject.append(courseObject);
 
+}
+
+function callback(value){
+	globaldata = value;
 }

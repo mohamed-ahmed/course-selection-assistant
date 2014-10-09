@@ -76,4 +76,10 @@ while($row = mysqli_fetch_array($result)){
 }
 
 
+$urlString = $_SERVER['REQUEST_URI'];
+$stringArray = split("/", $urlString);
+foreach ($stringArray as $value) {
+  //echo $value . "\n";
+}
+
 ?>
