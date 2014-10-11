@@ -39,29 +39,6 @@ function eraseCookie(name) {
 	createCookie(name,"",-1);
 }
 
-	/*
-	*	Fills the form with data stored in the cookies from the last submission
-	*/
-function fillFormfromCookies(){
-	$("#rememberBox")[0].checked = JSON.parse( readCookie("remember") );
-	$("#inputMeetingID").val( readCookie("meetingID") );
-	$("#inputSessionID").val( readCookie("meetingSessionID") );
-	$("#inputClientUrl").val( readCookie("url") );
-	var JSONstring = readCookie("JSON");
-
-	$("#inputJSON").val( JSON.stringify( JSON.parse(JSONstring), null, 2 )  );
-}
-
-	/*
-	*	Sets the cookies to data last enterted in the form 
-	*/
-function setCookiesFromForm(){
-	createCookie("remember", $("#rememberBox")[0].checked );
-	createCookie("meetingID", $("#inputMeetingID").val());
-	createCookie("meetingSessionID", $("#inputSessionID").val());
-	createCookie("url", $("#inputClientUrl").val());
-	createCookie("JSON", $("#inputJSON").val().toString().replace(/(\r\n|\n|\r)/gm,'') );
-}
 
 /*adds functions to the dom
 
@@ -104,4 +81,12 @@ function setNodeAttribute(node, attribute, value) {
 		node.style.cssText = value;
 	else
 		node.setAttribute(attribute, value);
+}
+
+function hideElement(element){
+	element.style.display="none";
+}
+
+function showElement(element){
+	element.style.display="block";
 }
