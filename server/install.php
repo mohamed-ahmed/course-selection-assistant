@@ -3,7 +3,7 @@
 	$connection = mysqli_connect("localhost", "root", NULL);
 
 	$sql = "CREATE TABLE IF NOT EXISTS userslist(
-		login VARCHAR(20),
+		login VARCHAR(40),
 		firstname VARCHAR(40),
 		lastname VARCHAR(40),
 		password VARCHAR(100),
