@@ -1,32 +1,26 @@
 <?php
 
-	$connection = mysqli_connect("localhost", "root", NULL);
 
-	$sql = "CREATE TABLE IF NOT EXISTS userslist(
-		login VARCHAR(40),
-		firstname VARCHAR(40),
-		lastname VARCHAR(40),
-		password VARCHAR(100),
-		PRIMARY KEY (login)
-	)";
+
+
+	
+	$connection = mysqli_connect("localhost", "root", NULL, "course_selection_assistant");
+
 
 	if ( mysqli_connect_errno()){
 		echo "Failed to connect ". mysqli_connect_error();
 		exit;
 	}
 	
-	$sql = "CREATE DATABASE IF NOT EXISTS course_selection_assistant" ;
-	$connection->query($sql);
-	
-	$connection = mysqli_connect("localhost", "root", NULL, "course_selection_assistant");
+
 	$sql = "CREATE TABLE IF NOT EXISTS userslist(
-		login VARCHAR(20),
+		login VARCHAR(40),
 		firstname VARCHAR(40),
 		lastname VARCHAR(40),
 		password VARCHAR(100),
+		program VARCHAR(40),
 		PRIMARY KEY (login)
 	)";
-	
 	
 	if($connection->query($sql)){
 	

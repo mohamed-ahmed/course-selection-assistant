@@ -4,6 +4,7 @@
 	$firstname = $_POST['first-name'];
 	$lastname = $_POST['last-name'];
 	$password = $_POST['password'];
+	$program = $_POST['program'];
 
 	echo $login . $firstname . $lastname . $password;
 
@@ -14,7 +15,7 @@
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	$sql = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password')";
+	$sql = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program')";
 	if($con->query($sql)){
 		echo "The record is added";
 	}else{
