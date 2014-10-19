@@ -13,6 +13,11 @@ if($stringArray[4] == "courses"){
   getCourses();
   //echo "MATH 1004 MATH 1005";
 }
-echo "$stringArray[3]: " . $stringArray[3];
+// echo "$stringArray[3]: " . $stringArray[3];
+
+if($stringArray[4] == "user"){
+  getUser();
+  //echo "MATH 1004 MATH 1005";
+}
 
 ?>

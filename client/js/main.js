@@ -4,11 +4,17 @@ var globaldata;
 function getData(callback){
 	$.get( "../server/main2.php/courses", function( data ) {
 		console.log(data);
-		callback(data);
+		// callback(data);
 		globaldata = data;
 	});
 
-	put(course)
+}
+
+function getLogin(){
+	$.get("../server/main2.php/user", function(data){
+		console.log("user: ");
+		console.log(data);
+	});
 }
 
 function addCourseToYear(yearNumber, courseName){

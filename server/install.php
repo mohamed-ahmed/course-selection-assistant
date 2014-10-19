@@ -27,6 +27,17 @@
 	}else{
 		echo "Error encountered ".mysqli_error($connection);
 	}
+
+	$sql = "CREATE TABLE IF NOT EXISTS course_program(
+		course VARCHAR(20),
+		program VARCHAR(40)
+	)";
+	
+	if($connection->query($sql)){
+	
+	}else{
+		echo "Error encountered ".mysqli_error($connection);
+	}
 	
 
 ?>
