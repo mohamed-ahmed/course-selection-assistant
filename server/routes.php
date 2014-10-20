@@ -25,7 +25,8 @@ function getCourses(){
 	 	// echo $row['course'] . "\n";
 
 	 	$obj = array();
-	 	$obj["course"] = $row['course'];
+	 	$obj["course"] = $row["course"];
+	 	$obj["term"] = $row["term"];
 		array_push($course_array, $obj);
 	}
 

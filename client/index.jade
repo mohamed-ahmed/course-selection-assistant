@@ -11,16 +11,27 @@ html
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 
 	body
-		div(class="container-fluid")
-			each year in [1,2,3,4]
-				div(class="col-md-2 col-sm-6 year")
-					p Year 
-						span= year
-					table(class="course-table")
-						each sem in [1,2,3,4,5]
-							tr(class="semester-column")
-								each course in [1,2]
-									td
-										div(class="course")
-
-
+		table(id="course-table" width="800")
+			tr
+				th(colspan="2") Year 1
+				th(colspan="2") Year 2
+				th(colspan="2") Year 3
+				th(colspan="2") Year 4
+			tr
+				td Fall
+				td Winter
+				td Fall
+				td Winter
+				td Fall
+				td Winter
+				td Fall
+				td Winter
+			tr
+				td(id="sem-f1")
+				td(id="sem-w1")
+				td(id="sem-f2")
+				td(id="sem-w2")
+				td(id="sem-f3")
+				td(id="sem-w3")
+				td(id="sem-f4")
+				td(id="sem-w4")

@@ -30,7 +30,8 @@
 
 	$sql = "CREATE TABLE IF NOT EXISTS course_program(
 		course VARCHAR(20),
-		program VARCHAR(40)
+		program VARCHAR(40),
+		term VARCHAR(4)
 	)";
 	
 	if($connection->query($sql)){

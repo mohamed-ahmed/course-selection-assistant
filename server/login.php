@@ -38,6 +38,8 @@
 	 	$_SESSION['program'] = $program;
 	 	echo "session " . $_SESSION['login'] . endl;
 
+	 	header("refresh:3;url=../client/index.html");
+
 
 
 	}
