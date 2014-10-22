@@ -42,3 +42,7 @@
 #signup-form, #login-form{
 	display: none;
 }
+
+.sem-column{
+	vertical-align: top;
+}

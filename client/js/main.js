@@ -1,11 +1,15 @@
 var globaldata;
 
 
-function getData(callback){
+function getCourses(){
 	$.get( "../server/main2.php/courses", function( data ) {
 		console.log(data);
 		// callback(data);
-		globaldata = data;
+		//load courses into table
+		var courseArray = JSON.parse(data);
+		for (var i = 0; i < courseArray.length; i++) {
+			addCourseToTable(courseArray[i]);
+		}
 	});
 
 }
@@ -26,8 +30,18 @@ function addCourseToYear(yearNumber, courseName){
 
 }
 
+function addCourseToTable(course){
+	var courseElem = dom("div", {class:"course"}, document.createTextNode(course.course));
+	var term = course.term.toLowerCase();
+	var tableCell = document.getElementById("sem-" + term);
+	tableCell.appendChild(courseElem);
+}
+
 function callback(value){
 	globaldata = value;
 }
 
-
+window.onload=function(){
+	console.log("loaded");
+	getCourses();
+};
