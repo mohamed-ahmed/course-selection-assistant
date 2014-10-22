@@ -37,9 +37,7 @@ function addCourseToTable(course){
 	tableCell.appendChild(courseElem);
 }
 
-function callback(value){
-	globaldata = value;
-}
+
 
 window.onload=function(){
 	console.log("loaded");
