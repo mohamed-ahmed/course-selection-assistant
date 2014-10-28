@@ -12,6 +12,9 @@ foreach ($stringArray as $key => $value) {
 if($stringArray[4] == "courses"){
   getCourses();
   //echo "MATH 1004 MATH 1005";
+  if($stringArray[5] != null){
+  	  getCourses(stringArray[5]);
+  }
 }
 // echo "$stringArray[3]: " . $stringArray[3];
 
