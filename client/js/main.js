@@ -2,7 +2,7 @@ var globaldata;
 
 
 function getCourses(){
-	$.get( "../server/main2.php/courses", function( data ) {
+	$.get( "../server/main2.php/userCourses", function( data ) {
 		console.log(data);
 		// callback(data);
 		//load courses into table

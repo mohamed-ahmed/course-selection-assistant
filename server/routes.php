@@ -2,7 +2,12 @@
 
 session_start();
 
-function getCourses(){
+function getUsersCourses(){
+	$program = $_SESSION['program'];
+	getCourses($program);
+}
+
+function getCourses($program){
 
 	$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
 
@@ -12,7 +17,7 @@ function getCourses(){
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	$program = $_SESSION['program'];
+
 
 	$sql = "SELECT * FROM course_program WHERE program='$program'";
 	//SQL get courses from isFromProgram where program = $program
@@ -36,7 +41,7 @@ function getCourses(){
 }
 
 
-function getUser(){
+function getUser($login){
 	echo $_SESSION['login'];
 }
 

@@ -10,7 +10,7 @@ window.onload=function(){
 		showElement(document.getElementById("signup-form"));
 	};
 
-	document.getElementById.("input-pattern").onclick = function(){
+	document.getElementById("input-pattern").onclick = function(){
 		if(!studentIsOnPattern()){
 			showElement(document.getElementById("courses-taken-form-group"));
 			populateCourseList();
@@ -19,18 +19,23 @@ window.onload=function(){
 };
 
 function studentIsOnPattern(){
-	return document.getElementById.("input-pattern").val == "On";
+	return document.getElementById("input-pattern").value == "On";
 }
 
 function populateCourseList(){
-	var program =  document.getElementById.("input-program").val;
+	var program =  document.getElementById("input-program").value;
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.onreadystatechange=function(){
 		if (xmlhttp.readyState==4 && xmlhttp.status==200){
 			console.log(xmlhttp.responseText);
+			var courseArray = JSON.parse(xmlhttp.responseText);
+			courseArray.forEach(function(elem){
+				var domElem = dom("option", {value:elem.course}, document.createTextNode(elem.course));
+				document.getElementById("input-courses").appendChild(domElem);
+			});
 		}
 	}
-	var url = "../server/main2.php/courses" + program;
+	var url = "../server/main2.php/courses/" + program;
 	xmlhttp.open("GET", url);
 	xmlhttp.send();
 }
