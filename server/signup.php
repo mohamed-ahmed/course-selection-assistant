@@ -6,13 +6,12 @@
 	$password = $_POST['password'];
 	$program = $_POST['program'];
 	$pattern = $_POST['pattern'];
-	if($patter == "Off"){
+	if($pattern == "Off" && !empty($_POST['courses'])){
 		$courses = $_POST['courses'];
+		foreach ($courses as  $value) {
+			print $value;
+		}
 	}
-	foreach ($courses as  $value) {
-		print $value;
-	}
-
 	echo $login . $firstname . $lastname . $password;
 
 	$connection=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
@@ -26,7 +25,7 @@
 
 	run_sql_command($connection, $sql_command);
 
-	if($pattern == "Off"){
+	if($pattern == "Off" && !empty($_POST['courses'])){
 		foreach ($courses as  $value) {
 			print $value;
 			$sql_command = "INSERT INTO off_pattern_courses_completed VALUES('$login', '$value')";
