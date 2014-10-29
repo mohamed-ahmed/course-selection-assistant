@@ -15,6 +15,14 @@ window.onload=function(){
 			showElement(document.getElementById("courses-taken-form-group"));
 			populateCourseList();
 		}
+		else{
+			hideElement(document.getElementById("courses-taken-form-group"));
+			var elemList = document.getElementsByClassName("course-taken");;
+			while(elemList.length > 0){
+				elemList[0].remove();
+			}
+		}
+
 	}
 };
 
@@ -30,7 +38,7 @@ function populateCourseList(){
 			console.log(xmlhttp.responseText);
 			var courseArray = JSON.parse(xmlhttp.responseText);
 			courseArray.forEach(function(elem){
-				var domElem = dom("option", {value:elem.course}, document.createTextNode(elem.course));
+				var domElem = dom("option", {value:elem.course, class:"course-taken"}, document.createTextNode(elem.course));
 				document.getElementById("input-courses").appendChild(domElem);
 			});
 		}

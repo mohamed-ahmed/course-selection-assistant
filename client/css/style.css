@@ -47,3 +47,7 @@
 .sem-column{
 	vertical-align: top;
 }
+
+#courses-taken-form-group{
+	display: none;
+}
