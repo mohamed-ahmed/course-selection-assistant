@@ -97,7 +97,9 @@ var resultArray = [];
 dataArray.forEach(function (elem){
 	var courseObj = {};
 
-	var prereqObj = {};
+	var prereqObj = {
+		courses : []
+	};
 	courseObj.name = elem.course;
 
 	if( elem.prereq.indexOf("fourth-year status") >= 0 ){
@@ -109,19 +111,35 @@ dataArray.forEach(function (elem){
 
 	var regExp = /\(([^)]+)\)/;
 
-	var strArray = elem.prereq.split(regExp);
+	
+	var strArray = elem.prereq.split(" and ");
 
+	strArray.forEach(function (elem){
 
-
+		var parenthisRegExp = /\(([^)]*)\)/;
+		if(isCourse(elem)){
+			prereqObj.courses.push([elem]);
+		}
+		else if( isOrSequence(elem.split(parenthisRegExp)[1] )) {
+			prereqObj.courses.push( elem.split(parenthisRegExp)[1].split(" or ") );
+		}
+	});
 
 	courseObj.name = elem.course;
 	courseObj.prereqObj = prereqObj;
+
+
+
 
 	resultArray.push(courseObj);
 
 });
 
 function isOrSequence(str){
+	if(!str){
+		return false;
+	}
+	console.log(str);
 	var strArray = str.split(" or ");
 	for (var i = 0; i < strArray.length; i++) {
 		if(!isCourse(strArray[i].trim()) && strArray[i].trim()){
