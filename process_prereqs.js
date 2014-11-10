@@ -128,12 +128,15 @@ dataArray.forEach(function (elem){
 	courseObj.name = elem.course;
 	courseObj.prereqObj = prereqObj;
 
-
-
-
 	resultArray.push(courseObj);
 
+	courseMap[courseObj.name] = prereqObj;
+
 });
+
+var courseMap = {};
+
+
 
 function isOrSequence(str){
 	if(!str){

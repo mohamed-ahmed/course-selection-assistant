@@ -43,3 +43,34 @@ window.onload=function(){
 	console.log("loaded");
 	getCourses();
 };
+
+function canTakeCourse(course){
+	var couseObj = courseMap(course);
+	if(couseObj.yearStatus !== undefined){
+		if(couseObj.yearStatus < getUserYearStatus()){
+			return false;
+		}
+	}
+	//for each group of required courses check if student has taken at least one
+	couseObj.courses.forEach(function (elem){
+		var takenGroupPrereq = false;
+		for(var i  = 0 ; i < elem.length ; i++){
+			if(hasTaken(elem[i])){
+				takenGroupPrereq = true;
+			}
+		}
+		if(takenGroupPrereq !== true){
+			return false;
+		}
+	});
+	
+	return true;
+}
+
+function getUserYearStatus(){
+	return 4;
+}
+
+function hasTaken(){
+
+}

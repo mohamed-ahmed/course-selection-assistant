@@ -41,7 +41,13 @@ function getCourses($program){
 }
 
 
-function getUser($login){
+function getUser(){
+	$userObject = array();
+
+	$userObject["login"] = $_SESSION['login'];
+
+	
+
 	echo $_SESSION['login'];
 }
 
