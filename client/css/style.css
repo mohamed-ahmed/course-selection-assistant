@@ -10,10 +10,22 @@
 	background-color: white;
 	border-style:solid;
 	border-radius: 5px;
-	border-color:rgb(200, 255, 224);
 	height:80px;
 	width:80px;
 	margin: 5px;
+}
+
+.course-completed{
+	border-color:rgb(200, 255, 224);
+}
+
+.course-can-register{
+	border-color: rgb(0, 152, 255);
+}
+
+
+.course-cannot-register{
+	border-color: rgb(122, 122, 122);
 }
 
 .course-table{
