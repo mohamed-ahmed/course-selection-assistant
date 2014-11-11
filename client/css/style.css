@@ -9,23 +9,24 @@
 .course{
 	background-color: white;
 	border-style:solid;
-	border-radius: 5px;
+	border-radius: 10px;
 	height:80px;
 	width:80px;
 	margin: 5px;
+	padding : 5px;
 }
 
 .course-completed{
-	border-color:rgb(200, 255, 224);
+	border-color:rgba(0, 255, 111, 0.5);
 }
 
 .course-can-register{
-	border-color: rgb(0, 152, 255);
+	border-color: rgba(0, 152, 255, 0.5);
 }
 
 
 .course-cannot-register{
-	border-color: rgb(122, 122, 122);
+	border-color: rgba(122, 122, 122, 0.5);
 }
 
 .course-table{
