@@ -2,15 +2,22 @@ var globaldata;
 
 var userObject;
 
+var courseData;
+
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
 		console.log(data);
 		// callback(data);
 		//load courses into table
 		var courseArray = JSON.parse(data);
-		for (var i = 0; i < courseArray.length; i++) {
-			addCourseToTable(courseArray[i]);
-		}
+
+		$.get("../server/main2.php/programCourseData", function (programCourseDataResponse){
+			console.log("got response");
+			courseData = JSON.parse(programCourseDataResponse);
+			for (var i = 0; i < courseArray.length; i++) {
+				addCourseToTable(courseArray[i]);
+			}
+		}, "json");
 	});
 
 }
