@@ -14,7 +14,10 @@ foreach ($stringArray as $key => $value) {
 
 if($stringArray[4] == "userCourses"){
 	getUsersCourses();
-  //echo "MATH 1004 MATH 1005";
+}
+
+if($stringArray[4] == "programCourseData"){
+	getAllCourseData();
 }
 
 if(count($stringArray) >= 6){

@@ -2,7 +2,7 @@ var globaldata;
 
 var userObject;
 
-var courseData;
+var courseOfferingData = {};
 
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
@@ -13,11 +13,14 @@ function getCourses(){
 
 		$.get("../server/main2.php/programCourseData", function (programCourseDataResponse){
 			console.log("got response");
-			courseData = JSON.parse(programCourseDataResponse);
+			var temp = JSON.parse(programCourseDataResponse);
+			for(var i in temp){
+				courseOfferingData[temp[i].course] = temp[i];
+			}
 			for (var i = 0; i < courseArray.length; i++) {
 				addCourseToTable(courseArray[i]);
 			}
-		}, "json");
+		});
 	});
 
 }
@@ -73,6 +76,13 @@ function canTakeCourse(course){
 	if(!courseMap[course]){
 		return true;
 	}
+	console.log(course);
+	//todo" remove << courseOfferingData[course] !== undefined >>
+	if(courseOfferingData[course] !== undefined ){
+		if(courseOfferingData[course].room_cap !== 0 && courseOfferingData[course].students_registered > courseOfferingData[course].room_cap ){
+			return false;
+		}
+	}
 	var courseObj = courseMap[course];
 	if(courseObj.yearStatus !== undefined){
 		if(courseObj.yearStatus > getUserYearStatus()){
@@ -93,7 +103,6 @@ function canTakeCourse(course){
 			return false;
 		}
 	}
-	console.log("reached here");
 	return true;
 }
 
@@ -103,4 +112,23 @@ function getUserYearStatus(){
 
 function hasTaken(course){
 	return userObject.coursesCompleted.indexOf(course) >= 0;
+}
+
+function getNextSemester(){
+	var month = (new Date()).getMonth();
+	var semester;
+	switch(true){
+		case(month < 4):
+			semester = "summer";
+			break;
+		case(month >=4 && month < 8):
+			semester = "fall";
+			break;
+		case(month >=8 && month < 11):
+			semester = "winter";
+			break;
+		default:
+		throw "Invalid month";
+	}
+	return semester;
 }

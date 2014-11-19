@@ -8,7 +8,9 @@ function getUsersCourses(){
 }
 
 
-function getAllCourseData($program){
+function getAllCourseData(){
+
+	$program = $_SESSION['program'];
 
 	$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
 
@@ -20,9 +22,7 @@ function getAllCourseData($program){
 
 
 
-	$sql = "SELECT * FROM 
-		(SELECT * from course_program join courses where course_program.course = courses.course)
-	WHERE program='$program'";
+	$sql = " SELECT * from course_program join courses on course_program.course = courses.course WHERE program='$program';";
 	//SQL get courses from isFromProgram where program = $program
 
 	$result = mysqli_query($con, $sql);
@@ -32,9 +32,24 @@ function getAllCourseData($program){
 	while($row = mysqli_fetch_array($result)){
 	 	// echo $row['course'] . "\n";
 
+	 	/*$obj = array();
+	 	$obj["course"] = $row["course"];
+	 	$obj["term"] = $row["term"];*/
 	 	$obj = array();
 	 	$obj["course"] = $row["course"];
 	 	$obj["term"] = $row["term"];
+	 	$obj["program"] = $row["program"];
+	 	$obj["term"] = $row["term"];
+	 	$obj["seq"] = $row["seq"];
+	 	$obj["catalog_title"] = $row["catalog_title"];
+	 	$obj["instr_type"] = $row["instr_type"];
+	 	$obj["days"] = $row["days"];
+	 	$obj["start_time"] = $row["start_time"];
+	 	$obj["end_time"] = $row["end_time"];
+	 	$obj["room_cap"] = $row["room_cap"];
+	 	$obj["num_registered"] = $row["num_registered"];
+
+
 		array_push($course_array, $obj);
 	}
 
