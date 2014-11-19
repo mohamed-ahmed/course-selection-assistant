@@ -10,7 +10,9 @@ create table if not exists courses(
 	num_registered int
 );
 
-load data local infile 'C:/xampp/htdocs/course-selection-assistant/courses.csv' into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP, NUM_REGISTERED);
+load data local infile 'C:/xampp/htdocs/course-selection-assistant/courses.csv'    into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP, NUM_REGISTERED);
+load data local infile 'C:/xampp/htdocs/course-selection-assistant/datawinter.csv' into table courses fields terminated by ',' enclosed by '"' lines terminated by '\n'(course,SEQ,CATALOG_TITLE,INSTR_TYPE,DAYS,START_TIME,END_TIME,ROOM_CAP, NUM_REGISTERED);
+
 
 create table if not exists prereqs(
 	course varchar(20),
