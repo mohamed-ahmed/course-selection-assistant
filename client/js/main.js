@@ -139,16 +139,27 @@ function getNextSemester(){
 function isOfferedNextSemester(course){
 	var semester = getNextSemester();
 	var semesterShortCode;
-	/*switch(semester){
+	switch(semester){
 		case "fall":
-			semesterShortCode = ;
+			semesterShortCode = "f";
 			break;
 		case "winter":
-			semester = 
+			semesterShortCode = "w";
+			break;
+		case "summer":
+			semesterShortCode = "s";
+			break;
+		default:
+			throw "invalid semester";
 	}
-	for(var i in courseOfferingData){
-		if(cou)
-	}*/
+
+	function isOfferedNextSemester(element){
+		return element.term[0].toLowerCase() == semesterShortCode && element.course == course;
+	}
+
+	var filtered = courseOfferingData.filter(isOfferedNextSemester);
+
+	return filtered.length > 0;
 }
 
 function getAllCouresOfName(course){
