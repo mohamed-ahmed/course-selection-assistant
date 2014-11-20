@@ -2,7 +2,7 @@ var globaldata;
 
 var userObject;
 
-var courseOfferingData = {};
+var courseOfferingData = [];
 
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
@@ -15,7 +15,7 @@ function getCourses(){
 			console.log("got response");
 			var temp = JSON.parse(programCourseDataResponse);
 			for(var i in temp){
-				courseOfferingData[temp[i].course] = temp[i];
+				courseOfferingData.push(temp[i]);
 			}
 			for (var i = 0; i < courseArray.length; i++) {
 				addCourseToTable(courseArray[i]);
@@ -83,6 +83,9 @@ function canTakeCourse(course){
 			return false;
 		}
 	}
+	else{
+		throw course + " is undefined";
+	}
 	var courseObj = courseMap[course];
 	if(courseObj.yearStatus !== undefined){
 		if(courseObj.yearStatus > getUserYearStatus()){
@@ -131,4 +134,54 @@ function getNextSemester(){
 		throw "Invalid month";
 	}
 	return semester;
+}
+
+function isOfferedNextSemester(course){
+	var semester = getNextSemester();
+	var semesterShortCode;
+	/*switch(semester){
+		case "fall":
+			semesterShortCode = ;
+			break;
+		case "winter":
+			semester = 
+	}
+	for(var i in courseOfferingData){
+		if(cou)
+	}*/
+}
+
+function getAllCouresOfName(course){
+	var filtered = courseOfferingData.filter(isNameMatched);
+
+	function isNameMatched(element){
+		return element.course === course;
+	}
+	return filtered;
+}
+
+function getAllCourseOfferedNextSemester(){
+	var semester = getNextSemester();
+	var semesterShortCode;
+	switch(semester){
+		case "fall":
+			semesterShortCode = "f";
+			break;
+		case "winter":
+			semesterShortCode = "w";
+			break;
+		case "summer":
+			semesterShortCode = "s";
+			break;
+		default:
+			throw "invalid semester";
+	}
+
+	function isOfferedNextSemester(element){
+		return element.term[0].toLowerCase() == semesterShortCode;
+	}
+
+	var filtered = courseOfferingData.filter(isOfferedNextSemester);
+
+	return filtered;
 }
