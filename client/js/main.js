@@ -157,9 +157,9 @@ function isOfferedNextSemester(course){
 		return element.term[0].toLowerCase() == semesterShortCode && element.course == course;
 	}
 
-	var filtered = courseOfferingData.filter(isOfferedNextSemester);
+	var offered = courseOfferingData.some(isOfferedNextSemester);
 
-	return filtered.length > 0;
+	return offered;
 }
 
 function getAllCouresOfName(course){
@@ -196,3 +196,20 @@ function getAllCourseOfferedNextSemester(){
 
 	return filtered;
 }
+
+ function courseHasLectureSpace(course){
+
+ 	var filtered = getAllCouresOfName(course);
+
+ 	function hasSpace(element){
+ 		if(!element.room_cap){
+ 			return true;
+ 		}
+ 		if(element.room_cap > element.students_registered){
+ 			return true;
+ 		}
+ 		return false;
+ 	}
+ 	return filtered.some(hasSpace);
+ }
+
