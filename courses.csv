@@ -7,7 +7,7 @@
 "AERO 4003","A2","Aerospace Systems Design","LAB","W",835,1125,50
 "AERO 4009","A","Aviation Managemt & Certific.","LEC","R",1805,2055,36
 "AERO 4302","A","Aerodynamics & Heat Transfer","LEC","TR",1605,1725,96
-"AERO 4304","A","Computational Fluid Dynamics","LEC",,,,
+"AERO 4304","A","Computational Fluid Dynamics","LEC",NULL,NULL,NULL,
 "AERO 4306","A","Aerospace Vehicle Performance","LEC","TR",1305,1425,66
 "AERO 4402","A","Aerospace Propulsion","LEC","TR",1005,1125,40
 "AERO 4446","A","Heat Transfer for Aerosp Appli","LEC","MW",1305,1425,40
@@ -27,20 +27,20 @@
 "AFRI 2001","A","Africa:Culture,Society,Politic","LEC","T",1435,1625,78
 "AFRI 2001","A01","Africa:Culture,Society,Politic","GRP","M",1435,1525,27
 "AFRI 2001","A02","Africa:Culture,Society,Politic","GRP","M",1335,1425,27
-"AFRI 2001","A03","Africa:Culture,Society,Politic","GRP",,,,
+"AFRI 2001","A03","Africa:Culture,Society,Politic","GRP",NULL,NULL,NULL,
 "AFRI 2001","A04","Africa:Culture,Society,Politic","GRP","M",1235,1325,27
-"AFRI 3900","A","Placement","PLA",,,,
+"AFRI 3900","A","Placement","PLA",NULL,NULL,NULL,
 "AFRI 4000","A","Advan Topics African Studies","SEM","M",1135,1425,39
 "ALDS 1001","A","Lang Matters: Intro. to ALDS","LEC","MW",1435,1555,96
 "ALDS 1001","PA1","Lang Matters: Intro. to ALDS","PAS","MWF",1635,1725,21
-"ALDS 1001","W","Lang Matters: Intro. to ALDS","LEC",,,,
+"ALDS 1001","W","Lang Matters: Intro. to ALDS","LEC",NULL,NULL,NULL,
 "ALDS 2201","A","Analysis of Oral Language Use","LEC","TR",1135,1255,57
 "ALDS 2203","A","Linguis Theor&Secon Lang Learn","LEC","MW",1135,1255,57
 "ALDS 2705","A","Language, Ideology and Power","LEC","MW",835,955,58
 "ALDS 3706","A","Discourse Analysis","LEC","W",1805,2055,32
 "ALDS 3803","A","Method&Practic Langua Pedagogy","PRC","MW",1435,1555,25
-"ALDS 3900","A","Independent Study","IND",,,,
-"ALDS 3901","A","Independent Study","IND",,,,
+"ALDS 3900","A","Independent Study","IND",NULL,NULL,NULL,
+"ALDS 3901","A","Independent Study","IND",NULL,NULL,NULL,
 "ALDS 3903","A","Topic in Applied Ling&Discours","LEC","MW",1305,1425,29
 "ALDS 4205","A","Teach Engl Secnd Lang:Methodol","LEC","TR",935,1125,40
 "ALDS 4206","A","Practicum in Teaching ESL","PRC","M",835,1025,42
@@ -63,23 +63,23 @@
 "ANTH 1001","B04","Introduction to Anthropology","GRP","M",2005,2055,56
 "ANTH 1001","B05","Introduction to Anthropology","GRP","M",2005,2055,58
 "ANTH 1001","B06","Introduction to Anthropology","GRP","M",2005,2055,51
-"ANTH 1001","PA1","Introduction to Anthropology","PAS",,,,
+"ANTH 1001","PA1","Introduction to Anthropology","PAS",NULL,NULL,NULL,
 "ANTH 2001","A","Foundations Socio-Cultural","LEC","W",1135,1425,66
 "ANTH 2020","A","Race and Ethnicity","LEC","F",1135,1425,84
 "ANTH 2550","A","Religion and Society","LEC","R",1805,2055,98
 "ANTH 2610","A","Stud in Indigenous Peoples","LEC","M",835,1125,66
 "ANTH 2620","A","Ethnography Sub-Saharan Africa","LEC","T",835,1125,57
-"ANTH 2630","A","Studies in Asian Societies","LEC",,,,
+"ANTH 2630","A","Studies in Asian Societies","LEC",NULL,NULL,NULL,
 "ANTH 2670","A","Ethnography of Brazil","LEC","M",1435,1725,58
-"ANTH 2915","A","Course-Related Tut. in Anthro.","TUT",,,,
+"ANTH 2915","A","Course-Related Tut. in Anthro.","TUT",NULL,NULL,NULL,
 "ANTH 3005","A","Ethnographic Research Methods","LEC","M",1135,1425,47
 "ANTH 3020","A","Studies in Race & Ethnicity","LEC","W",1435,1725,79
 "ANTH 3027","A","Stud in Globalization & Human","LEC","M",835,1125,61
 "ANTH 3045","A","Stud. in Children & Childhood","LEC","M",1805,2055,91
 "ANTH 3225","A","Sel. Topics in Anthropology","LEC","T",835,1125,31
 "ANTH 3510","A","Ritual","LEC","W",835,1125,51
-"ANTH 3915","A","Course-Related Tut. in Anthro.","TUT",,,,
-"ANTH 3999","A","Co-op Work Term","WRK",,,,
+"ANTH 3915","A","Course-Related Tut. in Anthro.","TUT",NULL,NULL,NULL,
+"ANTH 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ARAB 1110","A","Intensive First Year Arabic","LEC","TR",835,1125,40
 "ARAB 1110","A","Intensive First Year Arabic","LEC","F",935,1125,40
 "ARCC 2202","A","Architectural Technology 1","LEC","R",1435,1725,84
@@ -89,22 +89,22 @@
 "ARCC 4200","B","Structural Morphology","LEC","M",835,1125,30
 "ARCC 4200","B","Structural Morphology","LEC","R",1135,1425,30
 "ARCC 4500","A","Design Economics","LEC","F",835,1125,115
-"ARCC 4808","A","Independent Study","IND",,,,
+"ARCC 4808","A","Independent Study","IND",NULL,NULL,NULL,
 "ARCC 4900","A","Sec. A Directed Reading","REP","T",1435,1725,320
 "ARCH 1000","A","Introduction to Architecture","LEC","F",835,1125,236
 "ARCH 2006","A","Hist. & Theory Industrial Desi","LEC","R",835,1125,154
 "ARCH 2300","C","Intro to Modern Architecture","LEC","M",835,1125,204
 "ARCH 4200","A","Architect Conserv Philos&Ethic","LEC","F",1135,1425,75
 "ARCH 4206","A","Recycling Arch in Canada & Abr","LEC","M",835,1125,75
-"ARCH 4801","B","Sel Top: Theory & History","SEM",,,,
-"ARCH 4808","A","Independent Study","IND",,,,
+"ARCH 4801","B","Sel Top: Theory & History","SEM",NULL,NULL,NULL,
+"ARCH 4808","A","Independent Study","IND",NULL,NULL,NULL,
 "ARCN 2106","A","Introduction to Multimedia","LEC","T",835,1125,75
-"ARCN 3206","B","Workshop: Computer Application","WKS",,,,
-"ARCN 3901","A","Sel Top: Arch Techniques","OTH",,,,
-"ARCN 3999","A","Co-op Work Term","WRK",,,,
+"ARCN 3206","B","Workshop: Computer Application","WKS",NULL,NULL,NULL,
+"ARCN 3901","A","Sel Top: Arch Techniques","OTH",NULL,NULL,NULL,
+"ARCN 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ARCN 4103","A","Digital Fabrication and Theory","LEC","R",935,1125,30
 "ARCN 4103","A1","Digital Fabrication and Theory","LAB","M",1135,1325,20
-"ARCN 4808","A","Independent Study","IND",,,,
+"ARCN 4808","A","Independent Study","IND",NULL,NULL,NULL,
 "ARCS 1005","A","Drawing","STU","TR",1135,1425,75
 "ARCS 2105","A","Studio 2","STU","MWF",1335,1725,320
 "ARCS 2105","B","Studio 2","STU","MWF",1335,1725,320
@@ -121,13 +121,13 @@
 "ARCS 4105","C","Studio 6","STU","MWF",1335,1725,32
 "ARCS 4105","D","Studio 6","STU","MWF",1335,1725,32
 "ARCS 4105","E","Studio 6","STU","MWF",1335,1725,32
-"ARCS 4106","B","Studio 7","STU",,,,
-"ARCU 3501","A","Fundamentals of Urbanism","LEC",,,,
+"ARCS 4106","B","Studio 7","STU",NULL,NULL,NULL,
+"ARCU 3501","A","Fundamentals of Urbanism","LEC",NULL,NULL,NULL,
 "ARCU 3902","A","Sel Top: Wksp in Urban Studies","WKS","TR",1805,2055,30
 "ARCU 4300","A","History of Theories - Urbanism","LEC","M",1435,1725,20
 "ARCU 4400","B","City Organization & Planning","OTH","T",1805,2055,24
 "ARCU 4801","A","Selected Topics in Urbanism","LEC","W",835,1125,20
-"ARCU 4808","A","Independent Study","IND",,,,
+"ARCU 4808","A","Independent Study","IND",NULL,NULL,NULL,
 "ARTH 1100","A","Art and Society:Prehist to Ren","LEC","M",1135,1325,387
 "ARTH 1100","A01","Art and Society:Prehist to Ren","TUT","M",1635,1725,27
 "ARTH 1100","A02","Art and Society:Prehist to Ren","TUT","M",1635,1725,52
@@ -151,9 +151,9 @@
 "ARTH 1200","A07","Hist & Theory of Arch 1","TUT","W",1035,1125,58
 "ARTH 1200","A08","Hist & Theory of Arch 1","TUT","W",1035,1125,23
 "ARTH 2006","A","Arts of the First Peoples","LEC","F",1435,1725,75
-"ARTH 2007","A","Asian Art","LEC",,,,
-"ARTH 2007","A1","Asian Art","GRP",,,,
-"ARTH 2007","A2","Asian Art","GRP",,,,
+"ARTH 2007","A","Asian Art","LEC",NULL,NULL,NULL,
+"ARTH 2007","A1","Asian Art","GRP",NULL,NULL,NULL,
+"ARTH 2007","A2","Asian Art","GRP",NULL,NULL,NULL,
 "ARTH 2102","A","Greek Art and Archaeology","LEC","TR",1605,1725,98
 "ARTH 2510","A","Arch of the 18th & 19th Cent","LEC","MW",1305,1425,52
 "ARTH 2601","A","Hist. & Theory of Photography","LEC","TR",1305,1425,75
@@ -164,12 +164,12 @@
 "ARTH 3107","A","Hist&Method of Architect Hist","SEM","R",1135,1425,40
 "ARTH 3400","A","History of Printmaking","LEC","T",1435,1725,40
 "ARTH 3809","A","Closer Look@Art&Visual Culture","LEC","M",835,1125,32
-"ARTH 3900","A","Practicum in Art History","PRC",,,,
+"ARTH 3900","A","Practicum in Art History","PRC",NULL,NULL,NULL,
 "ARTH 4000","A","Topics in Canadian Art","SEM","M",835,1125,27
 "ARTH 4008","A","Transnational Theory","SEM","W",1135,1425,27
 "ARTH 4610","A","Topics in Modern Arch or Desgn","SEM","R",1135,1425,32
 "ARTH 4809","A","Topic in Art History&Criticism","SEM","F",1135,1425,27
-"ARTH 4900","A","Directed Readings and Research","IND",,,,
+"ARTH 4900","A","Directed Readings and Research","IND",NULL,NULL,NULL,
 "ASLA 1010","A","First Yr American Sign Langu I","LEC","TR",935,1125,69
 "ASLA 1010","B","First Yr American Sign Langu I","LEC","TR",1435,1625,58
 "ASLA 1010","C","First Yr American Sign Langu I","LEC","WF",935,1125,58
@@ -188,9 +188,9 @@
 "ASLA 3010","A","Third Yr American Sign Lang I","LEC","MW",1635,1755,39
 "ASLA 3010","B","Third Yr American Sign Lang I","LEC","MW",1805,1925,39
 "ASLA 4010","A","Fourth Yr American Sign Lang I","LEC","TR",1605,1725,39
-"ASLA 4900","A","Independent Study","IND",,,,
-"ASLA 4901","A","Independent Study","IND",,,,
-"ASLA 4901","B","Independent Study","IND",,,,
+"ASLA 4900","A","Independent Study","IND",NULL,NULL,NULL,
+"ASLA 4901","A","Independent Study","IND",NULL,NULL,NULL,
+"ASLA 4901","B","Independent Study","IND",NULL,NULL,NULL,
 "BIOC 2200","A","Cellular Biochemistry","LEC","MW",1135,1255,236
 "BIOC 2200","A01","Cellular Biochemistry","LAB","M",1335,1725,20
 "BIOC 2200","A02","Cellular Biochemistry","LAB","T",1335,1725,20
@@ -204,22 +204,22 @@
 "BIOC 2200","PA1","Cellular Biochemistry","PAS","MW",1805,1925,28
 "BIOC 2300","A","Physical Biochemistry","LEC","TR",1135,1255,66
 "BIOC 2300","A01","Physical Biochemistry","TUT","F",835,1125,58
-"BIOC 2400","A","Independent Research I","OTH",,,,
+"BIOC 2400","A","Independent Research I","OTH",NULL,NULL,NULL,
 "BIOC 3006","A","Practical Biochemistry","TUT","M",1335,1425,67
 "BIOC 3006","A03","Practical Biochemistry","LAB","W",1335,1725,32
 "BIOC 3006","A04","Practical Biochemistry","LAB","R",1335,1725,32
 "BIOC 3006","A05","Practical Biochemistry","LAB","F",1335,1725,32
 "BIOC 3101","A","General Biochemistry I","LEC","TR",1135,1255,78
 "BIOC 3202","A","Biophysical Tech & Application","LEC","M",1805,2055,78
-"BIOC 3400","A","Independent Research II","OTH",,,,
-"BIOC 3999","A","Co-op Work Term","WRK",,,,
+"BIOC 3400","A","Independent Research II","OTH",NULL,NULL,NULL,
+"BIOC 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "BIOC 4007","A","Membrane Biochemistry","LEC","R",1435,1625,40
 "BIOC 4007","A01","Membrane Biochemistry","WKS","R",1135,1325,29
 "BIOC 4009","A","Biochemistry of Disease","LEC","MW",1605,1725,35
 "BIOC 4203","A","Advanced Metabolism","LEC","MW",1005,1125,55
 "BIOC 4708","A","Principles of Toxicology","LEC","MW",1805,1925,66
-"BIOC 4901","A","Topics in Biochemistry","IND",,,,
-"BIOC 4901","B","Topics in Biochemistry","IND",,,,
+"BIOC 4901","A","Topics in Biochemistry","IND",NULL,NULL,NULL,
+"BIOC 4901","B","Topics in Biochemistry","IND",NULL,NULL,NULL,
 "BIOL 1003","A","Introductory Biology 1","LEC","MWF",1235,1325,444
 "BIOL 1003","A02","Introductory Biology 1","LAB","T",1335,1625,50
 "BIOL 1003","A03","Introductory Biology 1","LAB","W",1335,1625,50
@@ -229,7 +229,7 @@
 "BIOL 1003","A09","Introductory Biology 1","LAB","R",835,1125,50
 "BIOL 1003","A10","Introductory Biology 1","LAB","F",835,1125,50
 "BIOL 1003","PA1","Introductory Biology 1","PAS","MW",1805,1925,40
-"BIOL 1003","PA2","Introductory Biology 1","PAS",,,,
+"BIOL 1003","PA2","Introductory Biology 1","PAS",NULL,NULL,NULL,
 "BIOL 1003","T02","Introductory Biology 1","TUT","T",1335,1625,67
 "BIOL 1003","T03","Introductory Biology 1","TUT","W",1335,1625,67
 "BIOL 1003","T04","Introductory Biology 1","TUT","R",1335,1625,67
@@ -238,9 +238,9 @@
 "BIOL 1003","T09","Introductory Biology 1","TUT","R",835,1125,67
 "BIOL 1003","T10","Introductory Biology 1","TUT","F",835,1125,61
 "BIOL 1010","A","Biotechnology and Society","LEC","M",1805,2055,331
-"BIOL 1010","AOD","Biotechnology and Society","VOD",,,,
-"BIOL 1010","T","Biotechnology and Society","LEC",,,,
-"BIOL 1010","TOD","Biotechnology and Society","VOD",,,,
+"BIOL 1010","AOD","Biotechnology and Society","VOD",NULL,NULL,NULL,
+"BIOL 1010","T","Biotechnology and Society","LEC",NULL,NULL,NULL,
+"BIOL 1010","TOD","Biotechnology and Society","VOD",NULL,NULL,NULL,
 "BIOL 1103","A","Foundations of Biology I","LEC","MWF",1235,1325,331
 "BIOL 1103","A02","Foundations of Biology I","LAB","T",1335,1625,50
 "BIOL 1103","A03","Foundations of Biology I","LAB","W",1335,1625,50
@@ -251,8 +251,8 @@
 "BIOL 1103","A10","Foundations of Biology I","LAB","F",835,1125,50
 "BIOL 1103","N","Foundations of Biology I","LEC","MWF",1235,1325,331
 "BIOL 1103","N02","Foundations of Biology I","LAB","T",1335,1625,50
-"BIOL 1103","PA1","Foundations of Biology I","PAS",,,,
-"BIOL 1103","PA2","Foundations of Biology I","PAS",,,,
+"BIOL 1103","PA1","Foundations of Biology I","PAS",NULL,NULL,NULL,
+"BIOL 1103","PA2","Foundations of Biology I","PAS",NULL,NULL,NULL,
 "BIOL 1103","T02","Foundations of Biology I","TUT","T",1335,1625,67
 "BIOL 1103","T03","Foundations of Biology I","TUT","W",1335,1625,67
 "BIOL 1103","T04","Foundations of Biology I","TUT","R",1335,1625,67
@@ -261,9 +261,9 @@
 "BIOL 1103","T09","Foundations of Biology I","TUT","R",835,1125,67
 "BIOL 1103","T10","Foundations of Biology I","TUT","F",835,1125,61
 "BIOL 1902","A","Natural History","LEC","MW",1305,1425,134
-"BIOL 1902","AOD","Natural History","VOD",,,,
-"BIOL 1902","T","Natural History","LEC",,,,
-"BIOL 1902","TOD","Natural History","VOD",,,,
+"BIOL 1902","AOD","Natural History","VOD",NULL,NULL,NULL,
+"BIOL 1902","T","Natural History","LEC",NULL,NULL,NULL,
+"BIOL 1902","TOD","Natural History","VOD",NULL,NULL,NULL,
 "BIOL 2002","A","Plants: Form and Function","LEC","MW",835,955,195
 "BIOL 2002","A01","Plants: Form and Function","LAB","M",1335,1625,50
 "BIOL 2002","A02","Plants: Form and Function","LAB","T",1335,1625,50
@@ -313,8 +313,8 @@
 "BIOL 3306","A","Human Anatomy and Physiology","LEC","TR",1005,1125,120
 "BIOL 3602","A","Conservation Biology","LEC","R",1435,1725,35
 "BIOL 3602","A01","Conservation Biology","WKS","F",835,1125,30
-"BIOL 3605","A","Field Course I","FIE",,,,
-"BIOL 3606","A","Field Course II","FIE",,,,
+"BIOL 3605","A","Field Course I","FIE",NULL,NULL,NULL,
+"BIOL 3606","A","Field Course II","FIE",NULL,NULL,NULL,
 "BIOL 3608","A","Principles of Biogeography","LEC","TR",1135,1255,66
 "BIOL 3608","A01","Principles of Biogeography","LAB","W",1135,1325,33
 "BIOL 3608","A02","Principles of Biogeography","LAB","T",1435,1625,33
@@ -326,8 +326,8 @@
 "BIOL 3802","A","Animal Behaviour","LEC","TR",835,955,58
 "BIOL 3802","A01","Animal Behaviour","WKS","T",1435,1725,56
 "BIOL 3804","A","Social Evolution","LEC","MW",1605,1725,40
-"BIOL 3901","A","Research Proposal","REP",,,,
-"BIOL 3999","A","Co-op Work Term","WRK",,,,
+"BIOL 3901","A","Research Proposal","REP",NULL,NULL,NULL,
+"BIOL 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "BIOL 4008","A","Molecular Plant Development","LEC","WF",1135,1255,27
 "BIOL 4106","A","Advances in Molecular Biology","LEC","F",835,1125,40
 "BIOL 4203","A","Evolution of Sex","LEC","MW",1305,1425,42
@@ -337,9 +337,9 @@
 "BIOL 4503","A","Fish Ecology, Convervation &","LEC","W",835,1025,39
 "BIOL 4503","A01","Fish Ecology, Convervation &","WKS","W",1035,1225,39
 "BIOL 4802","A","Advanced Animal Behaviour","LEC","R",1435,1725,36
-"BIOL 4900","A","Directed Studies and Seminar","DIR",,,,
-"BIOL 4901","A","Directed Studies","DIR",,,,
-"BIOL 4901","B","Directed Studies","DIR",,,,
+"BIOL 4900","A","Directed Studies and Seminar","DIR",NULL,NULL,NULL,
+"BIOL 4901","A","Directed Studies","DIR",NULL,NULL,NULL,
+"BIOL 4901","B","Directed Studies","DIR",NULL,NULL,NULL,
 "BIOL 4901","C","Directed Studies","LEC","TR",1005,1125,40
 "BIOL 4901","E","Directed Studies","LEC","R",1135,1425,28
 "BIT" 000,""A","Mathematics 1 for NET","LEC","MW",1135,1255,77
@@ -352,8 +352,8 @@
 "BIT" 101,""A1","Mathematics II for IMD","TUT","F",1335,1425,77
 "BIT" 200,""A","Mathematics I for PLT","LEC","MW",1005,1125,236
 "BIT" 200,""A1","Mathematics I for PLT","TUT","F",1335,1425,55
-"BIT" 201,""A","Mathematics II for PLT","LEC",,,,
-"BIT" 201,""A1","Mathematics II for PLT","TUT",,,,
+"BIT" 201,""A","Mathematics II for PLT","LEC",NULL,NULL,NULL,
+"BIT" 201,""A1","Mathematics II for PLT","TUT",NULL,NULL,NULL,
 "BIT" 203,""A","Physics for Photonics I","LEC","MW",835,955,285
 "BIT" 203,""A1","Physics for Photonics I","LAB","F",835,1125,70
 "BIT" 400,""A","Intro to Progrming & Prob Solv","LEC","MW",1305,1425,77
@@ -379,14 +379,14 @@
 "BIT" 300,""A1","Intro to Statistics for PLT","LAB","F",1235,1325,25
 "BIT" 400,""A","Intermediate Programming","LEC","TR",835,955,77
 "BIT" 400,""A1","Intermediate Programming","TUT","F",1435,1725,60
-"BIT" 999,""A","Co-op Work Term","WRK",,,,
-"BIT" 000,""A","Directed Studies","IND",,,,
-"BUSI 1001","R","Financial Accounting","LEC",,,,
-"BUSI 1002","R","Management Accounting","LEC",,,,
+"BIT" 999,""A","Co-op Work Term","WRK",NULL,NULL,NULL,
+"BIT" 000,""A","Directed Studies","IND",NULL,NULL,NULL,
+"BUSI 1001","R","Financial Accounting","LEC",NULL,NULL,NULL,
+"BUSI 1002","R","Management Accounting","LEC",NULL,NULL,NULL,
 "BUSI 1003","A","Survey of Accounting","LEC","R",1135,1425,331
-"BUSI 1003","AOD","Survey of Accounting","VOD",,,,
-"BUSI 1003","T","Survey of Accounting","LEC",,,,
-"BUSI 1003","TOD","Survey of Accounting","VOD",,,,
+"BUSI 1003","AOD","Survey of Accounting","VOD",NULL,NULL,NULL,
+"BUSI 1003","T","Survey of Accounting","LEC",NULL,NULL,NULL,
+"BUSI 1003","TOD","Survey of Accounting","VOD",NULL,NULL,NULL,
 "BUSI 1004","A","Fin. Acctng for Busi. Students","LEC","MW",1135,1255,120
 "BUSI 1004","B","Fin. Acctng for Busi. Students","LEC","WF",1305,1425,120
 "BUSI 1004","C","Fin. Acctng for Busi. Students","LEC","WF",1605,1725,115
@@ -433,11 +433,11 @@
 "BUSI 1004","G38","Fin. Acctng for Busi. Students","TUT","M",1805,1855,15
 "BUSI 1004","G39","Fin. Acctng for Busi. Students","TUT","T",1905,1955,15
 "BUSI 1004","G40","Fin. Acctng for Busi. Students","TUT","M",2005,2055,15
-"BUSI 1004","PA1","Fin. Acctng for Busi. Students","PAS",,,,
+"BUSI 1004","PA1","Fin. Acctng for Busi. Students","PAS",NULL,NULL,NULL,
 "BUSI 1004","PA2","Fin. Acctng for Busi. Students","PAS","F",1135,1255,
-"BUSI 1004","PA3","Fin. Acctng for Busi. Students","PAS",,,,
-"BUSI 1004","PA4","Fin. Acctng for Busi. Students","PAS",,,,
-"BUSI 1004","R","Fin. Acctng for Busi. Students","LEC",,,,
+"BUSI 1004","PA3","Fin. Acctng for Busi. Students","PAS",NULL,NULL,NULL,
+"BUSI 1004","PA4","Fin. Acctng for Busi. Students","PAS",NULL,NULL,NULL,
+"BUSI 1004","R","Fin. Acctng for Busi. Students","LEC",NULL,NULL,NULL,
 "BUSI 1005","A","Managerial Acctng for Busi. St","LEC","TR",1005,1125,102
 "BUSI 1005","A01","Managerial Acctng for Busi. St","TUT","F",835,925,15
 "BUSI 1005","A02","Managerial Acctng for Busi. St","TUT","R",1635,1725,15
@@ -452,7 +452,7 @@
 "BUSI 1402","B","Intr Business Info & Comm Tech","LEC","R",835,1125,84
 "BUSI 1402","C","Intr Business Info & Comm Tech","LEC","M",835,1125,98
 "BUSI 1402","D","Intr Business Info & Comm Tech","LEC","W",1435,1725,331
-"BUSI 1402","DOD","Intr Business Info & Comm Tech","VOD",,,,
+"BUSI 1402","DOD","Intr Business Info & Comm Tech","VOD",NULL,NULL,NULL,
 "BUSI 1402","F01","Intr Business Info & Comm Tech","TUT","T",1035,1125,31
 "BUSI 1402","F02","Intr Business Info & Comm Tech","TUT","T",935,1025,31
 "BUSI 1402","F03","Intr Business Info & Comm Tech","TUT","W",935,1025,31
@@ -461,10 +461,10 @@
 "BUSI 1402","F06","Intr Business Info & Comm Tech","TUT","T",1535,1625,31
 "BUSI 1402","F07","Intr Business Info & Comm Tech","TUT","W",1135,1225,31
 "BUSI 1402","F08","Intr Business Info & Comm Tech","TUT","W",1335,1425,31
-"BUSI 1402","F09","Intr Business Info & Comm Tech","TUT",,,,
+"BUSI 1402","F09","Intr Business Info & Comm Tech","TUT",NULL,NULL,NULL,
 "BUSI 1402","F10","Intr Business Info & Comm Tech","TUT","T",1435,1525,31
-"BUSI 1402","T","Intr Business Info & Comm Tech","LEC",,,,
-"BUSI 1402","TOD","Intr Business Info & Comm Tech","VOD",,,,
+"BUSI 1402","T","Intr Business Info & Comm Tech","LEC",NULL,NULL,NULL,
+"BUSI 1402","TOD","Intr Business Info & Comm Tech","VOD",NULL,NULL,NULL,
 "BUSI 1701","A","Intro. International Business","LEC","MW",1135,1225,56
 "BUSI 1701","A1","Intro. International Business","TUT","M",1335,1425,115
 "BUSI 1701","C","Intro. International Business","LEC","TR",1335,1425,58
@@ -481,23 +481,23 @@
 "BUSI 1800","B02","Introduction to Business","TUT","W",1535,1725,35
 "BUSI 1800","B03","Introduction to Business","TUT","R",835,1025,35
 "BUSI 1800","B04","Introduction to Business","TUT","F",835,1025,35
-"BUSI 1800","B05","Introduction to Business","TUT",,,,
+"BUSI 1800","B05","Introduction to Business","TUT",NULL,NULL,NULL,
 "BUSI 1800","B06","Introduction to Business","TUT","F",1135,1325,35
 "BUSI 2001","A","Intermediate Accounting I","LEC","WF",1305,1425,96
 "BUSI 2001","B","Intermediate Accounting I","LEC","WF",1435,1555,84
-"BUSI 2001","R","Intermediate Accounting I","LEC",,,,
+"BUSI 2001","R","Intermediate Accounting I","LEC",NULL,NULL,NULL,
 "BUSI 2002","A","Intermediate Accounting II","LEC","F",835,1125,96
 "BUSI 2101","A","Intro Organizational Behaviour","LEC","M",1435,1555,331
 "BUSI 2101","A1","Intro Organizational Behaviour","LAB","R",1005,1125,39
 "BUSI 2101","A10","Intro Organizational Behaviour","LAB","W",1005,1125,40
 "BUSI 2101","A11","Intro Organizational Behaviour","LAB","R",1605,1725,51
-"BUSI 2101","A12","Intro Organizational Behaviour","LAB",,,,
+"BUSI 2101","A12","Intro Organizational Behaviour","LAB",NULL,NULL,NULL,
 "BUSI 2101","A13","Intro Organizational Behaviour","LAB","W",1135,1255,31
 "BUSI 2101","A2","Intro Organizational Behaviour","LAB","R",835,955,39
 "BUSI 2101","A3","Intro Organizational Behaviour","LAB","R",1435,1555,25
 "BUSI 2101","A4","Intro Organizational Behaviour","LAB","T",1605,1725,54
 "BUSI 2101","A5","Intro Organizational Behaviour","LAB","W",1435,1555,25
-"BUSI 2101","A6","Intro Organizational Behaviour","LAB",,,,
+"BUSI 2101","A6","Intro Organizational Behaviour","LAB",NULL,NULL,NULL,
 "BUSI 2101","A7","Intro Organizational Behaviour","LAB","T",1605,1725,48
 "BUSI 2101","A8","Intro Organizational Behaviour","LAB","W",1605,1725,27
 "BUSI 2101","A9","Intro Organizational Behaviour","LAB","M",1135,1255,27
@@ -563,9 +563,9 @@
 "BUSI 3400","A1","Data and Info Management","TUT","M",835,925,22
 "BUSI 3400","A2","Data and Info Management","TUT","M",935,1025,22
 "BUSI 3400","A3","Data and Info Management","TUT","M",1035,1125,22
-"BUSI 3402","A","Systems Analysis & Design","LEC",,,,
-"BUSI 3402","A1","Systems Analysis & Design","TUT",,,,
-"BUSI 3402","A2","Systems Analysis & Design","TUT",,,,
+"BUSI 3402","A","Systems Analysis & Design","LEC",NULL,NULL,NULL,
+"BUSI 3402","A1","Systems Analysis & Design","TUT",NULL,NULL,NULL,
+"BUSI 3402","A2","Systems Analysis & Design","TUT",NULL,NULL,NULL,
 "BUSI 3405","A","Enterprise Architecture","LEC","W",1135,1425,98
 "BUSI 3500","A","Applied Corporate Finance","LEC","T",835,1125,58
 "BUSI 3500","B","Applied Corporate Finance","LEC","T",1135,1425,58
@@ -575,8 +575,8 @@
 "BUSI 3512","A","Derivatives","LEC","T",835,1125,58
 "BUSI 3512","B","Derivatives","LEC","F",1135,1425,63
 "BUSI 3600","A","Small Business Management","LEC","R",1805,2055,32
-"BUSI 3602","A","Organizational Systems Design","LEC",,,,
-"BUSI 3700","A","Cross-Cultural Communication","OTH",,,,
+"BUSI 3602","A","Organizational Systems Design","LEC",NULL,NULL,NULL,
+"BUSI 3700","A","Cross-Cultural Communication","OTH",NULL,NULL,NULL,
 "BUSI 3703","A","Int'l & Comparative Management","LEC","R",1435,1725,58
 "BUSI 3704","A","Int'l Business Environment","LEC","R",835,1125,61
 "BUSI 3705","A","International Buyer Behaviour","LEC","M",835,1125,56
@@ -584,8 +584,8 @@
 "BUSI 3800","A1","Business Case Analysis","TUT","F",1435,1525,51
 "BUSI 3800","A2","Business Case Analysis","TUT","F",1535,1625,35
 "BUSI 3810","A","Business Development","LEC","R",835,1125,51
-"BUSI 3820","A","Practicum Business Design","LEC",,,,
-"BUSI 3999","A","Co-op Work Term","WRK",,,,
+"BUSI 3820","A","Practicum Business Design","LEC",NULL,NULL,NULL,
+"BUSI 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "BUSI 4000","A","Accounting Theory","LEC","T",1435,1725,69
 "BUSI 4002","A","Advanced Accounting Problems","LEC","WF",1005,1125,42
 "BUSI 4005","A","Taxation II","LEC","W",1805,2055,78
@@ -600,7 +600,7 @@
 "BUSI 4208","A","Marketing Management","LEC","R",835,1125,47
 "BUSI 4400","A","IS Strategy, Mgmt, & Acqstn","LEC","T",1135,1425,61
 "BUSI 4431","A","E-Supply Chain Technol&Managme","LEC","M",1135,1425,21
-"BUSI 4503","A","Applied Portfolio Management","WKS",,,,6
+"BUSI 4503","A","Applied Portfolio Management","WKS",NULL,NULL,NULL,6
 "BUSI 4510","A","Mergers and Acquisitions","LEC","R",1135,1425,47
 "BUSI 4515","A","Micro Finance","LEC","W",1135,1425,39
 "BUSI 4601","A","Business Ethics","LEC","M",835,1125,58
@@ -613,8 +613,8 @@
 "BUSI 4709","A","Strategic Mgnt Int'l Business","LEC","M",1135,1225,51
 "BUSI 4709","A1","Strategic Mgnt Int'l Business","TUT","M",1435,1725,51
 "BUSI 4717","A","Managing Glob in Emerging Econ","LEC","W",1135,1425,63
-"BUSI 4719","A","Practicum in International Bus","LEC",,,,
-"BUSI 4810","A","Practicum in Business Creation","FIE",,,,
+"BUSI 4719","A","Practicum in International Bus","LEC",NULL,NULL,NULL,
+"BUSI 4810","A","Practicum in Business Creation","FIE",NULL,NULL,NULL,
 "BUSI 4900","A","Auditing III","LEC","T",1805,2055,78
 "BUSI 4901","A","Selected Topics in Mgnt I","LEC","R",835,1125,51
 "CCDP 2100","A","Comm. Skills for Eng. Students","LEC","W",1435,1725,42
@@ -626,7 +626,7 @@
 "CCDP 2100","G","Comm. Skills for Eng. Students","LEC","R",1435,1725,42
 "CCDP 2100","H","Comm. Skills for Eng. Students","LEC","M",835,1125,39
 "CCDP 2100","I","Comm. Skills for Eng. Students","LEC","R",1805,2055,42
-"CCDP 2100","V","Comm. Skills for Eng. Students","LEC",,,,
+"CCDP 2100","V","Comm. Skills for Eng. Students","LEC",NULL,NULL,NULL,
 "CCDP 2100","W","Comm. Skills for Eng. Students","LEC","M",1135,1425,39
 "CCDP 2100","X","Comm. Skills for Eng. Students","LEC","M",1805,2055,40
 "CDNS 1000","A","Intro to Canadian Studies","LEC","T",1805,1955,331
@@ -640,15 +640,15 @@
 "CDNS 1000","A7","Intro to Canadian Studies","GRP","T",2005,2055,36
 "CDNS 1000","A8","Intro to Canadian Studies","GRP","T",2005,2055,20
 "CDNS 1000","A9","Intro to Canadian Studies","GRP","T",2005,2055,58
-"CDNS 1000","AOD","Intro to Canadian Studies","VOD",,,,
+"CDNS 1000","AOD","Intro to Canadian Studies","VOD",NULL,NULL,NULL,
 "CDNS 1000","PA1","Intro to Canadian Studies","PAS","TR",1605,1725,11
-"CDNS 1000","V","Intro to Canadian Studies","LEC",,,,
-"CDNS 1000","V01","Intro to Canadian Studies","GRP",,,,
-"CDNS 1000","V02","Intro to Canadian Studies","GRP",,,,
-"CDNS 1000","V03","Intro to Canadian Studies","GRP",,,,
+"CDNS 1000","V","Intro to Canadian Studies","LEC",NULL,NULL,NULL,
+"CDNS 1000","V01","Intro to Canadian Studies","GRP",NULL,NULL,NULL,
+"CDNS 1000","V02","Intro to Canadian Studies","GRP",NULL,NULL,NULL,
+"CDNS 1000","V03","Intro to Canadian Studies","GRP",NULL,NULL,NULL,
 "CDNS 1000","V4","Intro to Canadian Studies","GRP","T",1635,1725,40
 "CDNS 1000","V5","Intro to Canadian Studies","GRP","T",2005,2055,31
-"CDNS 1000","VOD","Intro to Canadian Studies","VOD",,,,
+"CDNS 1000","VOD","Intro to Canadian Studies","VOD",NULL,NULL,NULL,
 "CDNS 1101","A","Ottawa:Explore National Instit","LEC","R",1135,1325,94
 "CDNS 1101","A1","Ottawa:Explore National Instit","GRP","R",1335,1425,39
 "CDNS 1101","A2","Ottawa:Explore National Instit","GRP","R",1335,1425,29
@@ -664,35 +664,35 @@
 "CDNS 2300","A2","Critical Nationalism","GRP","M",1635,1725,42
 "CDNS 2300","A3","Critical Nationalism","GRP","T",935,1025,40
 "CDNS 2300","A4","Critical Nationalism","GRP","T",935,1025,36
-"CDNS 2510","R","Intro to Quebec Society (E)","LEC",,,,
-"CDNS 2511","R","Intro soc. cult. québécoises","LEC",,,,
+"CDNS 2510","R","Intro to Quebec Society (E)","LEC",NULL,NULL,NULL,
+"CDNS 2511","R","Intro soc. cult. québécoises","LEC",NULL,NULL,NULL,
 "CDNS 3000","A","Interdisc & CDNS Thry & Meth","SEM","M",1135,1425,29
 "CDNS 3610","A","Cdn Political Econom Tradition","SEM","T",1805,2055,42
 "CDNS 3700","A","Cultural Traditions in Canada","SEM","M",1805,2055,39
 "CDNS 4300","A","Communities in Canada","SEM","W",835,1125,29
-"CDNS 4800","A","Internship Practicum","PRC",,,,
-"CDNS 4801","A","Internship/Practicum","PRC",,,,
+"CDNS 4800","A","Internship Practicum","PRC",NULL,NULL,NULL,
+"CDNS 4801","A","Internship/Practicum","PRC",NULL,NULL,NULL,
 "CDNS 4901","A","Selected Topics","SEM","M",835,1125,29
 "CGSC 1001","A","Mysteries of the Mind","LEC","TR",835,955,331
-"CGSC 1001","AOD","Mysteries of the Mind","VOD",,,,
-"CGSC 1001","T","Mysteries of the Mind","LEC",,,,
-"CGSC 1001","TOD","Mysteries of the Mind","VOD",,,,
+"CGSC 1001","AOD","Mysteries of the Mind","VOD",NULL,NULL,NULL,
+"CGSC 1001","T","Mysteries of the Mind","LEC",NULL,NULL,NULL,
+"CGSC 1001","TOD","Mysteries of the Mind","VOD",NULL,NULL,NULL,
 "CGSC 2001","A","Introduction to Cognitive Sci","LEC","TR",1005,1125,96
 "CGSC 2001","B","Introduction to Cognitive Sci","LEC","WF",1605,1725,94
-"CGSC 2001","PA1","Introduction to Cognitive Sci","PAS",,,,
-"CGSC 2001","PA2","Introduction to Cognitive Sci","PAS",,,,
+"CGSC 2001","PA1","Introduction to Cognitive Sci","PAS",NULL,NULL,NULL,
+"CGSC 2001","PA2","Introduction to Cognitive Sci","PAS",NULL,NULL,NULL,
 "CGSC 2002","A","Theories & Meth in Cog Sci","SEM","MW",1135,1255,47
 "CGSC 2002","A1","Theories & Meth in Cog Sci","TUT","F",1135,1425,11
 "CGSC 2002","A2","Theories & Meth in Cog Sci","TUT","T",1135,1425,11
 "CGSC 3301","A","Language and Cognitive Science","SEM","MW",1135,1255,29
 "CGSC 3908","A","Honrs Seminar:CognitiveScience","SEM","T",835,1125,23
 "CGSC 3908","A1","Honrs Seminar:CognitiveScience","TUT","R",835,1125,23
-"CGSC 3999","A","Co-op Work Term","WRK",,,,
+"CGSC 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "CGSC 4001","A","Artificial Intell Cog Science","SEM","M",835,1125,58
 "CGSC 4001","A","Artificial Intell Cog Science","SEM","WF",1005,1125,58
-"CGSC 4801","A","Independent Study","IND",,,,
-"CGSC 4802","B","Independent Study","IND",,,,
-"CGSC 4900","A","Special Topics in Cognitive Sc","SEM",,,,
+"CGSC 4801","A","Independent Study","IND",NULL,NULL,NULL,
+"CGSC 4802","B","Independent Study","IND",NULL,NULL,NULL,
+"CGSC 4900","A","Special Topics in Cognitive Sc","SEM",NULL,NULL,NULL,
 "CHEM 1001","A","General Chemistry I","LEC","MWF",1135,1225,331
 "CHEM 1001","A1","General Chemistry I","LAB","M",1435,1725,72
 "CHEM 1001","A2","General Chemistry I","LAB","T",835,1125,72
@@ -701,29 +701,29 @@
 "CHEM 1001","A5","General Chemistry I","LAB","W",1335,1625,72
 "CHEM 1001","A6","General Chemistry I","LAB","T",1805,2055,72
 "CHEM 1001","A7","General Chemistry I","LAB","R",835,1125,72
-"CHEM 1001","AOD","General Chemistry I","VOD",,,,
+"CHEM 1001","AOD","General Chemistry I","VOD",NULL,NULL,NULL,
 "CHEM 1001","ATU","General Chemistry I","TUT","F",1335,1425,331
-"CHEM 1001","G8","General Chemistry I","LAB",,,,
+"CHEM 1001","G8","General Chemistry I","LAB",NULL,NULL,NULL,
 "CHEM 1001","N","General Chemistry I","LEC","MWF",1135,1225,331
 "CHEM 1001","N2","General Chemistry I","LAB","T",835,1125,72
 "CHEM 1001","NTU","General Chemistry I","TUT","F",1335,1425,331
 "CHEM 1001","PA1","General Chemistry I","PAS","MW",1805,1925,39
 "CHEM 1001","PA2","General Chemistry I","PAS","TR",1805,1925,20
-"CHEM 1001","T","General Chemistry I","LEC",,,,
-"CHEM 1001","TOD","General Chemistry I","VOD",,,,
-"CHEM 1001","TTU","General Chemistry I","TUT",,,,
-"CHEM 1004","T","Drugs and the Human Body","LEC",,,,
-"CHEM 1004","TOD","Drugs and the Human Body","VOD",,,,
+"CHEM 1001","T","General Chemistry I","LEC",NULL,NULL,NULL,
+"CHEM 1001","TOD","General Chemistry I","VOD",NULL,NULL,NULL,
+"CHEM 1001","TTU","General Chemistry I","TUT",NULL,NULL,NULL,
+"CHEM 1004","T","Drugs and the Human Body","LEC",NULL,NULL,NULL,
+"CHEM 1004","TOD","Drugs and the Human Body","VOD",NULL,NULL,NULL,
 "CHEM 1005","A","Elementary Chemistry I","LEC","MWF",1335,1425,387
 "CHEM 1005","A1","Elementary Chemistry I","LAB","M",1435,1725,72
 "CHEM 1005","A4","Elementary Chemistry I","LAB","W",835,1125,72
 "CHEM 1005","A6","Elementary Chemistry I","LAB","T",1805,2055,72
 "CHEM 1005","A7","Elementary Chemistry I","LAB","R",835,1125,72
 "CHEM 1005","ATU","Elementary Chemistry I","TUT","F",1135,1225,391
-"CHEM 1005","G8","Elementary Chemistry I","LAB",,,,
+"CHEM 1005","G8","Elementary Chemistry I","LAB",NULL,NULL,NULL,
 "CHEM 1101","A","Chemistry for Engineers","LEC","MW",1005,1125,285
 "CHEM 1101","B","Chemistry for Engineers","LEC","MW",1135,1255,285
-"CHEM 1101","G5","Chemistry for Engineers","LAB",,,,
+"CHEM 1101","G5","Chemistry for Engineers","LAB",NULL,NULL,NULL,
 "CHEM 1101","L1","Chemistry for Engineers","LAB","W",1805,2055,72
 "CHEM 1101","L2","Chemistry for Engineers","LAB","R",1435,1725,72
 "CHEM 1101","L3","Chemistry for Engineers","LAB","F",835,1125,72
@@ -733,7 +733,7 @@
 "CHEM 2103","A2","Physical Chemistry I","LAB","M",835,1125,24
 "CHEM 2103","A3","Physical Chemistry I","LAB","F",835,1125,24
 "CHEM 2103","ATU","Physical Chemistry I","TUT","T",1435,1525,58
-"CHEM 2103","G4","Physical Chemistry I","LAB",,,,
+"CHEM 2103","G4","Physical Chemistry I","LAB",NULL,NULL,NULL,
 "CHEM 2203","A","Organic Chemistry I","LEC","TR",1305,1425,387
 "CHEM 2203","A1","Organic Chemistry I","LAB","M",1435,1725,48
 "CHEM 2203","A2","Organic Chemistry I","LAB","F",1435,1725,48
@@ -742,7 +742,7 @@
 "CHEM 2203","A5","Organic Chemistry I","LAB","T",835,1125,48
 "CHEM 2203","A6","Organic Chemistry I","LAB","W",835,1125,48
 "CHEM 2203","A7","Organic Chemistry I","LAB","W",1435,1725,48
-"CHEM 2203","G8","Organic Chemistry I","LAB",,,,
+"CHEM 2203","G8","Organic Chemistry I","LAB",NULL,NULL,NULL,
 "CHEM 2207","A","Intro: Organic Chemistry I","LEC","TR",1305,1425,387
 "CHEM 2302","A","Analytical Chemistry I","LEC","MW",1305,1425,148
 "CHEM 2302","A1","Analytical Chemistry I","LAB","T",835,1125,24
@@ -752,11 +752,11 @@
 "CHEM 2302","A5","Analytical Chemistry I","LAB","R",1435,1725,24
 "CHEM 2302","A6","Analytical Chemistry I","LAB","W",835,1125,24
 "CHEM 2302","A7","Analytical Chemistry I","LAB","F",1435,1725,24
-"CHEM 2302","AOD","Analytical Chemistry I","VOD",,,,
-"CHEM 2302","G8","Analytical Chemistry I","LAB",,,,
-"CHEM 2302","T","Analytical Chemistry I","LEC",,,,
-"CHEM 2302","TOD","Analytical Chemistry I","VOD",,,,
-"CHEM 2800","G6","Foundations Environmental Chem","LAB",,,,
+"CHEM 2302","AOD","Analytical Chemistry I","VOD",NULL,NULL,NULL,
+"CHEM 2302","G8","Analytical Chemistry I","LAB",NULL,NULL,NULL,
+"CHEM 2302","T","Analytical Chemistry I","LEC",NULL,NULL,NULL,
+"CHEM 2302","TOD","Analytical Chemistry I","VOD",NULL,NULL,NULL,
+"CHEM 2800","G6","Foundations Environmental Chem","LAB",NULL,NULL,NULL,
 "CHEM 3101","A","Quantum Chemistry","LEC","MW",1135,1255,48
 "CHEM 3201","A","Advanced Organic Chemistry I","LEC","TR",835,955,78
 "CHEM 3201","ATU","Advanced Organic Chemistry I","TUT","F",1305,1425,151
@@ -770,13 +770,13 @@
 "CHEM 3507","A","General Inorganic Chemistry I","LEC","MW",1005,1125,58
 "CHEM 3507","ATU","General Inorganic Chemistry I","TUT","M",1335,1425,59
 "CHEM 3800","A","Environmental Pollutants","LEC","MW",1605,1725,78
-"CHEM 3999","A","Co-op Work Term","WRK",,,,
+"CHEM 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "CHEM 4102","A","Adv Topics Physical Chem II","LEC","R",835,1125,25
 "CHEM 4103","A","Surface Chem & Nanostructures","LEC","TR",1135,1255,22
 "CHEM 4201","A","Macromolecular nanotechnology","LEC","W",1435,1725,30
 "CHEM 4502","A","Radiochemistry","LEC","WF",835,955,22
 "CHIN 1010","A","First-Year Mandarin Chinese I","SEM","TR",1905,2055,36
-"CHIN 1010","B","First-Year Mandarin Chinese I","SEM",,,,
+"CHIN 1010","B","First-Year Mandarin Chinese I","SEM",NULL,NULL,NULL,
 "CHIN 1110","A","Intensive First Yr Mandarin","LEC","W",835,1025,40
 "CHIN 1110","A","Intensive First Yr Mandarin","LEC","TR",835,1125,40
 "CHIN 1110","B","Intensive First Yr Mandarin","LEC","WF",1435,1725,40
@@ -805,16 +805,16 @@
 "CHST 3101","A","Research Seminar","SEM","M",1135,1425,23
 "CIVE 2004","A","GIS, Surveying, and Graphics","LEC","M",1435,1725,285
 "CIVE 2004","A1","GIS, Surveying, and Graphics","LAB","R",835,1125,30
-"CIVE 2004","A2","GIS, Surveying, and Graphics","LAB",,,,
+"CIVE 2004","A2","GIS, Surveying, and Graphics","LAB",NULL,NULL,NULL,
 "CIVE 2004","A3","GIS, Surveying, and Graphics","LAB","F",835,1125,30
-"CIVE 2004","A4","GIS, Surveying, and Graphics","LAB",,,,
+"CIVE 2004","A4","GIS, Surveying, and Graphics","LAB",NULL,NULL,NULL,
 "CIVE 2004","A5","GIS, Surveying, and Graphics","LAB","W",1435,1725,30
 "CIVE 2004","A6","GIS, Surveying, and Graphics","LAB","M",835,1125,30
 "CIVE 2101","A","Mechanics II","LEC","MW",1305,1425,151
 "CIVE 2101","A1","Mechanics II","LAB","T",835,1125,154
 "CIVE 2101","PA1","Mechanics II","PAS","MW",1805,1925,35
-"CIVE 2101","PA2","Mechanics II","PAS",,,,
-"CIVE 2101","PA3","Mechanics II","PAS",,,,
+"CIVE 2101","PA2","Mechanics II","PAS",NULL,NULL,NULL,
+"CIVE 2101","PA3","Mechanics II","PAS",NULL,NULL,NULL,
 "CIVE 2200","A","Mechanics of Solids I","LEC","TR",1435,1555,102
 "CIVE 2200","A1","Mechanics of Solids I","LAB","R",835,1125,39
 "CIVE 2200","A2","Mechanics of Solids I","LAB","R",835,1125,39
@@ -824,11 +824,11 @@
 "CIVE 2200","A6","Mechanics of Solids I","LAB","W",835,1125,42
 "CIVE 2200","B","Mechanics of Solids I","LEC","TR",1735,1855,78
 "CIVE 2200","B1","Mechanics of Solids I","LAB","R",835,1125,39
-"CIVE 2200","B2","Mechanics of Solids I","LAB",,,,
+"CIVE 2200","B2","Mechanics of Solids I","LAB",NULL,NULL,NULL,
 "CIVE 2200","B3","Mechanics of Solids I","LAB","M",1435,1725,36
 "CIVE 2200","B4","Mechanics of Solids I","LAB","M",1435,1725,36
-"CIVE 2200","B5","Mechanics of Solids I","LAB",,,,
-"CIVE 2200","B6","Mechanics of Solids I","LAB",,,,
+"CIVE 2200","B5","Mechanics of Solids I","LAB",NULL,NULL,NULL,
+"CIVE 2200","B6","Mechanics of Solids I","LAB",NULL,NULL,NULL,
 "CIVE 2200","B7","Mechanics of Solids I","LAB","M",835,1125,40
 "CIVE 2200","B8","Mechanics of Solids I","LAB","M",835,1125,40
 "CIVE 2700","A","Civil Engineering Materials","LEC","TR",1135,1255,236
@@ -862,7 +862,7 @@
 "CIVE 3304","A","Transportation Engineering","LEC","TR",1435,1555,285
 "CIVE 3304","A1E","Transportation Engineering","LAB","R",835,1125,96
 "CIVE 3304","A2O","Transportation Engineering","LAB","R",835,1125,96
-"CIVE 3999","A","Co-op Work Term","WRK",,,,
+"CIVE 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "CIVE 4200","A","Structural Analysis II","LEC","T",1135,1425,51
 "CIVE 4200","A1O","Structural Analysis II","LAB","R",1435,1725,51
 "CIVE 4201","A","Structural Analysis III","LEC","M",1135,1425,57
@@ -885,24 +885,24 @@
 "CLCV 1002","PA1","Survey of Greek Civilization","PAS","TR",1605,1725,57
 "CLCV 1003","A","Survey of Roman Civilization","LEC","TR",1305,1425,133
 "CLCV 1003","PA1","Survey of Roman Civilization","PAS","TR",1435,1555,40
-"CLCV 1004","A","Elementary Language Tutorial I","TUT",,,,
+"CLCV 1004","A","Elementary Language Tutorial I","TUT",NULL,NULL,NULL,
 "CLCV 1008","A","Introduction to Archaeology I","LEC","TR",1135,1255,96
 "CLCV 2000","A","Classical Mythology","LEC","WF",1435,1555,195
-"CLCV 2004","A","Intermed Language Tutorial I","TUT",,,,
+"CLCV 2004","A","Intermed Language Tutorial I","TUT",NULL,NULL,NULL,
 "CLCV 2010","A","Greek and Roman Drama","LEC","TR",1005,1125,98
 "CLCV 2103","A","Greek Religion","LEC","WF",1605,1725,387
 "CLCV 2303","A","Greek Art and Archaeology","LEC","TR",1605,1725,98
 "CLCV 2305","A","Ancient Science and Technology","LEC","T",1735,1925,98
-"CLCV 2305","AOD","Ancient Science and Technology","VOD",,,,
-"CLCV 2305","V","Ancient Science and Technology","LEC",,,,
-"CLCV 2305","VOD","Ancient Science and Technology","VOD",,,,
+"CLCV 2305","AOD","Ancient Science and Technology","VOD",NULL,NULL,NULL,
+"CLCV 2305","V","Ancient Science and Technology","LEC",NULL,NULL,NULL,
+"CLCV 2305","VOD","Ancient Science and Technology","VOD",NULL,NULL,NULL,
 "CLCV 2902","A","History of Ancient Greece I","LEC","MW",1135,1255,134
 "CLCV 2904","A","History of Ancient Rome I","LEC","M",1435,1725,204
 "CLCV 2906","A","Studies Classical Civilization","LEC","TR",1005,1125,58
 "CLCV 3202","A","Studies in Roman History","LEC","F",835,1125,58
 "CLCV 3307","A","Studies in Roman Art","LEC","F",835,1125,63
 "CLCV 4210","A","Topics in Ancient History","SEM","W",835,1125,23
-"CLCV 4900","A","Directed Readings and Research","IND",,,,
+"CLCV 4900","A","Directed Readings and Research","IND",NULL,NULL,NULL,
 "COMM 1101","A","Intro to Communication Studies","LEC","M",835,1025,444
 "COMM 1101","A1","Intro to Communication Studies","GRP","R",1535,1625,61
 "COMM 1101","A10","Intro to Communication Studies","GRP","T",1235,1325,40
@@ -960,7 +960,7 @@
 "COMM 2100","A13","Theor Traditions in Comm St.","GRP","F",1635,1725,31
 "COMM 2100","A14","Theor Traditions in Comm St.","GRP","F",1635,1725,32
 "COMM 2100","PA1","Theor Traditions in Comm St.","PAS","WF",1435,1555,8
-"COMM 2301","PA1","Persuasion & Public Life","PAS",,,,
+"COMM 2301","PA1","Persuasion & Public Life","PAS",NULL,NULL,NULL,
 "COMM 2601","A","Media Depictions of Society","LEC","F",835,1125,148
 "COMM 3001","A","Quantitative Research Methods","LEC","M",1135,1425,102
 "COMM 3106","A","Image, Politics and Persuasion","LEC","F",1135,1425,236
@@ -973,15 +973,15 @@
 "COMM 3403","A","Communcation Tech & Culture","LEC","R",835,1125,55
 "COMM 3409","B","Media, Indstries, Institutions","LEC","M",1805,2055,58
 "COMM 3602","A","Media and Race","LEC","W",1435,1725,55
-"COMM 3999","A","Co-op Work Term","WRK",,,,
+"COMM 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "COMM 4000","A","App Quantitative Rrsch Method","LEC","W",1805,2055,25
-"COMM 4004","B","Communication and Discourse","LEC",,,,
+"COMM 4004","B","Communication and Discourse","LEC",NULL,NULL,NULL,
 "COMM 4005","A","Sel Top: Communication Studies","SEM","M",1805,2055,40
 "COMM 4015","A","Selected Topic in Comm Studies","SEM","F",1435,1725,35
 "COMM 4025","B","Selected Topic in Comm Studies","SEM","W",1805,2055,31
 "COMM 4035","A","Selected Topic in Comm Studies","SEM","W",1135,1425,40
 "COMM 4304","A","Critic Perspec Public Relation","LEC","F",835,1125,39
-"COMM 4306","A","Media and Conflict","LEC",,,,
+"COMM 4306","A","Media and Conflict","LEC",NULL,NULL,NULL,
 "COMM 4309","A","Selct Tpcs:Imge,Pltcs&Persuasn","LEC","M",1135,1425,42
 "COMM 4310","A","Communication & Community","LEC","T",1805,2055,27
 "COMM 4402","A","Media and Entertainment","LEC","F",835,1125,42
@@ -1046,23 +1046,23 @@
 "COMP 3806","A","Numerical Analysis","LEC","TR",1135,1255,63
 "COMP 3806","A1","Numerical Analysis","LAB","T",1035,1125,20
 "COMP 3806","A2","Numerical Analysis","LAB","F",1035,1125,20
-"COMP 3999","A","Co-op Work Term","WRK",,,,
+"COMP 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "COMP 4001","A","Distributed Computing","LEC","R",1435,1725,55
 "COMP 4002","A","Real-Time 3D Game Engines","LEC","WF",835,955,47
 "COMP 4004","A","Software Quality Assurance","LEC","MW",1005,1125,52
 "COMP 4009","A","Paralel Prog Cluster Core Proc","LEC","MW",1435,1555,40
-"COMP 4104","A","Princip&Pract Distrib Programm","LEC",,,,
+"COMP 4104","A","Princip&Pract Distrib Programm","LEC",NULL,NULL,NULL,
 "COMP 4107","A","Evol Comp & Artif Life","LEC","WF",1305,1425,50
 "COMP 4109","A","Applied Cryptography","LEC","MW",1135,1255,54
 "COMP 4900","A","Adv Topics in Computer Science","LEC","TR",1305,1425,35
 "COMP 4900","B","Adv Topics in Computer Science","LEC","TR",1005,1125,54
-"COMP 4901","A","Directed Studies","DIR",,,,
-"COOP 1000","A","Co-op","OTH",,,,
-"COOP 1000","B","Co-op","OTH",,,,
-"COOP 1000","C","Co-op","OTH",,,,
-"COOP 1000","D","Co-op","OTH",,,,
-"COOP 1000","E","Co-op","OTH",,,,
-"COOP 1000","F","Co-op","OTH",,,,
+"COMP 4901","A","Directed Studies","DIR",NULL,NULL,NULL,
+"COOP 1000","A","Co-op","OTH",NULL,NULL,NULL,
+"COOP 1000","B","Co-op","OTH",NULL,NULL,NULL,
+"COOP 1000","C","Co-op","OTH",NULL,NULL,NULL,
+"COOP 1000","D","Co-op","OTH",NULL,NULL,NULL,
+"COOP 1000","E","Co-op","OTH",NULL,NULL,NULL,
+"COOP 1000","F","Co-op","OTH",NULL,NULL,NULL,
 "CRCJ 1000","A","Intro Criminol&Criminal Justic","LEC","F",835,1125,285
 "CRCJ 1000","C","Intro Criminol&Criminal Justic","LEC","M",835,1125,391
 "CRCJ 1000","PA1","Intro Criminol&Criminal Justic","PAS","MWF",1235,1325,16
@@ -1070,12 +1070,12 @@
 "CRCJ 3002","A","Qualitive Methods in Crim.","SEM","F",1435,1725,69
 "CRCJ 3003","A","Legal Research Methods","SEM","M",1435,1725,78
 "CRCJ 3901","A","Practicum in Criminology I","SEM","T",835,1125,84
-"CRCJ 3902","A","Practicum in Criminology II","SEM",,,,
+"CRCJ 3902","A","Practicum in Criminology II","SEM",NULL,NULL,NULL,
 "CRCJ 4001","A","Special Topic in Criminology","LEC","W",835,1125,40
 "CRCJ 4001","B","Special Topic in Criminology","LEC","M",1435,1725,40
 "CRCJ 4002","A","Special Topic in Criminology","LEC","W",1435,1725,51
 "CRCJ 4002","B","Special Topic in Criminology","LEC","R",1435,1725,47
-"CUWK 1,"A"","Culture Works","OTH",,,,
+"CUWK 1,"A"","Culture Works","OTH",NULL,NULL,NULL,
 "DBST 1001","A","Intro to Disability Studies","LEC","W",1435,1725,78
 "ECON 1000","A","Introduction to Economics","LEC","WF",1005,1125,331
 "ECON 1000","A01","Introduction to Economics","GRP","W",1135,1225,36
@@ -1089,7 +1089,7 @@
 "ECON 1000","A09","Introduction to Economics","GRP","W",1335,1425,39
 "ECON 1000","A10","Introduction to Economics","GRP","W",1335,1425,40
 "ECON 1000","A11","Introduction to Economics","GRP","W",1335,1425,43
-"ECON 1000","AOD","Introduction to Economics","VOD",,,,
+"ECON 1000","AOD","Introduction to Economics","VOD",NULL,NULL,NULL,
 "ECON 1000","B","Introduction to Economics","LEC","R",1805,2055,331
 "ECON 1000","B01","Introduction to Economics","GRP","R",1435,1525,39
 "ECON 1000","B02","Introduction to Economics","GRP","R",1435,1525,42
@@ -1120,20 +1120,20 @@
 "ECON 1000","D03","Introduction to Economics","GRP","T",1635,1725,67
 "ECON 1000","D04","Introduction to Economics","GRP","T",1635,1725,59
 "ECON 1000","D05","Introduction to Economics","GRP","T",1635,1725,71
-"ECON 1000","N","Introduction to Economics","LEC",,,,
-"ECON 1000","PA1","Introduction to Economics","PAS",,,,
+"ECON 1000","N","Introduction to Economics","LEC",NULL,NULL,NULL,
+"ECON 1000","PA1","Introduction to Economics","PAS",NULL,NULL,NULL,
 "ECON 1000","PB2","Introduction to Economics","PAS","TR",1635,1755,19
-"ECON 1000","PC3","Introduction to Economics","PAS",,,,
+"ECON 1000","PC3","Introduction to Economics","PAS",NULL,NULL,NULL,
 "ECON 1000","PD4","Introduction to Economics","PAS","TR",1635,1755,21
-"ECON 1000","V","Introduction to Economics","LEC",,,,
-"ECON 1000","VOD","Introduction to Economics","VOD",,,,
+"ECON 1000","V","Introduction to Economics","LEC",NULL,NULL,NULL,
+"ECON 1000","VOD","Introduction to Economics","VOD",NULL,NULL,NULL,
 "ECON 1001","A","Intro to Econom:Microeconomics","LEC","WF",1005,1125,331
-"ECON 1001","AOD","Intro to Econom:Microeconomics","VOD",,,,
+"ECON 1001","AOD","Intro to Econom:Microeconomics","VOD",NULL,NULL,NULL,
 "ECON 1001","B","Intro to Econom:Microeconomics","LEC","R",1805,2055,331
 "ECON 1001","C","Intro to Econom:Microeconomics","LEC","TR",1605,1725,387
 "ECON 1001","D","Intro to Econom:Microeconomics","LEC","T",1805,2055,285
-"ECON 1001","T","Intro to Econom:Microeconomics","LEC",,,,
-"ECON 1001","TOD","Intro to Econom:Microeconomics","VOD",,,,
+"ECON 1001","T","Intro to Econom:Microeconomics","LEC",NULL,NULL,NULL,
+"ECON 1001","TOD","Intro to Econom:Microeconomics","VOD",NULL,NULL,NULL,
 "ECON 2009","A","Managerial Economics","LEC","TR",1435,1555,98
 "ECON 2009","A01","Managerial Economics","TUT","T",1605,1725,96
 "ECON 2009","B","Managerial Economics","LEC","T",1805,2055,98
@@ -1181,7 +1181,7 @@
 "ECON 3807","A","European Econ Integration","LEC","T",1135,1425,66
 "ECON 3820","A","Topics in Cdn Economic Policy","LEC","W",1805,2055,78
 "ECON 3840","A","An Economic Analysis of Law","LEC","R",1435,1725,69
-"ECON 3999","A","Co-op Work Term","WRK",,,,
+"ECON 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ECON 4001","A","Mathematical Analysis in Econ","LEC","MW",1135,1255,79
 "ECON 4001","A01","Mathematical Analysis in Econ","TUT","M",1305,1425,78
 "ECON 4020","A","Advanced Microeconomic Theory","LEC","R",1135,1425,71
@@ -1233,8 +1233,8 @@
 "ECOR 1101","A3","Mechanics I","LAB","F",1135,1425,58
 "ECOR 1101","A4","Mechanics I","LAB","F",1135,1425,66
 "ECOR 1101","PA1","Mechanics I","PAS","MW",1805,1925,52
-"ECOR 1101","PA2","Mechanics I","PAS",,,,
-"ECOR 1101","PA3","Mechanics I","PAS",,,,
+"ECOR 1101","PA2","Mechanics I","PAS",NULL,NULL,NULL,
+"ECOR 1101","PA3","Mechanics I","PAS",NULL,NULL,NULL,
 "ECOR 1606","A","Problem Solving and Computers","LEC","TR",1305,1425,204
 "ECOR 1606","B","Problem Solving and Computers","LEC","MW",1635,1755,204
 "ECOR 1606","L1","Problem Solving and Computers","LAB","W",835,1125,50
@@ -1245,7 +1245,7 @@
 "ECOR 1606","L5","Problem Solving and Computers","LAB","W",1135,1425,50
 "ECOR 1606","L6","Problem Solving and Computers","LAB","M",1135,1425,50
 "ECOR 1606","PA1","Problem Solving and Computers","PAS","TR",1735,1855,47
-"ECOR 1606","PA3","Problem Solving and Computers","PAS",,,,
+"ECOR 1606","PA3","Problem Solving and Computers","PAS",NULL,NULL,NULL,
 "ECOR 1606","PB1","Problem Solving and Computers","PAS","MW",1805,1925,51
 "ECOR 2606","A","Numerical Methods","LEC","MW",1135,1255,154
 "ECOR 2606","B","Numerical Methods","LEC","TR",1135,1255,151
@@ -1321,7 +1321,7 @@
 "ELEC 3908","A3","Physical Electronics","LAB","M",835,1125,40
 "ELEC 3909","A","Electromagnetic Waves","LEC","TR",1135,1255,40
 "ELEC 3909","L1O","Electromagnetic Waves","LAB","W",1735,2025,51
-"ELEC 3999","A","Co-op Work Term","WRK",,,,
+"ELEC 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ELEC 4502","A","Microwave Circuits","LEC","MW",1605,1725,40
 "ELEC 4502","A1O","Microwave Circuits","LAB","F",1135,1425,30
 "ELEC 4503","A","Radio Frequency Line & Antenna","LEC","TR",1435,1555,40
@@ -1362,8 +1362,8 @@
 "ENGL 1000","G","Literature, Genre, Context","LEC","WF",1135,1255,58
 "ENGL 1000","H","Literature, Genre, Context","LEC","WF",1005,1125,66
 "ENGL 1000","I","Literature, Genre, Context","LEC","TR",1435,1555,63
-"ENGL 1000","J","Literature, Genre, Context","LEC",,,,
-"ENGL 1000","K","Literature, Genre, Context","LEC",,,,
+"ENGL 1000","J","Literature, Genre, Context","LEC",NULL,NULL,NULL,
+"ENGL 1000","K","Literature, Genre, Context","LEC",NULL,NULL,NULL,
 "ENGL 1000","L","Literature, Genre, Context","LEC","TR",835,955,58
 "ENGL 2005","A","Theory and Criticism","LEC","M",1135,1425,78
 "ENGL 2007","A","Classical Mythology","LEC","WF",1435,1555,195
@@ -1403,12 +1403,12 @@
 "ENGL 3553","A","The 19th-Century Novel","LEC","TR",1305,1425,55
 "ENGL 3603","A","20th-Century Fiction","LEC","T",1805,2055,55
 "ENGL 3605","A","Modern/Contemp Literary Theory","LEC","TR",1305,1425,47
-"ENGL 3607","A","Drama Before 1900","LEC",,,,
+"ENGL 3607","A","Drama Before 1900","LEC",NULL,NULL,NULL,
 "ENGL 3804","A","Literature & Culture in Europe","LEC","M",1135,1425,36
 "ENGL 3915","A","Special Topics in Writing","WKS","F",1135,1425,25
 "ENGL 3960","A","Studies in Indigenous Lit.","LEC","M",1805,2055,78
-"ENGL 3972","A","Studies in Postcolonial Lit","LEC",,,,
-"ENGL 3999","A","Co-operative Work Term","WRK",,,,
+"ENGL 3972","A","Studies in Postcolonial Lit","LEC",NULL,NULL,NULL,
+"ENGL 3999","A","Co-operative Work Term","WRK",NULL,NULL,NULL,
 "ENGL 4115","A","Culture & the Text I","SEM","T",1435,1725,23
 "ENGL 4135","A","Studies in Publishing","SEM","M",1805,2055,19
 "ENGL 4301","A","Studies in Renaissance Lit","SEM","F",835,1125,42
@@ -1418,13 +1418,13 @@
 "ENGL 4709","A","Studies in American Lit II","LEC","M",835,1125,35
 "ENGL 4806","A","Studies in Canadian Lit. I","SEM","R",1805,2055,21
 "ENSC 1500","A","Environmental Science Seminar","LEC","TR",835,1025,57
-"ENSC 2000","A","Environ Science Field Camp","FIE",,,,
+"ENSC 2000","A","Environ Science Field Camp","FIE",NULL,NULL,NULL,
 "ENSC 2001","A","Earth Rsrcs&Natur Haz.Env Impc","LEC","M",1435,1725,96
 "ENSC 3000","A","EnviroSci&Mngmnt:Theory&Practi","FIE","F",835,1625,58
 "ENSC 3509","A","Group Research Project","LEC","R",1435,1725,29
 "ENSC 3509","A1","Group Research Project","WKS","M",1435,1525,25
-"ENSC 3999","A","Co-op Work Term","WRK",,,,
-"ENSC 4001","A","Environmental Sci. Practicum","PRC",,,,
+"ENSC 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
+"ENSC 4001","A","Environmental Sci. Practicum","PRC",NULL,NULL,NULL,
 "ENSC 4901","A","Directed Projects","DIR","T",1635,1725,19
 "ENST 1001","A","Intro. Environmental Studies","LEC","M",1435,1625,98
 "ENST 1001","A01","Intro. Environmental Studies","TUT","F",935,1125,25
@@ -1455,19 +1455,19 @@
 "ENST 3900","A","Intensive Field Course","FIE","M",1435,1725,29
 "ENST 3900","A1A","Intensive Field Course","FIE","W",1135,1425,32
 "ENST 4000","A","Seminar","SEM","M",835,1125,29
-"ENST 4001","A","Practicum I","PRC",,,,
-"ENST 4002","A","Practicum II","PRC",,,,
-"ENST 4005","A","Dir. Stud. in Environ. Studies","DIR",,,,
-"ENST 4400","A","Field Studies","DIR",,,,
+"ENST 4001","A","Practicum I","PRC",NULL,NULL,NULL,
+"ENST 4002","A","Practicum II","PRC",NULL,NULL,NULL,
+"ENST 4005","A","Dir. Stud. in Environ. Studies","DIR",NULL,NULL,NULL,
+"ENST 4400","A","Field Studies","DIR",NULL,NULL,NULL,
 "ENVE 3002","A","Systems Modelling","LEC","MW",835,955,63
-"ENVE 3002","A1E","Systems Modelling","LAB",,,,
+"ENVE 3002","A1E","Systems Modelling","LAB",NULL,NULL,NULL,
 "ENVE 3002","A2O","Systems Modelling","LAB","F",1435,1725,40
 "ENVE 3002","A3E","Systems Modelling","LAB","R",1435,1725,27
-"ENVE 3002","A4O","Systems Modelling","LAB",,,,
+"ENVE 3002","A4O","Systems Modelling","LAB",NULL,NULL,NULL,
 "ENVE 3002","ATU","Systems Modelling","TUT","T",1335,1425,71
 "ENVE 3003","A","Water Resource Engineering","LEC","M",1805,2055,67
 "ENVE 3003","A1","Water Resource Engineering","TUT","F",1335,1425,154
-"ENVE 3999","A","Co-op Work Term","WRK",,,,
+"ENVE 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ENVE 4003","A","Air Pollut & Emissions Control","LEC","TR",1135,1255,98
 "ENVE 4003","B","Air Pollut & Emissions Control","LEC","TR",1135,1255,98
 "ENVE 4003","L1O","Air Pollut & Emissions Control","LAB","M",1435,1725,61
@@ -1487,7 +1487,7 @@
 "ENVE 4106","A1O","Indoor Environmental Quality","LAB","M",1435,1725,30
 "ENVE 4106","A2O","Indoor Environmental Quality","LAB","M",1135,1425,30
 "ERTH 1006","A","Exploring Planet Earth","LEC","TR",1435,1555,148
-"ERTH 1006","AOD","Exploring Planet Earth","VOD",,,,
+"ERTH 1006","AOD","Exploring Planet Earth","VOD",NULL,NULL,NULL,
 "ERTH 1006","L01","Exploring Planet Earth","LAB","M",1135,1425,24
 "ERTH 1006","L02","Exploring Planet Earth","LAB","F",835,1125,24
 "ERTH 1006","L03","Exploring Planet Earth","LAB","T",835,1125,24
@@ -1495,10 +1495,10 @@
 "ERTH 1006","L05","Exploring Planet Earth","LAB","M",1435,1725,24
 "ERTH 1006","L06","Exploring Planet Earth","LAB","M",835,1125,24
 "ERTH 1006","L07","Exploring Planet Earth","LAB","M",1805,2055,24
-"ERTH 1006","T","Exploring Planet Earth","LEC",,,,
-"ERTH 1006","TOD","Exploring Planet Earth","VOD",,,,
-"ERTH 1010","T","Our Dynamic Planet Earth","LEC",,,,
-"ERTH 1010","TOD","Our Dynamic Planet Earth","VOD",,,,
+"ERTH 1006","T","Exploring Planet Earth","LEC",NULL,NULL,NULL,
+"ERTH 1006","TOD","Exploring Planet Earth","VOD",NULL,NULL,NULL,
+"ERTH 1010","T","Our Dynamic Planet Earth","LEC",NULL,NULL,NULL,
+"ERTH 1010","TOD","Our Dynamic Planet Earth","VOD",NULL,NULL,NULL,
 "ERTH 2102","A","Mineralogy to Petrology","LEC","F",935,1125,48
 "ERTH 2102","A01","Mineralogy to Petrology","LAB","W",1135,1425,24
 "ERTH 2102","A02","Mineralogy to Petrology","LAB","F",1135,1425,24
@@ -1510,18 +1510,18 @@
 "ERTH 2314","A02","Sedimentation and Stratigraphy","LAB","R",1435,1725,24
 "ERTH 2318","A","Sedimentology","LEC","MW",1605,1725,98
 "ERTH 2401","A","Dinosaurs","LEC","MW",1635,1755,134
-"ERTH 2401","AOD","Dinosaurs","VOD",,,,
-"ERTH 2401","T","Dinosaurs","LEC",,,,
-"ERTH 2401","TOD","Dinosaurs","VOD",,,,
-"ERTH 2415","A","Natural Disasters","LEC",,,,
-"ERTH 2415","AOD","Natural Disasters","VOD",,,,
-"ERTH 2415","T","Natural Disasters","LEC",,,,
-"ERTH 2415","TOD","Natural Disasters","VOD",,,,
+"ERTH 2401","AOD","Dinosaurs","VOD",NULL,NULL,NULL,
+"ERTH 2401","T","Dinosaurs","LEC",NULL,NULL,NULL,
+"ERTH 2401","TOD","Dinosaurs","VOD",NULL,NULL,NULL,
+"ERTH 2415","A","Natural Disasters","LEC",NULL,NULL,NULL,
+"ERTH 2415","AOD","Natural Disasters","VOD",NULL,NULL,NULL,
+"ERTH 2415","T","Natural Disasters","LEC",NULL,NULL,NULL,
+"ERTH 2415","TOD","Natural Disasters","VOD",NULL,NULL,NULL,
 "ERTH 3003","A","Geochemistry & Geochronology","LEC","M",1535,1725,48
 "ERTH 3003","A01","Geochemistry & Geochronology","LAB","F",1435,1725,48
-"ERTH 3111","A","Mammalian Paleo. & Evolution","LEC",,,,
-"ERTH 3111","A01","Mammalian Paleo. & Evolution","LAB",,,,
-"ERTH 3203","A","Applied Sedimentology","FIE",,,,
+"ERTH 3111","A","Mammalian Paleo. & Evolution","LEC",NULL,NULL,NULL,
+"ERTH 3111","A01","Mammalian Paleo. & Evolution","LAB",NULL,NULL,NULL,
+"ERTH 3203","A","Applied Sedimentology","FIE",NULL,NULL,NULL,
 "ERTH 3206","A","Oceanography:Modern&Geol Recor","LEC","MW",835,955,48
 "ERTH 3206","A01","Oceanography:Modern&Geol Recor","LAB","R",1435,1725,48
 "ERTH 3207","A","Metamorphic Petrology&Proces","LEC","T",1135,1325,48
@@ -1530,7 +1530,7 @@
 "ERTH 3405","A","Geophysical Methods","LEC","W",1135,1325,48
 "ERTH 3405","A01","Geophysical Methods","LAB","F",835,1125,25
 "ERTH 3405","A02","Geophysical Methods","LAB","W",1435,1725,26
-"ERTH 3999","A","Co-op Work Term","WRK",,,,
+"ERTH 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "ERTH 4003","A","Directed Studies in Geology","DIR","R",835,1125,30
 "ERTH 4003","B","Directed Studies in Geology","DIR","R",835,1125,30
 "ERTH 4107","A","Geotechnical Mechanics","LEC","WF",1135,1255,204
@@ -1538,13 +1538,13 @@
 "ERTH 4107","A2E","Geotechnical Mechanics","LAB","T",835,1125,25
 "ERTH 4107","A3O","Geotechnical Mechanics","LAB","W",1435,1725,25
 "ERTH 4107","A4E","Geotechnical Mechanics","LAB","W",1435,1725,25
-"ERTH 4303","A","Resources of the Earth","LEC",,,,
+"ERTH 4303","A","Resources of the Earth","LEC",NULL,NULL,NULL,
 "ERTH 4306","A","Resource Basin Analysis","LEC","T",1435,1625,48
 "ERTH 4306","A01","Resource Basin Analysis","LAB","W",835,1125,24
 "ERTH 4707","A","Engineering Seismology","LEC","F",1135,1425,48
 "ERTH 4803","A","Advanced Isotope Geology","LEC","M",835,1025,30
 "ERTH 4803","A01","Advanced Isotope Geology","SEM","M",1135,1325,48
-"ERTH 4808","A","Vertebrate Paleo. Field Camp","FIE",,,,
+"ERTH 4808","A","Vertebrate Paleo. Field Camp","FIE",NULL,NULL,NULL,
 "ESLA 1300","A","Intro ESL for Acad Purposes","SEM","MW",835,1125,39
 "ESLA 1300","B","Intro ESL for Acad Purposes","SEM","TR",1135,1425,39
 "ESLA 1300","C","Intro ESL for Acad Purposes","SEM","MW",1805,2055,42
@@ -1584,8 +1584,8 @@
 "ESPW 1000","P","ESP Workshop","WKS","R",835,1125,36
 "ESPW 1000","Q","ESP Workshop","WKS","R",1135,1425,36
 "ESPW 1000","R","ESP Workshop","WKS","R",1135,1425,32
-"ESPW 1000","S","ESP Workshop","WKS",,,,
-"ESPW 1000","T","ESP Workshop","WKS",,,,
+"ESPW 1000","S","ESP Workshop","WKS",NULL,NULL,NULL,
+"ESPW 1000","T","ESP Workshop","WKS",NULL,NULL,NULL,
 "ESPW 1000","U","ESP Workshop","WKS","R",1805,2055,35
 "ESPW 1000","V","ESP Workshop","WKS","T",1135,1425,35
 "ESPW 1000","W","ESP Workshop","WKS","W",1805,2055,35
@@ -1595,10 +1595,10 @@
 "EURR 2001","A","Curr Issue Euro Politic&Societ","LEC","R",1335,1425,61
 "EURR 2001","A","Curr Issue Euro Politic&Societ","LEC","W",1635,1825,61
 "EURR 3001","A","Literature & Culture in Europe","LEC","M",1135,1425,36
-"EURR 3999","A","Co-operative Work Term","WRK",,,,
+"EURR 3999","A","Co-operative Work Term","WRK",NULL,NULL,NULL,
 "EURR 4101","A","Balkans Transition 1918 to19","SEM","M",1805,2055,15
-"EURR 4106","A","Sel Top Euro Integration Stud","SEM",,,,
-"EURR 4202","A","Spec Top in Russian & Eurasian","SEM",,,,
+"EURR 4106","A","Sel Top Euro Integration Stud","SEM",NULL,NULL,NULL,
+"EURR 4202","A","Spec Top in Russian & Eurasian","SEM",NULL,NULL,NULL,
 "EURR 4203","A","Imperial and Soviet Russia","SEM","R",835,1125,57
 "FILM 1000","A","Introduction to Film Studies","FLM","R",1805,2055,387
 "FILM 1000","A01","Introduction to Film Studies","GRP","M",1805,1855,35
@@ -1626,7 +1626,7 @@
 "FILM 1000","B10","Introduction to Film Studies","GRP","R",1905,1955,52
 "FILM 1000","B11","Introduction to Film Studies","GRP","W",1335,1425,32
 "FILM 1000","B12","Introduction to Film Studies","GRP","R",1335,1425,27
-"FILM 1000","PA1","Introduction to Film Studies","PAS",,,,
+"FILM 1000","PA1","Introduction to Film Studies","PAS",NULL,NULL,NULL,
 "FILM 2000","A","Intro Film Theory & Analysis","SEM","R",1435,1525,75
 "FILM 2000","AF","Intro Film Theory & Analysis","FLM","W",1135,1425,75
 "FILM 2106","A","The Documentary","LEC","W",1535,1625,75
@@ -1651,37 +1651,37 @@
 "FILM 3701","A","Animation/Experimental","LEC","W",1035,1125,40
 "FILM 3701","AF","Animation/Experimental","FLM","T",1135,1425,40
 "FILM 3808","A","Cinema and Technology","FLM","M",835,1125,52
-"FILM 3808","AF","Cinema and Technology","LEC",,,,
+"FILM 3808","AF","Cinema and Technology","LEC",NULL,NULL,NULL,
 "FILM 4001","A","Research&Critical Methodologie","LEC","F",1135,1325,52
 "FILM 4001","AF","Research&Critical Methodologie","FLM","R",1135,1425,27
 "FILM 4501","A","Topics in Film Theory","SEM","W",1535,1725,32
 "FILM 4501","AF","Topics in Film Theory","FLM","M",1435,1725,32
-"FILM 4805","A","Practicum in Film Studies","PRC",,,,
+"FILM 4805","A","Practicum in Film Studies","PRC",NULL,NULL,NULL,
 "FILM 4901","A","Special Topic","SEM","T",1235,1425,32
 "FILM 4901","AF","Special Topic","FLM","M",835,1125,40
 "FINS 2105","A","Written Comprehension I","LEC","TR",1135,1255,59
-"FINS 2105","AOD","Written Comprehension I","VOD",,,,
-"FINS 2105","T","Written Comprehension I","LEC",,,,
-"FINS 2105","TOD","Written Comprehension I","VOD",,,,
-"FINS 2510","R","Intro Quebec Society E","LEC",,,,
-"FINS 2511","R","Intro soc et cul quebec (F)","LEC",,,,
-"FINS 4801","A","Selected Topics in French A","OTH",,,,
+"FINS 2105","AOD","Written Comprehension I","VOD",NULL,NULL,NULL,
+"FINS 2105","T","Written Comprehension I","LEC",NULL,NULL,NULL,
+"FINS 2105","TOD","Written Comprehension I","VOD",NULL,NULL,NULL,
+"FINS 2510","R","Intro Quebec Society E","LEC",NULL,NULL,NULL,
+"FINS 2511","R","Intro soc et cul quebec (F)","LEC",NULL,NULL,NULL,
+"FINS 4801","A","Selected Topics in French A","OTH",NULL,NULL,NULL,
 "FOOD 2001","A","Principles of Nutrition","LEC","TR",835,955,56
 "FOOD 3001","A","Food Chemistry","LEC","WF",1005,1125,42
 "FOOD 3001","A1","Food Chemistry","LAB","T",835,1125,20
 "FOOD 3001","A2","Food Chemistry","LAB","T",1435,1725,20
 "FOOD 3003","A","Food Packaging and Shelf Life","LEC","MW",1305,1425,42
 "FOOD 3004","A","Food Engineering","LEC","TR",1135,1255,35
-"FOOD 3005","A","Food Microbiology","LEC",,,,
-"FOOD 3005","A1","Food Microbiology","LAB",,,,
-"FOOD 3005","A2","Food Microbiology","LAB",,,,
+"FOOD 3005","A","Food Microbiology","LEC",NULL,NULL,NULL,
+"FOOD 3005","A1","Food Microbiology","LAB",NULL,NULL,NULL,
+"FOOD 3005","A2","Food Microbiology","LAB",NULL,NULL,NULL,
 "FOOD 4102","A","Regulation of Food Industry","LEC","R",1805,2055,22
 "FOOD 4103","A","Food Safety Risk Assessment","LEC","T",1805,2055,22
 "FREN 1001","A","Elementary French","LEC","MTR",1535,1725,31
 "FREN 1001","B","Elementary French","LEC","TR",1005,1125,39
 "FREN 1001","C","Elementary French","LEC","TR",835,955,39
 "FREN 1001","D","Elementary French","LEC","TR",1135,1255,40
-"FREN 1001","Z","Elementary French","LEC",,,,
+"FREN 1001","Z","Elementary French","LEC",NULL,NULL,NULL,
 "FREN 1002","A","Low Intermediate French","LEC","MTR",1535,1725,42
 "FREN 1002","C","Low Intermediate French","LEC","TR",1605,1725,58
 "FREN 1002","D","Low Intermediate French","LEC","MW",1435,1555,39
@@ -1694,7 +1694,7 @@
 "FREN 1002","K","Low Intermediate French","LEC","MW",1605,1725,40
 "FREN 1002","L","Low Intermediate French","LEC","MW",1435,1555,31
 "FREN 1002","M","Low Intermediate French","LEC","W",1805,2055,40
-"FREN 1002","Z","Low Intermediate French","LEC",,,,
+"FREN 1002","Z","Low Intermediate French","LEC",NULL,NULL,NULL,
 "FREN 1100","A","Intermediate French","LEC","TR",1435,1555,36
 "FREN 1100","B","Intermediate French","LEC","TR",1605,1725,35
 "FREN 1100","D","Intermediate French","LEC","MW",1605,1725,58
@@ -1727,14 +1727,14 @@
 "FREN 3511","A","Expression ecrite et traductio","LEC","M",1135,1425,58
 "FREN 3701","A","Français Oral","LEC","F",1135,1425,42
 "FREN 3702","A","Français Écrit","LEC","R",1805,2055,42
-"FREN 3999","A","Co-op Work Term","WRK",,,,
+"FREN 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "FREN 4212","A","Litteratures francophones","SEM","T",1435,1725,35
 "FREN 4214","A","Genre et mouvement","LEC","R",1135,1425,19
 "FREN 4413","A","Diachronie of francais","SEM","W",835,1125,8
 "FREN 4414","A","Analyse du francais","SEM","F",1135,1425,31
-"FREN 4801","A","Tutorial A","TUT",,,,
-"FREN 4801","C","Tutorial A","TUT",,,,
-"FREN 4802","A","Tutorial B","TUT",,,,
+"FREN 4801","A","Tutorial A","TUT",NULL,NULL,NULL,
+"FREN 4801","C","Tutorial A","TUT",NULL,NULL,NULL,
+"FREN 4802","A","Tutorial B","TUT",NULL,NULL,NULL,
 "FYSM 1004","A","Literature, Genre, Context","SEM","TR",1435,1555,32
 "FYSM 1004","B","Literature, Genre, Context","SEM","TR",1005,1125,29
 "FYSM 1004","C","Literature, Genre, Context","SEM","TR",835,955,31
@@ -1762,7 +1762,7 @@
 "FYSM 1405","B","Turning Points in History","SEM","WF",835,955,42
 "FYSM 1405","C","Turning Points in History","SEM","TR",1605,1725,47
 "FYSM 1405","D","Turning Points in History","SEM","T",1805,2055,42
-"FYSM 1405","E","Turning Points in History","SEM",,,,
+"FYSM 1405","E","Turning Points in History","SEM",NULL,NULL,NULL,
 "FYSM 1408","A","World Literature in French","SEM","MW",1605,1725,25
 "FYSM 1409","A","Social Change in Canada","SEM","MW",1605,1725,29
 "FYSM 1502","B","Topics in Legal Studies","SEM","TR",1005,1125,42
@@ -1771,8 +1771,8 @@
 "FYSM 1508","A","Stress, Coping & Well-Being","SEM","MW",835,955,42
 "FYSM 1508","B","Stress, Coping & Well-Being","SEM","WF",1005,1125,29
 "FYSM 1509","A","Spec Studies in Art Hist, Film","SEM","W",1435,1725,40
-"FYSM 1600","A","Contemp Controver in Cdn Soc","SEM",,,,
-"FYSM 1601","A","Lit & Pol Change in Europe","SEM",,,,
+"FYSM 1600","A","Contemp Controver in Cdn Soc","SEM",NULL,NULL,NULL,
+"FYSM 1601","A","Lit & Pol Change in Europe","SEM",NULL,NULL,NULL,
 "FYSM 1607","A","Thinking and Knowing","SEM","WF",835,955,36
 "FYSM 1607","B","Thinking and Knowing","SEM","MW",1605,1725,48
 "FYSM 1607","C","Thinking and Knowing","SEM","MW",1005,1125,35
@@ -1788,8 +1788,8 @@
 "FYSM 1900","I","Sel. Top. Study of Acad. Disc.","SEM","W",1135,1425,35
 "FYSM 1900","J","Sel. Top. Study of Acad. Disc.","SEM","R",1135,1425,51
 "FYSM 1900","X","Sel. Top. Study of Acad. Disc.","SEM","T",1805,2055,42
-"FYSM 1901","A","Sel. Topics in African Studies","SEM",,,,
-"FYSM 1908","A","Selected Topics: Applied Econ","SEM",,,,
+"FYSM 1901","A","Sel. Topics in African Studies","SEM",NULL,NULL,NULL,
+"FYSM 1908","A","Selected Topics: Applied Econ","SEM",NULL,NULL,NULL,
 "GEOG 1010","A","Global Environmental Systems","LEC","TR",1005,1125,236
 "GEOG 1010","A01","Global Environmental Systems","LAB","R",2005,2155,25
 "GEOG 1010","A02","Global Environmental Systems","LAB","R",1805,1955,25
@@ -1811,7 +1811,7 @@
 "GEOG 1020","A07","People, Places & Environments","TUT","M",1335,1425,33
 "GEOG 1020","A08","People, Places & Environments","TUT","M",1035,1125,33
 "GEOG 1020","A09","People, Places & Environments","TUT","F",1635,1725,33
-"GEOG 1020","PA1","People, Places & Environments","PAS",,,,
+"GEOG 1020","PA1","People, Places & Environments","PAS",NULL,NULL,NULL,
 "GEOG 2005","A","Geographic Inquiry","LEC","F",1135,1325,94
 "GEOG 2005","A1","Geographic Inquiry","LAB","M",1135,1325,33
 "GEOG 2005","A1A","Geographic Inquiry","LAB","M",1135,1325,26
@@ -1830,9 +1830,9 @@
 "GEOG 2014","A3A","The Earth's Surface","LAB","R",835,1125,23
 "GEOG 2020","A","Physical Environments of Cda","LEC","TR",1135,1255,56
 "GEOG 2200","A","Global Connections","LEC","TR",1135,1255,148
-"GEOG 2200","AOD","Global Connections","VOD",,,,
-"GEOG 2200","T","Global Connections","LEC",,,,
-"GEOG 2200","TOD","Global Connections","VOD",,,,
+"GEOG 2200","AOD","Global Connections","VOD",NULL,NULL,NULL,
+"GEOG 2200","T","Global Connections","LEC",NULL,NULL,NULL,
+"GEOG 2200","TOD","Global Connections","VOD",NULL,NULL,NULL,
 "GEOG 2400","A","Cities and Urbanization","LEC","M",1035,1225,151
 "GEOG 2400","A1","Cities and Urbanization","TUT","R",935,1025,19
 "GEOG 2400","A2","Cities and Urbanization","TUT","R",835,925,19
@@ -1842,8 +1842,8 @@
 "GEOG 3000","A","Honours Field Course","FIE","M",1435,1725,29
 "GEOG 3000","A1A","Honours Field Course","FIE","W",1135,1425,32
 "GEOG 3001","A","Doing Qualitative Research","LEC","M",1135,1425,29
-"GEOG 3003","A","Quantitative Geography","LEC",,,,
-"GEOG 3003","A1","Quantitative Geography","LAB",,,,
+"GEOG 3003","A","Quantitative Geography","LEC",NULL,NULL,NULL,
+"GEOG 3003","A1","Quantitative Geography","LAB",NULL,NULL,NULL,
 "GEOG 3022","A","Environmental & Natural Resour","LEC","T",1435,1725,79
 "GEOG 3023","A","Cities in a Global World","LEC","M",1805,2055,43
 "GEOG 3104","A","Principles of Biogeography","LEC","TR",1135,1255,66
@@ -1857,8 +1857,8 @@
 "GEOG 3105","A2A","Climate and Atmospheric Change","LAB","R",835,1025,22
 "GEOG 3209","A","Sustainability in the South","LEC","R",1805,2055,47
 "GEOG 3404","A","Geographies of Econ Dvlp","LEC","M",835,1125,51
-"GEOG 4000","A","Field Studies","IND",,,,
-"GEOG 4005","A","Directed Studies in Geography","IND",,,,
+"GEOG 4000","A","Field Studies","IND",NULL,NULL,NULL,
+"GEOG 4005","A","Directed Studies in Geography","IND",NULL,NULL,NULL,
 "GEOG 4021","A","Seminar in Culture, Ident & Pl","SEM","W",835,1125,29
 "GEOG 4022","A","People, Resources & Environmen","SEM","T",1805,2055,29
 "GEOG 4101","A","Quaternary Geography","SEM","MW",1635,1755,19
@@ -1869,8 +1869,8 @@
 "GEOG 4303","A1O","Urban Planning","LAB","W",1135,1425,78
 "GEOG 4304","A","Transport. Engin. & Planning","LEC","TR",1435,1555,285
 "GEOG 4304","A1E","Transport. Engin. & Planning","LAB","R",835,1125,96
-"GEOG 4406","A","Practicum I","TUT",,,,
-"GEOG 4408","A","Practicum II","TUT",,,,
+"GEOG 4406","A","Practicum I","TUT",NULL,NULL,NULL,
+"GEOG 4408","A","Practicum II","TUT",NULL,NULL,NULL,
 "GEOM 1004","A","Maps, Satllits& Geospatial Rev","LEC","M",1135,1325,115
 "GEOM 1004","A1","Maps, Satllits& Geospatial Rev","LAB","F",935,1125,32
 "GEOM 1004","A2","Maps, Satllits& Geospatial Rev","LAB","W",935,1125,32
@@ -1882,11 +1882,11 @@
 "GEOM 3002","A2","Air Photo Interpret. & Remote","LAB","F",1335,1525,22
 "GEOM 3002","A2A","Air Photo Interpret. & Remote","LAB","F",1335,1525,30
 "GEOM 3005","A","Geospatial Analysis","WKS","R",835,1125,32
-"GEOM 4005","A","Directed Studies in Geomatics","DIR",,,,
+"GEOM 4005","A","Directed Studies in Geomatics","DIR",NULL,NULL,NULL,
 "GEOM 4008","A","Adv Top Geographic Info. Syst.","LEC","T",935,1125,22
 "GEOM 4008","A01","Adv Top Geographic Info. Syst.","LAB","T",1435,1625,22
-"GEOM 4406","A","Practicum I","PRC",,,,
-"GEOM 4408","A","Practicum II","PRC",,,,
+"GEOM 4406","A","Practicum I","PRC",NULL,NULL,NULL,
+"GEOM 4408","A","Practicum II","PRC",NULL,NULL,NULL,
 "GERM 1010","A","First-Year German I","LEC","TR",935,1125,42
 "GERM 1010","B","First-Year German I","LEC","TR",935,1125,39
 "GERM 1010","C","First-Year German I","LEC","TR",1905,2055,39
@@ -1894,10 +1894,10 @@
 "GERM 1110","A","Intensive First-Year German","LEC","MTRF",1435,1625,42
 "GERM 2010","A","Second-Year German I","LEC","TR",1135,1325,58
 "GERM 3110","A","Intensive Third-Year German","LEC","MWF",1435,1625,32
-"GERM 4901","A","Independent Study","IND",,,,
+"GERM 4901","A","Independent Study","IND",NULL,NULL,NULL,
 "GPOL 1000","A","Global Politics","SEM","W",1135,1425,35
 "GPOL 3000","A","Global & Comparative Politics","SEM","W",1135,1425,51
-"GPOL 3100","A","Internship in Global Politics","OTH",,,,
+"GPOL 3100","A","Internship in Global Politics","OTH",NULL,NULL,NULL,
 "GREK 1005","A","Introduction to Greek I","LEC","WF",935,1125,57
 "GREK 1005","B","Introduction to Greek I","LEC","TR",935,1125,32
 "GREK 2200","A","Intermediate Greek I","TUT","TR",1135,1255,19
@@ -1906,12 +1906,12 @@
 "HIST 1001","A","The Making of Europe","LEC","TR",1135,1225,102
 "HIST 1001","A01","The Making of Europe","GRP","F",835,925,40
 "HIST 1001","A02","The Making of Europe","GRP","F",835,925,28
-"HIST 1001","A03","The Making of Europe","GRP",,,,
+"HIST 1001","A03","The Making of Europe","GRP",NULL,NULL,NULL,
 "HIST 1001","A04","The Making of Europe","GRP","F",1535,1625,32
 "HIST 1001","A05","The Making of Europe","GRP","F",1635,1725,25
 "HIST 1001","A06","The Making of Europe","GRP","F",935,1025,23
-"HIST 1001","A07","The Making of Europe","GRP",,,,
-"HIST 1001","A08","The Making of Europe","GRP",,,,
+"HIST 1001","A07","The Making of Europe","GRP",NULL,NULL,NULL,
+"HIST 1001","A08","The Making of Europe","GRP",NULL,NULL,NULL,
 "HIST 1001","B","The Making of Europe","LEC","MW",1035,1125,444
 "HIST 1001","B01","The Making of Europe","GRP","R",1235,1325,20
 "HIST 1001","B02","The Making of Europe","GRP","R",835,925,40
@@ -1921,7 +1921,7 @@
 "HIST 1001","B06","The Making of Europe","GRP","R",835,925,23
 "HIST 1001","B07","The Making of Europe","GRP","R",1535,1625,27
 "HIST 1001","B08","The Making of Europe","GRP","R",1135,1225,31
-"HIST 1001","PA1","The Making of Europe","PAS",,,,
+"HIST 1001","PA1","The Making of Europe","PAS",NULL,NULL,NULL,
 "HIST 1002","A","Europe in the 20th Century","LEC","T",1235,1425,195
 "HIST 1002","A01","Europe in the 20th Century","GRP","R",1235,1325,20
 "HIST 1002","A02","Europe in the 20th Century","GRP","W",835,925,40
@@ -1943,12 +1943,12 @@
 "HIST 1300","B","The Making of Canada","LEC","F",1435,1625,204
 "HIST 1300","B01","The Making of Canada","GRP","M",1135,1225,25
 "HIST 1300","B02","The Making of Canada","GRP","M",1035,1125,40
-"HIST 1300","B03","The Making of Canada","GRP",,,,
-"HIST 1300","B04","The Making of Canada","GRP",,,,
+"HIST 1300","B03","The Making of Canada","GRP",NULL,NULL,NULL,
+"HIST 1300","B04","The Making of Canada","GRP",NULL,NULL,NULL,
 "HIST 1300","B05","The Making of Canada","GRP","T",1035,1125,40
-"HIST 1300","B06","The Making of Canada","GRP",,,,
-"HIST 1300","B07","The Making of Canada","GRP",,,,
-"HIST 1300","B08","The Making of Canada","GRP",,,,
+"HIST 1300","B06","The Making of Canada","GRP",NULL,NULL,NULL,
+"HIST 1300","B07","The Making of Canada","GRP",NULL,NULL,NULL,
+"HIST 1300","B08","The Making of Canada","GRP",NULL,NULL,NULL,
 "HIST 1300","C","The Making of Canada","LEC","T",1805,2055,236
 "HIST 1707","A","World History","LEC","M",1135,1325,391
 "HIST 1707","A01","World History","GRP","T",1135,1225,27
@@ -1962,28 +1962,28 @@
 "HIST 1707","B","World History","LEC","M",835,1025,331
 "HIST 1707","B01","World History","GRP","T",835,925,28
 "HIST 1707","B02","World History","GRP","T",1435,1525,20
-"HIST 1707","B03","World History","GRP",,,,
+"HIST 1707","B03","World History","GRP",NULL,NULL,NULL,
 "HIST 1707","B04","World History","GRP","T",1235,1325,23
 "HIST 1707","B05","World History","GRP","T",1135,1225,28
-"HIST 1707","B06","World History","GRP",,,,
-"HIST 1707","B07","World History","GRP",,,,
+"HIST 1707","B06","World History","GRP",NULL,NULL,NULL,
+"HIST 1707","B07","World History","GRP",NULL,NULL,NULL,
 "HIST 1707","B08","World History","GRP","T",1335,1425,40
 "HIST 1707","PA1","World History","PAS","MWF",1335,1425,32
 "HIST 2001","A","Early Medieval Europe","LEC","M",1805,2055,195
-"HIST 2005","A","England During the Middle Ages","LEC",,,,
+"HIST 2005","A","England During the Middle Ages","LEC",NULL,NULL,NULL,
 "HIST 2103","A","Mdrn Thght & Cultr: 20th Cent","LEC","TR",1135,1255,78
 "HIST 2303","A","Canadian Political History","LEC","R",1805,2055,96
 "HIST 2308","A","Colonial Latin America","LEC","M",1135,1325,58
 "HIST 2308","A01","Colonial Latin America","GRP","T",935,1025,28
 "HIST 2308","A02","Colonial Latin America","GRP","T",1335,1425,42
-"HIST 2308","A03","Colonial Latin America","GRP",,,,
-"HIST 2308","A04","Colonial Latin America","GRP",,,,
+"HIST 2308","A03","Colonial Latin America","GRP",NULL,NULL,NULL,
+"HIST 2308","A04","Colonial Latin America","GRP",NULL,NULL,NULL,
 "HIST 2401","A","Hist of United States to 1865","LEC","TR",1435,1555,120
 "HIST 2501","A","Early Modern Britain","LEC","W",1135,1325,84
 "HIST 2501","A01","Early Modern Britain","GRP","R",1435,1525,28
 "HIST 2501","A02","Early Modern Britain","GRP","R",1535,1625,28
-"HIST 2501","A03","Early Modern Britain","GRP",,,,
-"HIST 2501","A04","Early Modern Britain","GRP",,,,
+"HIST 2501","A03","Early Modern Britain","GRP",NULL,NULL,NULL,
+"HIST 2501","A04","Early Modern Britain","GRP",NULL,NULL,NULL,
 "HIST 2511","A","20th Century Germany","LEC","T",1435,1625,115
 "HIST 2511","A01","20th Century Germany","GRP","W",1135,1225,42
 "HIST 2511","A02","20th Century Germany","GRP","W",935,1025,35
@@ -1991,15 +1991,15 @@
 "HIST 2511","A04","20th Century Germany","GRP","W",1035,1125,54
 "HIST 2600","A","History of Russia","LEC","WF",1005,1125,98
 "HIST 2706","A","Ancient & Pre-Colonial Africa","LEC","TR",1435,1555,78
-"HIST 2706","A01","Ancient & Pre-Colonial Africa","GRP",,,,
-"HIST 2706","A02","Ancient & Pre-Colonial Africa","GRP",,,,
-"HIST 2706","A03","Ancient & Pre-Colonial Africa","GRP",,,,
-"HIST 2706","A04","Ancient & Pre-Colonial Africa","GRP",,,,
+"HIST 2706","A01","Ancient & Pre-Colonial Africa","GRP",NULL,NULL,NULL,
+"HIST 2706","A02","Ancient & Pre-Colonial Africa","GRP",NULL,NULL,NULL,
+"HIST 2706","A03","Ancient & Pre-Colonial Africa","GRP",NULL,NULL,NULL,
+"HIST 2706","A04","Ancient & Pre-Colonial Africa","GRP",NULL,NULL,NULL,
 "HIST 2802","A","War&Soc Mdrn Eurp, 1789-1914","LEC","MW",1335,1425,96
 "HIST 2802","A01","War&Soc Mdrn Eurp, 1789-1914","GRP","R",1035,1125,35
 "HIST 2802","A02","War&Soc Mdrn Eurp, 1789-1914","GRP","R",835,925,39
-"HIST 2802","A03","War&Soc Mdrn Eurp, 1789-1914","GRP",,,,
-"HIST 2802","A04","War&Soc Mdrn Eurp, 1789-1914","GRP",,,,
+"HIST 2802","A03","War&Soc Mdrn Eurp, 1789-1914","GRP",NULL,NULL,NULL,
+"HIST 2802","A04","War&Soc Mdrn Eurp, 1789-1914","GRP",NULL,NULL,NULL,
 "HIST 2806","A","History of Japan","LEC","T",1805,2055,102
 "HIST 2809","A","The Historian's Craft","LEC","R",1435,1625,98
 "HIST 2809","A01","The Historian's Craft","GRP","F",1335,1425,28
@@ -2011,23 +2011,23 @@
 "HIST 2910","A","Special Subject in History","LEC","T",1135,1325,79
 "HIST 2910","A01","Special Subject in History","GRP","W",1235,1325,58
 "HIST 2910","A02","Special Subject in History","GRP","W",1335,1425,28
-"HIST 2910","A03","Special Subject in History","GRP",,,,
-"HIST 2910","A04","Special Subject in History","GRP",,,,
+"HIST 2910","A03","Special Subject in History","GRP",NULL,NULL,NULL,
+"HIST 2910","A04","Special Subject in History","GRP",NULL,NULL,NULL,
 "HIST 2910","B","Special Subject in History","LEC","TR",1135,1255,98
 "HIST 2910","C","Special Subject in History","LEC","W",1435,1625,66
 "HIST 2910","C01","Special Subject in History","GRP","R",1535,1625,47
 "HIST 2910","C02","Special Subject in History","GRP","T",1535,1625,28
-"HIST 2910","C03","Special Subject in History","GRP",,,,
-"HIST 2910","C04","Special Subject in History","GRP",,,,
+"HIST 2910","C03","Special Subject in History","GRP",NULL,NULL,NULL,
+"HIST 2910","C04","Special Subject in History","GRP",NULL,NULL,NULL,
 "HIST 3101","A","Roman History & Institutions","LEC","F",835,1125,58
 "HIST 3105","A","Renaissance Europe","LEC","MW",1605,1725,63
 "HIST 3213","A","The Enlightenment","LEC","MW",1005,1125,66
 "HIST 3216","A","The Scientific Revolution","LEC","MW",835,955,66
 "HIST 3305","A","Crime and State in History","LEC","W",1435,1725,71
 "HIST 3305","B","Crime and State in History","LEC","W",1805,2055,98
-"HIST 3305","BOD","Crime and State in History","VOD",,,,
-"HIST 3305","T","Crime and State in History","LEC",,,,
-"HIST 3305","TOD","Crime and State in History","VOD",,,,
+"HIST 3305","BOD","Crime and State in History","VOD",NULL,NULL,NULL,
+"HIST 3305","T","Crime and State in History","LEC",NULL,NULL,NULL,
+"HIST 3305","TOD","Crime and State in History","VOD",NULL,NULL,NULL,
 "HIST 3306","A","Canada's Intrnational Policies","LEC","MW",1605,1725,66
 "HIST 3702","A","The Scramble for Africa, 1876-","LEC","W",1805,2055,66
 "HIST 3800","A","International History 1914-41","LEC","MW",1435,1555,66
@@ -2038,15 +2038,15 @@
 "HIST 3810","A04","Historical Theory","TUT","F",835,925,23
 "HIST 3812","A","Digital History","LEC","TR",1305,1425,54
 "HIST 3902","A","Topics in European History","LEC","M",1805,2055,134
-"HIST 3902","AOD","Topics in European History","VOD",,,,
-"HIST 3902","T","Topics in European History","LEC",,,,
-"HIST 3902","TOD","Topics in European History","VOD",,,,
+"HIST 3902","AOD","Topics in European History","VOD",NULL,NULL,NULL,
+"HIST 3902","T","Topics in European History","LEC",NULL,NULL,NULL,
+"HIST 3902","TOD","Topics in European History","VOD",NULL,NULL,NULL,
 "HIST 3903","A","Topics in Canadian History","LEC","W",1805,2055,78
 "HIST 3904","A","Topics in U.S. History","LEC","TR",1305,1425,66
-"HIST 3905","A","Topics in Int'l History","LEC",,,,
-"HIST 3999","A","Co-op Work Term","WRK",,,,
+"HIST 3905","A","Topics in Int'l History","LEC",NULL,NULL,NULL,
+"HIST 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "HIST 4006","A","Seminar in Medieval History","SEM","M",835,1125,28
-"HIST 4100","A","Sem. in Early Modern European","SEM",,,,
+"HIST 4100","A","Sem. in Early Modern European","SEM",NULL,NULL,NULL,
 "HIST 4200","A","Seminar in European History","SEM","M",1435,1725,15
 "HIST 4210","A","Topics in Ancient History","SEM","W",835,1125,23
 "HIST 4302","A","Canada: Ideas & Culture","SEM","R",835,1125,31
@@ -2057,7 +2057,7 @@
 "HIST 4505","A","Sem: Women's and Gender Hist","SEM","W",835,1125,16
 "HIST 4603","A","Imperial & Soviet Russia","SEM","R",835,1125,57
 "HIST 4605","A","Balkans in Trans'n 1918 -1989","LEC","M",1805,2055,15
-"HIST 4700","A","Seminar in World History","SEM",,,,
+"HIST 4700","A","Seminar in World History","SEM",NULL,NULL,NULL,
 "HIST 4802","A","Sem. in International History","SEM","F",835,1125,27
 "HIST 4805","A","Seminar on Transnational Topic","SEM","F",1135,1425,40
 "HIST 4805","B","Seminar on Transnational Topic","SEM","M",1435,1725,20
@@ -2109,7 +2109,7 @@
 "HUMR 2401","A4","Political Repression","GRP","T",2005,2055,27
 "HUMR 3001","A","Special Topics in Human Rights","LEC","F",1435,1725,39
 "HUMR 3301","A","Racialism, Racism & Human Righ","LEC","F",835,1125,29
-"HUMR 3302","A","Culture, Reli & Women's HR","LEC",,,,
+"HUMR 3302","A","Culture, Reli & Women's HR","LEC",NULL,NULL,NULL,
 "HUMR 3501","A","Social, Econ & Cultural Rights","LEC","M",1435,1725,36
 "HUMR 4303","A","Disability Rights","SEM","M",835,1125,27
 "HUMR 4502","A","Glbl Indig Know & Movements","SEM","W",1435,1725,27
@@ -2117,7 +2117,7 @@
 "HUMS 1000","A1","Myth and Symbol","TUT","M",1605,1725,19
 "HUMS 1000","A2","Myth and Symbol","TUT","W",1435,1555,19
 "HUMS 1000","A3","Myth and Symbol","TUT","R",1305,1425,19
-"HUMS 1000","A4","Myth and Symbol","TUT",,,,
+"HUMS 1000","A4","Myth and Symbol","TUT",NULL,NULL,NULL,
 "HUMS 1200","A","Humanities&Class Civilisations","LEC","TR",1605,1725,93
 "HUMS 2000","A","Reason and Revelation","LEC","WF",1005,1125,93
 "HUMS 2000","A1","Reason and Revelation","TUT","R",1005,1125,19
@@ -2133,7 +2133,7 @@
 "HUMS 4000","A","Pol, Modernity & Common Good","LEC","TR",1005,1125,93
 "HUMS 4000","A1","Pol, Modernity & Common Good","TUT","M",1435,1555,19
 "HUMS 4000","A2","Pol, Modernity & Common Good","TUT","W",1005,1125,19
-"HUMS 4001","A","Directed Studies in Humanities","IND",,,,
+"HUMS 4001","A","Directed Studies in Humanities","IND",NULL,NULL,NULL,
 "HUMS 4103","A","Science in the Modern World","LEC","T",1805,2055,93
 "HUMS 4902","A","Res Sem: Renaissance to Enligh","SEM","F",835,1125,42
 "IDES 1000","A","Theory & Hist of Design","LEC","R",835,1125,154
@@ -2155,11 +2155,11 @@
 "IDES 3300","A","Projects IIIA","STU","RF",1235,1625,50
 "IDES 3300","B","Projects IIIA","STU","RF",935,1125,50
 "IDES 3300","B","Projects IIIA","STU","RF",1235,1625,50
-"IDES 3306","A","3rd Year Spec Ind Des Studies","LEC",,,,
+"IDES 3306","A","3rd Year Spec Ind Des Studies","LEC",NULL,NULL,NULL,
 "IDES 3502","A","Contextual Nature of Products","LEC","W",1135,1425,51
 "IDES 3601","A","Industrial Design and the User","LEC","M",1135,1425,66
 "IDES 3601","A1","Industrial Design and the User","LAB","M",835,1125,50
-"IDES 3999","A","Co-op Work Term","WRK",,,,
+"IDES 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "IDES 4001","A","Industrial Design Seminar","SEM","R",1135,1425,51
 "IDES 4301","A","Minor Projects A","STU","T",935,1125,48
 "IDES 4301","A","Minor Projects A","STU","T",1235,1625,48
@@ -2169,7 +2169,7 @@
 "IDES 4310","A","Major Project","STU","F",1235,1625,48
 "IDES 4310","B","Major Project","STU","F",935,1125,48
 "IDES 4310","B","Major Project","STU","F",1235,1625,48
-"IDES 4400","A","Industrial Practice Internship","OTH",,,,
+"IDES 4400","A","Industrial Practice Internship","OTH",NULL,NULL,NULL,
 "IMD" 000,""A","Interactive Multimedia Design","LEC","WF",1005,1125,77
 "IMD" 002,""A","Visual Dynamics","WKS","T",805,1055,76
 "IMD" 002,""B","Visual Dynamics","WKS","R",1205,1455,76
@@ -2179,7 +2179,7 @@
 "IMD" 000,""A1","Multimedia Data Management","TUT","T",1435,1625,60
 "IMD" 003,""A","Audio and Video","WKS","M",805,1155,76
 "IMD" 003,""B","Audio and Video","WKS","M",1305,1655,76
-"IMD" 003,""A","Communication Skills for IMD","LEC",,,,
+"IMD" 003,""A","Communication Skills for IMD","LEC",NULL,NULL,NULL,
 "IMD" 003,""B","Communication Skills for IMD","LEC","W",835,1125,31
 "IMD" 004,""A","Human Comp Interaction &Design","LEC","MW",1305,1425,60
 "IMD" 900,""A","Design Studio 2","STU","F",805,1155,76
@@ -2197,33 +2197,33 @@
 "INDG 1000","A1","Introduc to Indigenous Studies","GRP","R",935,1025,48
 "INDG 1000","A2","Introduc to Indigenous Studies","GRP","R",1035,1125,48
 "INDG 2010","A","Indig Encnt Col Nat Buid Proj","LEC","W",835,1125,91
-"INDG 2010","A1","Indig Encnt Col Nat Buid Proj","GRP",,,,
-"INDG 2010","A2","Indig Encnt Col Nat Buid Proj","GRP",,,,
+"INDG 2010","A1","Indig Encnt Col Nat Buid Proj","GRP",NULL,NULL,NULL,
+"INDG 2010","A2","Indig Encnt Col Nat Buid Proj","GRP",NULL,NULL,NULL,
 "INDG 3000","A","Indig Representa ContempCanada","SEM","T",1135,1425,42
-"INSC 3909","A","Independent Study","IND",,,,
+"INSC 3909","A","Independent Study","IND",NULL,NULL,NULL,
 "ISCI 1001","A","The Environment: Introduction","LEC","TR",1305,1425,148
-"ISCI 1001","AOD","The Environment: Introduction","VOD",,,,
-"ISCI 1001","T","The Environment: Introduction","LEC",,,,
-"ISCI 1001","TOD","The Environment: Introduction","VOD",,,,
+"ISCI 1001","AOD","The Environment: Introduction","VOD",NULL,NULL,NULL,
+"ISCI 1001","T","The Environment: Introduction","LEC",NULL,NULL,NULL,
+"ISCI 1001","TOD","The Environment: Introduction","VOD",NULL,NULL,NULL,
 "ISCI 2000","A","Natural Laws","LEC","MW",1435,1625,59
 "ISCI 2000","A1","Natural Laws","TUT","F",835,925,59
-"ISCI 2000","AOD","Natural Laws","VOD",,,,
-"ISCI 2000","T","Natural Laws","LEC",,,,
-"ISCI 2000","TOD","Natural Laws","VOD",,,,
+"ISCI 2000","AOD","Natural Laws","VOD",NULL,NULL,NULL,
+"ISCI 2000","T","Natural Laws","LEC",NULL,NULL,NULL,
+"ISCI 2000","TOD","Natural Laws","VOD",NULL,NULL,NULL,
 "ITAL 1010","A","First-Year Italian I","LEC","TR",1435,1625,32
-"ITAL 1010","B","First-Year Italian I","LEC",,,,
+"ITAL 1010","B","First-Year Italian I","LEC",NULL,NULL,NULL,
 "ITAL 1010","C","First-Year Italian I","LEC","TR",935,1125,58
 "ITAL 1010","D","First-Year Italian I","LEC","TR",1905,2055,32
 "ITAL 1010","E","First-Year Italian I","LEC","WF",1135,1325,31
 "ITAL 1010","F","First-Year Italian I","LEC","MW",1435,1625,40
 "ITAL 2010","A","Second-Year Italian I","LEC","TR",1135,1325,32
 "ITAL 3110","A","Intensive Third-Year Italian","LEC","MW",1135,1425,32
-"ITAL 4900","A","Independent Study","IND",,,,
-"ITAL 4900","B","Independent Study","IND",,,,
+"ITAL 4900","A","Independent Study","IND",NULL,NULL,NULL,
+"ITAL 4900","B","Independent Study","IND",NULL,NULL,NULL,
 "JAPA 1010","A","First-Year Japanese I","LEC","MW",1435,1625,32
 "JAPA 1010","B","First-Year Japanese I","LEC","MW",1135,1325,32
 "JAPA 1010","C","First-Year Japanese I","LEC","TR",935,1125,35
-"JAPA 1010","D","First-Year Japanese I","LEC",,,,
+"JAPA 1010","D","First-Year Japanese I","LEC",NULL,NULL,NULL,
 "JAPA 1110","A","Intensive First-Year Japanese","LEC","TWRF",1135,1325,42
 "JAPA 1110","B","Intensive First-Year Japanese","LEC","MTWR",1035,1225,32
 "JAPA 1110","C","Intensive First-Year Japanese","LEC","MTRF",1435,1625,42
@@ -2231,10 +2231,10 @@
 "JAPA 3010","B","Third-Year Japanese I","LEC","MW",1605,1725,25
 "JAPA 3011","A","Reading in Japnse - Kanji I","LEC","TR",1605,1725,39
 "JAPA 4010","A","Fourth-Year Japanese I","LEC","TR",1135,1255,36
-"JAPA 4900","A","Independent Study","IND",,,,
-"JAPA 4900","B","Independent Study","IND",,,,
-"JAPA 4901","A","Independent Study","IND",,,,
-"JAPA 4901","B","Independent Study","IND",,,,
+"JAPA 4900","A","Independent Study","IND",NULL,NULL,NULL,
+"JAPA 4900","B","Independent Study","IND",NULL,NULL,NULL,
+"JAPA 4901","A","Independent Study","IND",NULL,NULL,NULL,
+"JAPA 4901","B","Independent Study","IND",NULL,NULL,NULL,
 "JOUR 1000","A","Foundations of Journalism","LEC","R",1135,1325,195
 "JOUR 1000","A01","Foundations of Journalism","GRP","R",1635,1725,40
 "JOUR 1000","A02","Foundations of Journalism","GRP","R",1335,1425,19
@@ -2268,7 +2268,7 @@
 "JOUR 3225","B","Reporting in Depth","LEC","R",1805,2055,26
 "JOUR 3235","A","New Media Reporting","LEC","W",835,1125,25
 "JOUR 3235","B","New Media Reporting","LEC","W",1805,2055,25
-"JOUR 4101","B","Special Topic","SEM",,,,
+"JOUR 4101","B","Special Topic","SEM",NULL,NULL,NULL,
 "JOUR 4101","C","Special Topic","SEM","T",1805,2055,25
 "JOUR 4101","E","Special Topic","SEM","W",1905,2155,27
 "JOUR 4101","F","Special Topic","SEM","T",1135,1425,27
@@ -2286,14 +2286,14 @@
 "JOUR 4208","H","Prof Prac: Specialized Media","LAB","W",1835,2025,27
 "LACS 1001","A","Intr Latin Americ&Carribbean I","LEC","MW",1435,1555,78
 "LANG 1010","A","Introduction to a Language I","LEC","MW",935,1125,29
-"LANG 1010","C","Introduction to a Language I","LEC",,,,
+"LANG 1010","C","Introduction to a Language I","LEC",NULL,NULL,NULL,
 "LATN 1005","A","Introduction to Latin I","LEC","WF",1435,1625,36
 "LATN 1005","B","Introduction to Latin I","LEC","MW",1135,1325,58
 "LATN 1005","C","Introduction to Latin I","LEC","MW",935,1125,39
 "LATN 1005","D","Introduction to Latin I","LEC","MW",1135,1325,35
 "LATN 1005","PA1","Introduction to Latin I","PAS","WF",1305,1425,11
-"LATN 1005","PA2","Introduction to Latin I","PAS",,,,
-"LATN 1005","PA3","Introduction to Latin I","PAS",,,,
+"LATN 1005","PA2","Introduction to Latin I","PAS",NULL,NULL,NULL,
+"LATN 1005","PA3","Introduction to Latin I","PAS",NULL,NULL,NULL,
 "LATN 1005","PA4","Introduction to Latin I","PAS","MW",1135,1255,9
 "LATN 2200","A","Intermediate Latin I","TUT","M",1435,1725,19
 "LAWS 1000","A","Introduction to Legal Studies","LEC","W",835,1025,391
@@ -2329,7 +2329,7 @@
 "LAWS 1000","C08","Introduction to Legal Studies","GRP","T",1805,1855,27
 "LAWS 1000","C09","Introduction to Legal Studies","GRP","T",1635,1725,61
 "LAWS 1000","C10","Introduction to Legal Studies","GRP","T",1805,1855,31
-"LAWS 1000","COD","Introduction to Legal Studies","VOD",,,,
+"LAWS 1000","COD","Introduction to Legal Studies","VOD",NULL,NULL,NULL,
 "LAWS 1000","D","Introduction to Legal Studies","LEC","W",1435,1625,444
 "LAWS 1000","D01","Introduction to Legal Studies","GRP","W",1635,1725,27
 "LAWS 1000","D02","Introduction to Legal Studies","GRP","W",1335,1425,36
@@ -2341,37 +2341,37 @@
 "LAWS 1000","D08","Introduction to Legal Studies","GRP","W",1335,1425,27
 "LAWS 1000","D09","Introduction to Legal Studies","GRP","W",1635,1725,43
 "LAWS 1000","D10","Introduction to Legal Studies","GRP","W",1335,1425,32
-"LAWS 1000","PA1","Introduction to Legal Studies","PAS",,,,
-"LAWS 1000","PB2","Introduction to Legal Studies","PAS",,,,
+"LAWS 1000","PA1","Introduction to Legal Studies","PAS",NULL,NULL,NULL,
+"LAWS 1000","PB2","Introduction to Legal Studies","PAS",NULL,NULL,NULL,
 "LAWS 1000","PC3","Introduction to Legal Studies","PAS","TR",1805,1925,42
-"LAWS 1000","PD4","Introduction to Legal Studies","PAS",,,,
-"LAWS 1000","V","Introduction to Legal Studies","LEC",,,,
-"LAWS 1000","V1","Introduction to Legal Studies","GRP",,,,
-"LAWS 1000","VOD","Introduction to Legal Studies","VOD",,,,
+"LAWS 1000","PD4","Introduction to Legal Studies","PAS",NULL,NULL,NULL,
+"LAWS 1000","V","Introduction to Legal Studies","LEC",NULL,NULL,NULL,
+"LAWS 1000","V1","Introduction to Legal Studies","GRP",NULL,NULL,NULL,
+"LAWS 1000","VOD","Introduction to Legal Studies","VOD",NULL,NULL,NULL,
 "LAWS 2105","A","Social Justice & Human Rights","LEC","W",1135,1425,96
 "LAWS 2105","B","Social Justice & Human Rights","LEC","R",1135,1425,96
 "LAWS 2201","A","Persons and Property","LEC","T",835,1125,98
-"LAWS 2201","AOD","Persons and Property","VOD",,,,
+"LAWS 2201","AOD","Persons and Property","VOD",NULL,NULL,NULL,
 "LAWS 2201","B","Persons and Property","LEC","T",835,1125,94
 "LAWS 2201","C","Persons and Property","LEC","W",1805,2055,96
-"LAWS 2201","T","Persons and Property","LEC",,,,
-"LAWS 2201","TOD","Persons and Property","VOD",,,,
+"LAWS 2201","T","Persons and Property","LEC",NULL,NULL,NULL,
+"LAWS 2201","TOD","Persons and Property","VOD",NULL,NULL,NULL,
 "LAWS 2202","B","Obligations","LEC","M",1135,1425,96
 "LAWS 2301","A","Criminal Justice System","LEC","W",1805,2055,98
-"LAWS 2301","AOD","Criminal Justice System","VOD",,,,
+"LAWS 2301","AOD","Criminal Justice System","VOD",NULL,NULL,NULL,
 "LAWS 2301","B","Criminal Justice System","LEC","W",1805,2055,134
-"LAWS 2301","BOD","Criminal Justice System","VOD",,,,
+"LAWS 2301","BOD","Criminal Justice System","VOD",NULL,NULL,NULL,
 "LAWS 2301","D","Criminal Justice System","LEC","M",1805,2055,96
 "LAWS 2301","E","Criminal Justice System","LEC","W",1135,1425,102
 "LAWS 2301","F","Criminal Justice System","LEC","T",1435,1725,94
-"LAWS 2301","T","Criminal Justice System","LEC",,,,
-"LAWS 2301","TOD","Criminal Justice System","VOD",,,,
+"LAWS 2301","T","Criminal Justice System","LEC",NULL,NULL,NULL,
+"LAWS 2301","TOD","Criminal Justice System","VOD",NULL,NULL,NULL,
 "LAWS 2302","B","Criminal Law","LEC","T",1805,2055,91
 "LAWS 2501","A","Law, State and Constitution","LEC","M",1805,2055,98
-"LAWS 2501","AOD","Law, State and Constitution","VOD",,,,
+"LAWS 2501","AOD","Law, State and Constitution","VOD",NULL,NULL,NULL,
 "LAWS 2501","C","Law, State and Constitution","LEC","F",1135,1425,96
-"LAWS 2501","T","Law, State and Constitution","LEC",,,,
-"LAWS 2501","TOD","Law, State and Constitution","VOD",,,,
+"LAWS 2501","T","Law, State and Constitution","LEC",NULL,NULL,NULL,
+"LAWS 2501","TOD","Law, State and Constitution","VOD",NULL,NULL,NULL,
 "LAWS 2502","E","Law, State and Citizen","LEC","T",1805,2055,94
 "LAWS 2601","A","Public International Law","LEC","F",1435,1725,96
 "LAWS 2601","B","Public International Law","LEC","W",1135,1425,96
@@ -2391,30 +2391,30 @@
 "LAWS 3209","A","Cdn Corr Policies Hist Perspec","LEC","M",1135,1425,66
 "LAWS 3305","A","Crime and State in History","LEC","W",1435,1725,71
 "LAWS 3305","B","Crime and State in History","LEC","W",1805,2055,98
-"LAWS 3305","BOD","Crime and State in History","VOD",,,,
-"LAWS 3305","T","Crime and State in History","LEC",,,,
-"LAWS 3305","TOD","Crime and State in History","VOD",,,,
+"LAWS 3305","BOD","Crime and State in History","VOD",NULL,NULL,NULL,
+"LAWS 3305","T","Crime and State in History","LEC",NULL,NULL,NULL,
+"LAWS 3305","TOD","Crime and State in History","VOD",NULL,NULL,NULL,
 "LAWS 3306","B","Crime, Law, Process & Politics","LEC","R",1805,2055,78
 "LAWS 3307","A","Youth and Criminal Law","LEC","M",1135,1425,84
 "LAWS 3307","B","Youth and Criminal Law","LEC","T",1805,2055,148
-"LAWS 3307","BOD","Youth and Criminal Law","VOD",,,,
-"LAWS 3307","T","Youth and Criminal Law","LEC",,,,
-"LAWS 3307","TOD","Youth and Criminal Law","VOD",,,,
+"LAWS 3307","BOD","Youth and Criminal Law","VOD",NULL,NULL,NULL,
+"LAWS 3307","T","Youth and Criminal Law","LEC",NULL,NULL,NULL,
+"LAWS 3307","TOD","Youth and Criminal Law","VOD",NULL,NULL,NULL,
 "LAWS 3308","A","Punishment and The Law","LEC","M",1135,1425,63
 "LAWS 3401","A","Employment Law","LEC","F",1135,1425,67
 "LAWS 3405","A","Labour Law","LEC","T",835,1125,78
 "LAWS 3503","A","Equality & Discrimination","LEC","F",1135,1425,69
-"LAWS 3504","A","Law and Aboriginal Peoples","LEC",,,,
+"LAWS 3504","A","Law and Aboriginal Peoples","LEC",NULL,NULL,NULL,
 "LAWS 3509","A","The Charter of Rights Topics","LEC","T",1805,2055,78
 "LAWS 3602","A","International Human Rights","LEC","M",835,1125,58
-"LAWS 3602","B","International Human Rights","LEC",,,,
+"LAWS 3602","B","International Human Rights","LEC",NULL,NULL,NULL,
 "LAWS 3604","A","International Organizations","LEC","F",835,1125,51
 "LAWS 3800","A","Law of Environmental Quality","LEC","T",1805,2055,63
 "LAWS 3804","A","Law of the Family","LEC","M",1805,2055,58
 "LAWS 3903","A","Selected Legal Topics","LEC","T",1435,1725,78
 "LAWS 3908","A","Approaches in Legal Studies II","LEC","M",1805,2055,84
 "LAWS 3908","D","Approaches in Legal Studies II","LEC","W",1135,1425,66
-"LAWS 3999","A","Co-op Work Term","WRK",,,,
+"LAWS 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "LAWS 4006","A","Religion and State in Canada","SEM","R",835,1125,40
 "LAWS 4100","B","Modern Legal Theory","SEM","F",835,1125,27
 "LAWS 4101","A","Contemporary Justice Theories","SEM","W",835,1125,61
@@ -2429,15 +2429,15 @@
 "LAWS 4306","A","Criminal Law Issues","SEM","W",1805,2055,43
 "LAWS 4307","A","Medical Criminal Law Issues","SEM","M",1805,2055,47
 "LAWS 4308","A","Sentencing","SEM","R",1805,2055,39
-"LAWS 4510","A","Topic in Law,Policy&Government","SEM",,,,
+"LAWS 4510","A","Topic in Law,Policy&Government","SEM",NULL,NULL,NULL,
 "LAWS 4601","A","Transnational Law&Human Rights","SEM","M",1135,1425,36
 "LAWS 4603","A","Transitional Justice","SEM","R",1135,1425,40
 "LAWS 4606","A","In'tl Law and Armed Conflict","SEM","F",835,1125,39
 "LAWS 4801","A","Risk and the Legal Process","SEM","R",1135,1425,42
 "LAWS 4801","B","Risk and the Legal Process","SEM","W",1135,1425,40
-"LAWS 4901","A","Tutorial in Law","TUT",,,,
+"LAWS 4901","A","Tutorial in Law","TUT",NULL,NULL,NULL,
 "LING 1001","A","Introduction to Linguistics I","LEC","MW",1135,1255,195
-"LING 1001","PA1","Introduction to Linguistics I","PAS",,,,
+"LING 1001","PA1","Introduction to Linguistics I","PAS",NULL,NULL,NULL,
 "LING 2005","A","Linguistic Analysis I","LEC","T",1435,1725,98
 "LING 2007","A","Phonetics","LEC","TR",835,955,98
 "LING 2604","A","Communication Disorders I","LEC","R",1435,1725,96
@@ -2446,14 +2446,14 @@
 "LING 3101","A","Historical Linguistics I","LEC","M",1805,2055,63
 "LING 3601","A","Languag Processing&the Brain I","LEC","F",835,1125,78
 "LING 3603","A","Child Language","LEC","T",1135,1425,78
-"LING 3900","A","Independent Study","IND",,,,
-"LING 3900","B","Independent Study","IND",,,,
-"LING 3901","A","Independent Study","IND",,,,
+"LING 3900","A","Independent Study","IND",NULL,NULL,NULL,
+"LING 3900","B","Independent Study","IND",NULL,NULL,NULL,
+"LING 3901","A","Independent Study","IND",NULL,NULL,NULL,
 "LING 4009","A","Special Topic in Linguistics","LEC","T",1805,2055,40
 "LING 4505","A","Semantics II","LEC","M",1135,1425,23
-"LING 4900","A","Independen Study in Linguistic","IND",,,,
-"LING 4900","B","Independen Study in Linguistic","IND",,,,
-"LING 4901","A","Independen Study in Linguistic","IND",,,,
+"LING 4900","A","Independen Study in Linguistic","IND",NULL,NULL,NULL,
+"LING 4900","B","Independen Study in Linguistic","IND",NULL,NULL,NULL,
+"LING 4901","A","Independen Study in Linguistic","IND",NULL,NULL,NULL,
 "MAAE 2101","A","Engineering Dynamics","LEC","TR",1305,1425,102
 "MAAE 2101","B","Engineering Dynamics","LEC","TR",1135,1255,133
 "MAAE 2101","L1","Engineering Dynamics","LAB","M",1435,1725,54
@@ -2462,22 +2462,22 @@
 "MAAE 2101","L4","Engineering Dynamics","LAB","T",1435,1725,47
 "MAAE 2101","L5","Engineering Dynamics","LAB","T",835,1125,54
 "MAAE 2101","PA1","Engineering Dynamics","PAS","TR",1805,1925,51
-"MAAE 2101","PA3","Engineering Dynamics","PAS",,,,
+"MAAE 2101","PA3","Engineering Dynamics","PAS",NULL,NULL,NULL,
 "MAAE 2101","PB1","Engineering Dynamics","PAS","TR",1735,1855,54
 "MAAE 2202","A","Mechanics of Solids I","LEC","MW",835,955,115
 "MAAE 2202","L1","Mechanics of Solids I","LAB","W",1435,1725,154
 "MAAE 2202","L2","Mechanics of Solids I","LAB","F",1435,1725,25
 "MAAE 2202","PA1","Mechanics of Solids I","PAS","MW",1735,1855,40
-"MAAE 2202","PA3","Mechanics of Solids I","PAS",,,,
-"MAAE 2202","PC1","Mechanics of Solids I","PAS",,,,
+"MAAE 2202","PA3","Mechanics of Solids I","PAS",NULL,NULL,NULL,
+"MAAE 2202","PC1","Mechanics of Solids I","PAS",NULL,NULL,NULL,
 "MAAE 2300","A","Fluid Mechanics I","LEC","TR",1005,1125,115
 "MAAE 2300","E","Fluid Mechanics I","LEC","TR",1005,1125,42
 "MAAE 2300","L1","Fluid Mechanics I","LAB","F",1435,1725,54
 "MAAE 2300","L2","Fluid Mechanics I","LAB","T",1435,1725,66
 "MAAE 2300","L3","Fluid Mechanics I","LAB","R",1435,1725,78
 "MAAE 2300","PA1","Fluid Mechanics I","PAS","TR",1735,1855,57
-"MAAE 2300","PA2","Fluid Mechanics I","PAS",,,,
-"MAAE 2300","PA3","Fluid Mechanics I","PAS",,,,
+"MAAE 2300","PA2","Fluid Mechanics I","PAS",NULL,NULL,NULL,
+"MAAE 2300","PA3","Fluid Mechanics I","PAS",NULL,NULL,NULL,
 "MAAE 2400","A","Thermodynamics & Heat Transfer","LEC","TR",1305,1425,134
 "MAAE 2400","D","Thermodynamics & Heat Transfer","LEC","WF",1305,1425,115
 "MAAE 2400","E","Thermodynamics & Heat Transfer","LEC","WF",1605,1725,133
@@ -2489,7 +2489,7 @@
 "MAAE 2400","L6","Thermodynamics & Heat Transfer","LAB","M",835,1125,51
 "MAAE 2400","L7","Thermodynamics & Heat Transfer","LAB","F",1435,1725,51
 "MAAE 2400","L8","Thermodynamics & Heat Transfer","LAB","W",835,1125,51
-"MAAE 2400","PA1","Thermodynamics & Heat Transfer","PAS",,,,
+"MAAE 2400","PA1","Thermodynamics & Heat Transfer","PAS",NULL,NULL,NULL,
 "MAAE 2400","PD1","Thermodynamics & Heat Transfer","PAS","MW",1805,1925,54
 "MAAE 2400","PE1","Thermodynamics & Heat Transfer","PAS","MW",1735,1855,51
 "MAAE 2700","A","Engineering Materials","LEC","TR",1435,1555,133
@@ -2497,7 +2497,7 @@
 "MAAE 2700","L1","Engineering Materials","LAB","R",835,1125,54
 "MAAE 2700","L2","Engineering Materials","LAB","F",1435,1725,58
 "MAAE 2700","L3","Engineering Materials","LAB","W",1435,1725,54
-"MAAE 2700","L4","Engineering Materials","LAB",,,,
+"MAAE 2700","L4","Engineering Materials","LAB",NULL,NULL,NULL,
 "MAAE 2700","L5","Engineering Materials","LAB","T",835,1125,52
 "MAAE 2700","L6","Engineering Materials","LAB","F",835,1125,57
 "MAAE 2700","L7","Engineering Materials","LAB","W",835,1125,27
@@ -2507,9 +2507,9 @@
 "MAAE 3004","L2","Dynamics of Machinery","TUT","F",935,1125,69
 "MAAE 3004","L3","Dynamics of Machinery","TUT","M",1235,1425,98
 "MAAE 3004","L4","Dynamics of Machinery","TUT","T",935,1125,66
-"MAAE 3004","PA1","Dynamics of Machinery","PAS",,,,
+"MAAE 3004","PA1","Dynamics of Machinery","PAS",NULL,NULL,NULL,
 "MAAE 3004","PA2","Dynamics of Machinery","PAS","TR",1805,1925,36
-"MAAE 3004","PA3","Dynamics of Machinery","PAS",,,,
+"MAAE 3004","PA3","Dynamics of Machinery","PAS",NULL,NULL,NULL,
 "MAAE 3202","A","Mechanics of Solids II","LEC","TR",1435,1555,154
 "MAAE 3202","A1","Mechanics of Solids II","LAB","W",1135,1425,51
 "MAAE 3202","A2","Mechanics of Solids II","LAB","M",1435,1725,55
@@ -2527,7 +2527,7 @@
 "MAAE 3300","L4","Fluid Mechanics II","LAB","M",1435,1725,51
 "MAAE 3300","L5","Fluid Mechanics II","LAB","R",835,1125,51
 "MAAE 3901","A","Mech & Aero Engineering Lab","LAB","TR",835,1125,30
-"MAAE 3999","A","Co-op Work Term","WRK",,,,
+"MAAE 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "MAAE 4102","A","Materials: Strength & Fracture","LEC","TR",1605,1725,154
 "MAAE 4500","A","Feedback Control Systems","LEC","WF",1605,1725,151
 "MAAE 4500","B","Feedback Control Systems","LEC","TR",1435,1555,236
@@ -2536,9 +2536,9 @@
 "MATH 5,"A"2","Precalculus: Functions & Graph","TUT","R",1635,1725,28
 "MATH 6,"A"","Precal:Trigon Func Cmplx Nmbr","LEC","TR",1305,1425,59
 "MATH 6,"A"1","Precal:Trigon Func Cmplx Nmbr","TUT","R",1535,1625,40
-"MATH 999,""A","Math Matters","NTC",,,,
-"MATH 999,""B","Math Matters","NTC",,,,
-"MATH 999,""C","Math Matters","NTC",,,,
+"MATH 999,""A","Math Matters","NTC",NULL,NULL,NULL,
+"MATH 999,""B","Math Matters","NTC",NULL,NULL,NULL,
+"MATH 999,""C","Math Matters","NTC",NULL,NULL,NULL,
 "MATH 1002","A","Calculus Introducto Analysis I","LEC","WF",835,955,133
 "MATH 1002","A1","Calculus Introducto Analysis I","TUT","F",1005,1125,54
 "MATH 1002","A2","Calculus Introducto Analysis I","TUT","F",1005,1125,47
@@ -2665,15 +2665,15 @@
 "MATH 1104","F2","Linear Algebra (Eng. or Sci.)","TUT","R",1635,1725,61
 "MATH 1104","F3","Linear Algebra (Eng. or Sci.)","TUT","R",1635,1725,59
 "MATH 1104","F4","Linear Algebra (Eng. or Sci.)","TUT","R",1635,1725,79
-"MATH 1107","D","Linear Algebra I","LEC",,,,
+"MATH 1107","D","Linear Algebra I","LEC",NULL,NULL,NULL,
 "MATH 1107","D1","Linear Algebra I","TUT","M",1535,1655,58
 "MATH 1107","D2","Linear Algebra I","TUT","M",1535,1655,54
 "MATH 1107","D3","Linear Algebra I","TUT","M",1535,1655,54
 "MATH 1107","D4","Linear Algebra I","TUT","M",1535,1655,
 "MATH 1107","D5","Linear Algebra I","TUT","M",1805,1925,55
 "MATH 1107","D6","Linear Algebra I","TUT","M",1805,1925,55
-"MATH 1107","D7","Linear Algebra I","TUT",,,,
-"MATH 1107","D8","Linear Algebra I","TUT",,,,
+"MATH 1107","D7","Linear Algebra I","TUT",NULL,NULL,NULL,
+"MATH 1107","D8","Linear Algebra I","TUT",NULL,NULL,NULL,
 "MATH 1107","E","Linear Algebra I","LEC","TR",1805,1925,151
 "MATH 1107","E1","Linear Algebra I","TUT","T",1935,2025,48
 "MATH 1107","E2","Linear Algebra I","TUT","T",1935,2025,48
@@ -2749,7 +2749,7 @@
 "MATH 2108","A1","Abstract Algebra I","TUT","T",1435,1525,58
 "MATH 2454","A","Ordinary Differential Eqs. I","LEC","MW",1005,1125,63
 "MATH 2454","A1","Ordinary Differential Eqs. I","TUT","M",1335,1425,48
-"MATH 2907","A","Directed Studies","DIR",,,,
+"MATH 2907","A","Directed Studies","DIR",NULL,NULL,NULL,
 "MATH 3001","A","Real Analysis I","LEC","TR",1435,1555,35
 "MATH 3001","A1","Real Analysis I","TUT","T",1335,1425,84
 "MATH 3007","A","Fns. of a Complex Variable","LEC","MW",1005,1125,78
@@ -2768,14 +2768,14 @@
 "MATH 3806","A2","Numerical Analysis (Honours)","LAB","F",1035,1125,20
 "MATH 3809","A","Number Theory and Cryptography","LEC","MW",1435,1555,27
 "MATH 3809","A1","Number Theory and Cryptography","TUT","W",1635,1725,31
-"MATH 3907","A","Directed Studies","DIR",,,,
-"MATH 3907","B","Directed Studies","DIR",,,,
-"MATH 3999","A","Co-op Work Term","WRK",,,,
-"MATH 4002","A","Fourier Analysis","LEC",,,,
+"MATH 3907","A","Directed Studies","DIR",NULL,NULL,NULL,
+"MATH 3907","B","Directed Studies","DIR",NULL,NULL,NULL,
+"MATH 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
+"MATH 4002","A","Fourier Analysis","LEC",NULL,NULL,NULL,
 "MATH 4007","A","Measure and Integration Theory","LEC","TR",1605,1725,40
 "MATH 4107","A","Commutive Algrebra","LEC","TR",905,1025,11
 "MATH 4708","A","Asymptot. Mthds Appld Math Hon","LEC","TR",1435,1555,27
-"MATH 4801","A","Topics in Combinatorics","LEC",,,,
+"MATH 4801","A","Topics in Combinatorics","LEC",NULL,NULL,NULL,
 "MATH 4811","A","Combinatorial Design Theory","LEC","TR",1135,1255,48
 "MECH 3310","A","Biofluid Mechanics","LEC","WF",1305,1425,36
 "MECH 3310","A1","Biofluid Mechanics","LAB","M",1435,1725,57
@@ -2800,7 +2800,7 @@
 "MUSI 1914","B","Instrumental Ensemble I","OTH","T",1735,2055,75
 "MUSI 1914","C","Instrumental Ensemble I","OTH","F",1735,2055,75
 "MUSI 1914","D","Instrumental Ensemble I","OTH","R",1805,2055,75
-"MUSI 1914","G","Instrumental Ensemble I","OTH",,,,
+"MUSI 1914","G","Instrumental Ensemble I","OTH",NULL,NULL,NULL,
 "MUSI 1914","H","Instrumental Ensemble I","OTH","M",1805,2055,22
 "MUSI 1914","I","Instrumental Ensemble I","OTH","M",1735,2055,75
 "MUSI 1914","J","Instrumental Ensemble I","OTH","W",1805,2055,75
@@ -2821,7 +2821,7 @@
 "MUSI 2914","B","Instrumental Ensemble III","OTH","T",1735,2055,75
 "MUSI 2914","C","Instrumental Ensemble III","OTH","F",1735,2055,75
 "MUSI 2914","D","Instrumental Ensemble III","OTH","R",1805,2055,75
-"MUSI 2914","G","Instrumental Ensemble III","OTH",,,,
+"MUSI 2914","G","Instrumental Ensemble III","OTH",NULL,NULL,NULL,
 "MUSI 2914","H","Instrumental Ensemble III","OTH","M",1805,2055,22
 "MUSI 2914","I","Instrumental Ensemble III","OTH","M",1735,2055,75
 "MUSI 2914","J","Instrumental Ensemble III","OTH","W",1805,2055,75
@@ -2840,7 +2840,7 @@
 "MUSI 3914","B","Instrumental Ensemble V","OTH","T",1735,2055,75
 "MUSI 3914","C","Instrumental Ensemble V","OTH","F",1735,2055,75
 "MUSI 3914","D","Instrumental Ensemble V","OTH","R",1805,2055,75
-"MUSI 3914","G","Instrumental Ensemble V","OTH",,,,
+"MUSI 3914","G","Instrumental Ensemble V","OTH",NULL,NULL,NULL,
 "MUSI 3914","H","Instrumental Ensemble V","OTH","M",1805,2055,22
 "MUSI 3914","I","Instrumental Ensemble V","OTH","M",1735,2055,75
 "MUSI 3914","J","Instrumental Ensemble V","OTH","W",1805,2055,75
@@ -2848,12 +2848,12 @@
 "MUSI 4006","A","Topics in Popular Music","SEM","T",835,1125,43
 "MUSI 4007","A","The Composer in Context","SEM","M",1135,1425,22
 "MUSI 4201","A","Special Topics","SEM","W",1435,1725,22
-"MUSI 4205","A","Specialized Studies","OTH",,,,
-"MUSI 4206","A","Specialized Studies","OTH",,,,
+"MUSI 4205","A","Specialized Studies","OTH",NULL,NULL,NULL,
+"MUSI 4206","A","Specialized Studies","OTH",NULL,NULL,NULL,
 "MUSI 4701","A","Theory: Advanced Jazz Theory","SEM","W",835,1125,22
 "MUSI 4705","A","Post-Tonal Theory& Analysis","SEM","TR",1435,1555,75
-"MUSI 4800","A","Practicum in Music","PRC",,,,
-"MUSI 4801","B","Practicum in Music","PRC",,,,
+"MUSI 4800","A","Practicum in Music","PRC",NULL,NULL,NULL,
+"MUSI 4801","B","Practicum in Music","PRC",NULL,NULL,NULL,
 "MUSI 4900","A","Performance VII","TUT","F",1435,1725,444
 "MUSI 4900","C","Performance VII","TUT","F",1435,1725,444
 "NET" 001,""A","Computer Technology Basics","LEC","T",805,955,96
@@ -2902,42 +2902,42 @@
 "NEUR 1201","A","Intro: Mental Health & Disease","LEC","MW",835,955,151
 "NEUR 1201","B","Intro: Mental Health & Disease","LEC","MW",835,955,96
 "NEUR 2001","A","Intro Rsrch Methods in Psyc","LEC","WF",1435,1555,134
-"NEUR 2001","AOD","Intro Rsrch Methods in Psyc","VOD",,,,
+"NEUR 2001","AOD","Intro Rsrch Methods in Psyc","VOD",NULL,NULL,NULL,
 "NEUR 2001","B","Intro Rsrch Methods in Psyc","LEC","W",1805,2055,96
 "NEUR 2001","C","Intro Rsrch Methods in Psyc","LEC","R",1435,1725,96
 "NEUR 2001","D","Intro Rsrch Methods in Psyc","LEC","TR",1305,1425,98
 "NEUR 2001","E","Intro Rsrch Methods in Psyc","LEC","T",1805,2055,204
-"NEUR 2001","T","Intro Rsrch Methods in Psyc","LEC",,,,
-"NEUR 2001","TOD","Intro Rsrch Methods in Psyc","VOD",,,,
+"NEUR 2001","T","Intro Rsrch Methods in Psyc","LEC",NULL,NULL,NULL,
+"NEUR 2001","TOD","Intro Rsrch Methods in Psyc","VOD",NULL,NULL,NULL,
 "NEUR 2002","A","Intro to Statistics in Psyc","LEC","TR",835,955,285
 "NEUR 2200","A","Biol Foundations of Behav","LEC","MW",1005,1125,134
-"NEUR 2200","AOD","Biol Foundations of Behav","VOD",,,,
+"NEUR 2200","AOD","Biol Foundations of Behav","VOD",NULL,NULL,NULL,
 "NEUR 2200","B","Biol Foundations of Behav","LEC","WF",1605,1725,58
-"NEUR 2200","T","Biol Foundations of Behav","LEC",,,,
-"NEUR 2200","TOD","Biol Foundations of Behav","VOD",,,,
+"NEUR 2200","T","Biol Foundations of Behav","LEC",NULL,NULL,NULL,
+"NEUR 2200","TOD","Biol Foundations of Behav","VOD",NULL,NULL,NULL,
 "NEUR 3200","A","Principles of Neuroscience","SEM","MW",1005,1125,154
 "NEUR 3200","A1","Principles of Neuroscience","OTH","F",835,1125,195
 "NEUR 3204","A","Psychopharmacology:Drugs/Behav","LEC","WF",1135,1255,148
-"NEUR 3204","AOD","Psychopharmacology:Drugs/Behav","VOD",,,,
-"NEUR 3204","T","Psychopharmacology:Drugs/Behav","LEC",,,,
-"NEUR 3204","TOD","Psychopharmacology:Drugs/Behav","VOD",,,,
+"NEUR 3204","AOD","Psychopharmacology:Drugs/Behav","VOD",NULL,NULL,NULL,
+"NEUR 3204","T","Psychopharmacology:Drugs/Behav","LEC",NULL,NULL,NULL,
+"NEUR 3204","TOD","Psychopharmacology:Drugs/Behav","VOD",NULL,NULL,NULL,
 "NEUR 3305","A","Immune-Brain Interactions","LEC","M",1435,1725,115
 "NEUR 3402","A","Social Interacti Mental Health","LEC","R",1435,1725,115
 "NEUR 3403","A","Stress and Mental Health","LEC","TR",835,955,151
-"NEUR 3999","A","Co-op Work Term","WRK",,,,
+"NEUR 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "NEUR 4200","A","Cur Res in Neuroscience","SEM","M",1435,1725,29
 "NEUR 4200","B","Cur Res in Neuroscience","SEM","W",1435,1725,40
-"NEUR 4900","A","Independent Study","IND",,,,
+"NEUR 4900","A","Independent Study","IND",NULL,NULL,NULL,
 "NSCI 1000","A","Seminar in Science","SEM","TR",1305,1425,31
 "NSCI 1000","B","Seminar in Science","SEM","TR",835,955,21
 "NSCI 1000","C","Seminar in Science","SEM","TR",1605,1725,58
 "NSCI 1000","D","Seminar in Science","SEM","MW",1005,1125,23
 "NSCI 1000","W01","Seminar in Science","WKS","W",1605,1725,98
-"PADM 1501","A","Public Admin in Nunavut","LEC",,,,
-"PADM 1501","O","Public Admin in Nunavut","LEC",,,,
+"PADM 1501","A","Public Admin in Nunavut","LEC",NULL,NULL,NULL,
+"PADM 1501","O","Public Admin in Nunavut","LEC",NULL,NULL,NULL,
 "PADM 4220","F","Regulation and Public Policy","SEM","R",1735,2025,42
 "PADM 4224","F","Aboriginal Policy","SEM","T",1135,1425,27
-"PADM 4228","A","Social Policy","SEM",,,,
+"PADM 4228","A","Social Policy","SEM",NULL,NULL,NULL,
 "PADM 4612","F","Industrial Policy, Innovation","SEM","W",1135,1425,27
 "PAPM 1000","A","Public Affairs and Policy","LEC","M",1435,1625,151
 "PAPM 1000","A1","Public Affairs and Policy","GRP","W",1435,1525,24
@@ -2953,7 +2953,7 @@
 "PAPM 2000","A4","The Policy Cycle","GRP","W",1635,1725,35
 "PAPM 2000","A5","The Policy Cycle","GRP","W",1035,1125,32
 "PAPM 3000","A","Policy Research","LEC","R",835,1125,94
-"PAPM 3999","A","Co-op Work Term","WRK",,,,
+"PAPM 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "PAPM 4000","B","Capstone Seminar","SEM","W",1135,1425,24
 "PAPM 4000","D","Capstone Seminar","SEM","R",1135,1425,27
 "PAPM 4000","E","Capstone Seminar","SEM","M",1135,1425,24
@@ -2963,7 +2963,7 @@
 "PHIL 1200","A","The Meaning of Life","LEC","TR",1805,1925,120
 "PHIL 1301","A","Mind, World, & Knowledge","LEC","TR",835,955,444
 "PHIL 1550","A","Intro Ethics & Social Issues","LEC","TR",1135,1255,444
-"PHIL 1600","A","History of Philosophy","LEC",,,,
+"PHIL 1600","A","History of Philosophy","LEC",NULL,NULL,NULL,
 "PHIL 2001","A","Introduction to Symbolic Logic","LEC","MW",1305,1425,236
 "PHIL 2003","A","Critical Thinking","LEC","WF",1605,1725,285
 "PHIL 2005","A","Greek Philos&Western Tradition","LEC","TR",1305,1425,55
@@ -2979,17 +2979,17 @@
 "PHIL 3009","A","Topics in European Philosophy","LEC","MW",1005,1125,51
 "PHIL 3306","A","Symbolic Logic","LEC","TR",1605,1725,58
 "PHIL 3350","A","Phil, Ethics, & Public Affairs","LEC","M",1805,2055,48
-"PHIL 3901","A","Independent Study","IND",,,,
-"PHIL 3903","A","Independent Study","IND",,,,
-"PHIL 4003","A","Sem in Phil Before Mod Period","SEM",,,,
+"PHIL 3901","A","Independent Study","IND",NULL,NULL,NULL,
+"PHIL 3903","A","Independent Study","IND",NULL,NULL,NULL,
+"PHIL 4003","A","Sem in Phil Before Mod Period","SEM",NULL,NULL,NULL,
 "PHIL 4004","A","Sem in Phil Before Mod Period","SEM","R",1435,1725,11
 "PHIL 4006","A","Seminar in Modern Philosophy","SEM","T",1135,1425,36
 "PHIL 4100","A","Special Topic","SEM","T",1435,1725,11
-"PHIL 4230","A","Sem Metaphysics, Epistemology,","SEM",,,,
+"PHIL 4230","A","Sem Metaphysics, Epistemology,","SEM",NULL,NULL,NULL,
 "PHIL 4330","A","Sem Social or Political Phil","SEM","F",835,1125,11
 "PHIL 4505","A","Semantics II","SEM","M",1135,1425,23
-"PHIL 4900","A","Tutorial","TUT",,,,
-"PHIL 4901","A","Tutorial","TUT",,,,
+"PHIL 4900","A","Tutorial","TUT",NULL,NULL,NULL,
+"PHIL 4901","A","Tutorial","TUT",NULL,NULL,NULL,
 "PHYS 1001","A","Foundations of Physics I","LEC","TR",1005,1125,98
 "PHYS 1001","A1","Foundations of Physics I","LAB","F",1435,1725,30
 "PHYS 1001","A2","Foundations of Physics I","LAB","F",835,1125,30
@@ -3014,13 +3014,13 @@
 "PHYS 1007","PA1","University Physics I","PAS","MW",1805,1925,16
 "PHYS 1007","PA2","University Physics I","PAS","TR",1805,1925,16
 "PHYS 1901","A","Planetary Astronomy","LEC","MW",1935,2055,148
-"PHYS 1901","AOD","Planetary Astronomy","VOD",,,,
-"PHYS 1901","T","Planetary Astronomy","LEC",,,,
-"PHYS 1901","TOD","Planetary Astronomy","VOD",,,,
-"PHYS 1905","A","Physics in Everyday Life","LEC",,,,
-"PHYS 1905","AOD","Physics in Everyday Life","VOD",,,,
-"PHYS 1905","TOD","Physics in Everyday Life","VOD",,,,
-"PHYS 1905","W","Physics in Everyday Life","LEC",,,,
+"PHYS 1901","AOD","Planetary Astronomy","VOD",NULL,NULL,NULL,
+"PHYS 1901","T","Planetary Astronomy","LEC",NULL,NULL,NULL,
+"PHYS 1901","TOD","Planetary Astronomy","VOD",NULL,NULL,NULL,
+"PHYS 1905","A","Physics in Everyday Life","LEC",NULL,NULL,NULL,
+"PHYS 1905","AOD","Physics in Everyday Life","VOD",NULL,NULL,NULL,
+"PHYS 1905","TOD","Physics in Everyday Life","VOD",NULL,NULL,NULL,
+"PHYS 1905","W","Physics in Everyday Life","LEC",NULL,NULL,NULL,
 "PHYS 2004","A","Modern Physics for Engineers","LEC","MW",1605,1725,47
 "PHYS 2401","A","Thermal Physics","LEC","TR",1005,1125,66
 "PHYS 2604","A","Modern Physics I","LEC","WF",1435,1555,98
@@ -3028,19 +3028,19 @@
 "PHYS 2604","A2","Modern Physics I","LAB","M",1435,1725,36
 "PHYS 2604","A3","Modern Physics I","LAB","W",835,1125,36
 "PHYS 2604","A4","Modern Physics I","LAB","M",835,1125,36
-"PHYS 2604","AG","Modern Physics I","LAB",,,,
+"PHYS 2604","AG","Modern Physics I","LAB",NULL,NULL,NULL,
 "PHYS 3007","A","Third-Year Physics Lab. I","LAB","WF",1435,1725,20
 "PHYS 3007","B","Third-Year Physics Lab. I","LAB","TR",1435,1725,20
 "PHYS 3308","A","Electromagnetism","LEC","TR",835,955,48
 "PHYS 3701","A","Elements of Quantum Mechanics","LEC","TR",1305,1425,39
 "PHYS 3802","A","Advanced Dynamics","LEC","MW",1135,1255,35
-"PHYS 3999","A","Co-op Work Term","WRK",,,,
+"PHYS 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "PHYS 4008","A","Fourth-Year Physics Lab. II","LAB","TR",835,1125,20
 "PHYS 4202","A","Cosmology","LEC","MW",1735,1855,27
 "PHYS 4203","A","Phys App of Fourier Analysis","LEC","MW",835,955,23
 "PHYS 4707","A","Intro. to Quantum Mechanics I","LEC","MW",1005,1125,42
 "PHYS 4807","A","Computational Physics","LEC","MW",1605,1725,20
-"PHYS 4901","A","Special Topics in Physics","OTH",,,,
+"PHYS 4901","A","Special Topics in Physics","OTH",NULL,NULL,NULL,
 "PLT" 001,""A","Laser Safety, WHIMS and Ethics","LEC","R",1005,1055,48
 "PLT" 001,""A1","Laser Safety, WHIMS and Ethics","LAB","T",1005,1155,24
 "PLT" 002,""A","Trends in Photonics","LEC","T",835,925,48
@@ -3060,54 +3060,54 @@
 "PLT" 003,""A","Electro Magnetics I","LEC","MW",1135,1255,133
 "PLT" 003,""A1","Electro Magnetics I","LAB","M",835,1125,36
 "PORT 1010","A","First-Year Portuguese I","LEC","MW",1805,1955,36
-"PORT 1110","A","Intensiv First-Year Portuguese","LEC",,,,
+"PORT 1110","A","Intensiv First-Year Portuguese","LEC",NULL,NULL,NULL,
 "PORT 3110","A","Intensive Third-Yr Portuguese","LEC","TRF",1635,1825,32
 "PSCI 1100","A","Intro to Political Science I","LEC","M",1435,1625,391
 "PSCI 1100","A01","Intro to Political Science I","TUT","M",1635,1725,19
 "PSCI 1100","A02","Intro to Political Science I","TUT","M",1635,1725,19
 "PSCI 1100","A03","Intro to Political Science I","TUT","M",1635,1725,23
 "PSCI 1100","A04","Intro to Political Science I","TUT","M",1635,1725,29
-"PSCI 1100","A05","Intro to Political Science I","TUT",,,,
+"PSCI 1100","A05","Intro to Political Science I","TUT",NULL,NULL,NULL,
 "PSCI 1100","A06","Intro to Political Science I","TUT","T",1235,1325,19
 "PSCI 1100","A07","Intro to Political Science I","TUT","T",1235,1325,20
 "PSCI 1100","A08","Intro to Political Science I","TUT","T",1235,1325,58
 "PSCI 1100","A09","Intro to Political Science I","TUT","T",1235,1325,19
-"PSCI 1100","A10","Intro to Political Science I","TUT",,,,
+"PSCI 1100","A10","Intro to Political Science I","TUT",NULL,NULL,NULL,
 "PSCI 1100","A11","Intro to Political Science I","TUT","T",1135,1225,58
 "PSCI 1100","A12","Intro to Political Science I","TUT","T",1135,1225,25
 "PSCI 1100","A13","Intro to Political Science I","TUT","T",1135,1225,47
 "PSCI 1100","A14","Intro to Political Science I","TUT","T",1135,1225,47
-"PSCI 1100","A15","Intro to Political Science I","TUT",,,,
+"PSCI 1100","A15","Intro to Political Science I","TUT",NULL,NULL,NULL,
 "PSCI 1100","A16","Intro to Political Science I","TUT","M",1735,1825,19
 "PSCI 1100","A17","Intro to Political Science I","TUT","M",1735,1825,19
 "PSCI 1100","A18","Intro to Political Science I","TUT","M",1735,1825,21
 "PSCI 1100","A19","Intro to Political Science I","TUT","M",1735,1825,21
-"PSCI 1100","A20","Intro to Political Science I","TUT",,,,
-"PSCI 1100","O","Intro to Political Science I","LEC",,,,
-"PSCI 1100","PA1","Intro to Political Science I","PAS",,,,
-"PSCI 1100","PC2","Intro to Political Science I","PAS",,,,
+"PSCI 1100","A20","Intro to Political Science I","TUT",NULL,NULL,NULL,
+"PSCI 1100","O","Intro to Political Science I","LEC",NULL,NULL,NULL,
+"PSCI 1100","PA1","Intro to Political Science I","PAS",NULL,NULL,NULL,
+"PSCI 1100","PC2","Intro to Political Science I","PAS",NULL,NULL,NULL,
 "PSCI 1200","A","Intro to Political Science II","LEC","F",835,1025,391
 "PSCI 1200","A01","Intro to Political Science II","TUT","F",1035,1125,23
 "PSCI 1200","A02","Intro to Political Science II","TUT","F",1035,1125,23
 "PSCI 1200","A03","Intro to Political Science II","TUT","F",1035,1125,23
 "PSCI 1200","A04","Intro to Political Science II","TUT","F",1035,1125,25
-"PSCI 1200","A05","Intro to Political Science II","TUT",,,,
+"PSCI 1200","A05","Intro to Political Science II","TUT",NULL,NULL,NULL,
 "PSCI 1200","A06","Intro to Political Science II","TUT","F",1135,1225,21
 "PSCI 1200","A07","Intro to Political Science II","TUT","F",1135,1225,32
 "PSCI 1200","A08","Intro to Political Science II","TUT","F",1135,1225,32
 "PSCI 1200","A09","Intro to Political Science II","TUT","F",1135,1225,32
-"PSCI 1200","A10","Intro to Political Science II","TUT",,,,
+"PSCI 1200","A10","Intro to Political Science II","TUT",NULL,NULL,NULL,
 "PSCI 1200","A11","Intro to Political Science II","TUT","F",1235,1325,29
-"PSCI 1200","A12","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A13","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A14","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A15","Intro to Political Science II","TUT",,,,
+"PSCI 1200","A12","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A13","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A14","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A15","Intro to Political Science II","TUT",NULL,NULL,NULL,
 "PSCI 1200","A16","Intro to Political Science II","TUT","F",1335,1425,25
-"PSCI 1200","A17","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A18","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A19","Intro to Political Science II","TUT",,,,
-"PSCI 1200","A20","Intro to Political Science II","TUT",,,,
-"PSCI 1200","PA1","Intro to Political Science II","PAS",,,,
+"PSCI 1200","A17","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A18","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A19","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","A20","Intro to Political Science II","TUT",NULL,NULL,NULL,
+"PSCI 1200","PA1","Intro to Political Science II","PAS",NULL,NULL,NULL,
 "PSCI 2002","A","Canadian Political Environment","LEC","R",935,1125,148
 "PSCI 2002","A01","Canadian Political Environment","GRP","R",1135,1225,23
 "PSCI 2002","A02","Canadian Political Environment","GRP","R",1135,1225,20
@@ -3121,7 +3121,7 @@
 "PSCI 2003","A03","Canadian Political Institution","GRP","T",1135,1225,32
 "PSCI 2003","A04","Canadian Political Institution","GRP","T",1135,1225,40
 "PSCI 2003","A05","Canadian Political Institution","GRP","T",1435,1525,19
-"PSCI 2003","A06","Canadian Political Institution","GRP",,,,
+"PSCI 2003","A06","Canadian Political Institution","GRP",NULL,NULL,NULL,
 "PSCI 2003","A07","Canadian Political Institution","GRP","T",1035,1125,28
 "PSCI 2101","A","Compar Politic of Global North","LEC","T",835,1025,133
 "PSCI 2101","A01","Compar Politic of Global North","GRP","T",1035,1125,23
@@ -3134,14 +3134,14 @@
 "PSCI 2102","A01","Compar Politic of Global South","GRP","R",1035,1125,19
 "PSCI 2102","A02","Compar Politic of Global South","GRP","R",1035,1125,20
 "PSCI 2102","A03","Compar Politic of Global South","GRP","R",1135,1225,19
-"PSCI 2102","A04","Compar Politic of Global South","GRP",,,,
+"PSCI 2102","A04","Compar Politic of Global South","GRP",NULL,NULL,NULL,
 "PSCI 2102","A05","Compar Politic of Global South","GRP","R",1335,1425,19
-"PSCI 2102","A06","Compar Politic of Global South","GRP",,,,
+"PSCI 2102","A06","Compar Politic of Global South","GRP",NULL,NULL,NULL,
 "PSCI 2200","A","Introduction to U.S. Politics","LEC","M",1605,1755,133
 "PSCI 2200","A01","Introduction to U.S. Politics","GRP","T",1035,1125,21
 "PSCI 2200","A02","Introduction to U.S. Politics","GRP","T",1035,1125,31
 "PSCI 2200","A03","Introduction to U.S. Politics","GRP","T",1135,1225,40
-"PSCI 2200","A04","Introduction to U.S. Politics","GRP",,,,
+"PSCI 2200","A04","Introduction to U.S. Politics","GRP",NULL,NULL,NULL,
 "PSCI 2200","A05","Introduction to U.S. Politics","GRP","T",1235,1325,19
 "PSCI 2200","A06","Introduction to U.S. Politics","GRP","T",1235,1325,19
 "PSCI 2301","A","History of Political Thought I","LEC","MW",1035,1125,195
@@ -3154,25 +3154,25 @@
 "PSCI 2301","A07","History of Political Thought I","TUT","W",1335,1425,19
 "PSCI 2301","A08","History of Political Thought I","TUT","W",1335,1425,21
 "PSCI 2301","A09","History of Political Thought I","TUT","W",1335,1425,23
-"PSCI 2301","A10","History of Political Thought I","TUT",,,,
+"PSCI 2301","A10","History of Political Thought I","TUT",NULL,NULL,NULL,
 "PSCI 2301","B","History of Political Thought I","LEC","F",1135,1325,204
 "PSCI 2301","B01","History of Political Thought I","TUT","F",1435,1525,29
 "PSCI 2301","B02","History of Political Thought I","TUT","F",1435,1525,31
-"PSCI 2301","B03","History of Political Thought I","TUT",,,,
+"PSCI 2301","B03","History of Political Thought I","TUT",NULL,NULL,NULL,
 "PSCI 2301","B04","History of Political Thought I","TUT","F",1335,1425,27
 "PSCI 2301","B05","History of Political Thought I","TUT","F",1335,1425,27
-"PSCI 2301","B06","History of Political Thought I","TUT",,,,
+"PSCI 2301","B06","History of Political Thought I","TUT",NULL,NULL,NULL,
 "PSCI 2301","B07","History of Political Thought I","TUT","F",1535,1625,19
-"PSCI 2301","B08","History of Political Thought I","TUT",,,,
-"PSCI 2301","B09","History of Political Thought I","TUT",,,,
-"PSCI 2301","B10","History of Political Thought I","TUT",,,,
+"PSCI 2301","B08","History of Political Thought I","TUT",NULL,NULL,NULL,
+"PSCI 2301","B09","History of Political Thought I","TUT",NULL,NULL,NULL,
+"PSCI 2301","B10","History of Political Thought I","TUT",NULL,NULL,NULL,
 "PSCI 2401","A","Public Affairs Analysis","LEC","W",835,1025,102
 "PSCI 2401","A01","Public Affairs Analysis","GRP","W",1035,1125,102
 "PSCI 2401","A02","Public Affairs Analysis","GRP","W",1035,1125,21
 "PSCI 2401","A03","Public Affairs Analysis","GRP","W",1135,1225,15
-"PSCI 2401","A04","Public Affairs Analysis","GRP",,,,
+"PSCI 2401","A04","Public Affairs Analysis","GRP",NULL,NULL,NULL,
 "PSCI 2401","A05","Public Affairs Analysis","GRP","W",1235,1325,19
-"PSCI 2401","A06","Public Affairs Analysis","GRP",,,,
+"PSCI 2401","A06","Public Affairs Analysis","GRP",NULL,NULL,NULL,
 "PSCI 2601","A","IR: Global Politics","LEC","F",835,1025,204
 "PSCI 2601","A01","IR: Global Politics","GRP","F",1035,1125,28
 "PSCI 2601","A02","IR: Global Politics","GRP","F",1035,1125,31
@@ -3180,10 +3180,10 @@
 "PSCI 2601","A04","IR: Global Politics","GRP","F",1335,1425,31
 "PSCI 2601","A05","IR: Global Politics","GRP","F",1335,1425,40
 "PSCI 2601","A06","IR: Global Politics","GRP","F",1335,1425,57
-"PSCI 2601","A07","IR: Global Politics","GRP",,,,
-"PSCI 2601","A08","IR: Global Politics","GRP",,,,
-"PSCI 2601","A09","IR: Global Politics","GRP",,,,
-"PSCI 2601","A10","IR: Global Politics","GRP",,,,
+"PSCI 2601","A07","IR: Global Politics","GRP",NULL,NULL,NULL,
+"PSCI 2601","A08","IR: Global Politics","GRP",NULL,NULL,NULL,
+"PSCI 2601","A09","IR: Global Politics","GRP",NULL,NULL,NULL,
+"PSCI 2601","A10","IR: Global Politics","GRP",NULL,NULL,NULL,
 "PSCI 2601","PA1","IR: Global Politics","PAS","WF",1135,1255,11
 "PSCI 2602","A","IR: Global Political Economy","LEC","T",1135,1325,331
 "PSCI 2602","A01","IR: Global Political Economy","GRP","T",1335,1425,19
@@ -3191,21 +3191,21 @@
 "PSCI 2602","A03","IR: Global Political Economy","GRP","T",1335,1425,20
 "PSCI 2602","A04","IR: Global Political Economy","GRP","T",1435,1525,19
 "PSCI 2602","A05","IR: Global Political Economy","GRP","T",1435,1525,16
-"PSCI 2602","A06","IR: Global Political Economy","GRP",,,,
+"PSCI 2602","A06","IR: Global Political Economy","GRP",NULL,NULL,NULL,
 "PSCI 2602","A07","IR: Global Political Economy","GRP","T",1535,1625,19
-"PSCI 2602","A08","IR: Global Political Economy","GRP",,,,
-"PSCI 2602","A09","IR: Global Political Economy","GRP",,,,
-"PSCI 2602","A10","IR: Global Political Economy","GRP",,,,
-"PSCI 2602","PA1","IR: Global Political Economy","PAS",,,,
-"PSCI 2602","PA2","IR: Global Political Economy","PAS",,,,
-"PSCI 2602","PA3","IR: Global Political Economy","PAS",,,,
+"PSCI 2602","A08","IR: Global Political Economy","GRP",NULL,NULL,NULL,
+"PSCI 2602","A09","IR: Global Political Economy","GRP",NULL,NULL,NULL,
+"PSCI 2602","A10","IR: Global Political Economy","GRP",NULL,NULL,NULL,
+"PSCI 2602","PA1","IR: Global Political Economy","PAS",NULL,NULL,NULL,
+"PSCI 2602","PA2","IR: Global Political Economy","PAS",NULL,NULL,NULL,
+"PSCI 2602","PA3","IR: Global Political Economy","PAS",NULL,NULL,NULL,
 "PSCI 2701","A","Intro Res Methods in Pol Sci","LEC","R",1435,1625,195
 "PSCI 2701","A01","Intro Res Methods in Pol Sci","GRP","R",1635,1725,19
 "PSCI 2701","A02","Intro Res Methods in Pol Sci","GRP","R",1635,1725,19
 "PSCI 2701","A03","Intro Res Methods in Pol Sci","GRP","R",1635,1725,19
 "PSCI 2701","A04","Intro Res Methods in Pol Sci","GRP","F",935,1025,31
-"PSCI 2701","A05","Intro Res Methods in Pol Sci","GRP",,,,
-"PSCI 2701","A06","Intro Res Methods in Pol Sci","GRP",,,,
+"PSCI 2701","A05","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
+"PSCI 2701","A06","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
 "PSCI 2701","A07","Intro Res Methods in Pol Sci","GRP","R",1735,1825,19
 "PSCI 2701","A08","Intro Res Methods in Pol Sci","GRP","R",1735,1825,19
 "PSCI 2701","A09","Intro Res Methods in Pol Sci","GRP","R",1735,1825,19
@@ -3215,13 +3215,13 @@
 "PSCI 2701","B02","Intro Res Methods in Pol Sci","GRP","M",2005,2055,21
 "PSCI 2701","B03","Intro Res Methods in Pol Sci","GRP","M",2005,2055,40
 "PSCI 2701","B04","Intro Res Methods in Pol Sci","GRP","T",1805,1855,48
-"PSCI 2701","B05","Intro Res Methods in Pol Sci","GRP",,,,
-"PSCI 2701","B06","Intro Res Methods in Pol Sci","GRP",,,,
-"PSCI 2701","B07","Intro Res Methods in Pol Sci","GRP",,,,
-"PSCI 2701","B08","Intro Res Methods in Pol Sci","GRP",,,,
-"PSCI 2701","B09","Intro Res Methods in Pol Sci","GRP",,,,
+"PSCI 2701","B05","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
+"PSCI 2701","B06","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
+"PSCI 2701","B07","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
+"PSCI 2701","B08","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
+"PSCI 2701","B09","Intro Res Methods in Pol Sci","GRP",NULL,NULL,NULL,
 "PSCI 2701","B10","Intro Res Methods in Pol Sci","GRP","M",2105,2155,19
-"PSCI 3006","A","Social Power in Cdn Politics","LEC",,,,
+"PSCI 3006","A","Social Power in Cdn Politics","LEC",NULL,NULL,NULL,
 "PSCI 3101","A","Politics of War in Africa","LEC","WF",1005,1125,59
 "PSCI 3102","A","Politics of Dev of China","LEC","T",1135,1425,58
 "PSCI 3105","A","Imperialism","LEC","R",1135,1425,79
@@ -3234,20 +3234,20 @@
 "PSCI 3308","A","Modern Political Thought","LEC","R",835,1125,48
 "PSCI 3401","A","Canadian Public Administration","LEC","T",1805,2055,79
 "PSCI 3405","A","Comp Public Policy Analysis","LEC","T",1135,1425,58
-"PSCI 3406","A","Public Aff & Media Strategies","LEC",,,,
+"PSCI 3406","A","Public Aff & Media Strategies","LEC",NULL,NULL,NULL,
 "PSCI 3600","A","International Institutions","LEC","T",1435,1725,84
-"PSCI 3601","A","Theories of Int'l Politics","LEC",,,,
+"PSCI 3601","A","Theories of Int'l Politics","LEC",NULL,NULL,NULL,
 "PSCI 3603","A","Strategic Thght & Int'l Sec","LEC","M",1805,2055,96
 "PSCI 3700","A","Gov & Politics of South Asia","LEC","R",1135,1425,58
 "PSCI 3709","A","Anc & Med Pol Thought","LEC","MW",1135,1255,59
-"PSCI 3801","A","Environmental Politics","LEC",,,,
+"PSCI 3801","A","Environmental Politics","LEC",NULL,NULL,NULL,
 "PSCI 3802","A","Globalization & Human Rights","LEC","M",835,1125,61
 "PSCI 3809","B","Sel Topics in Political Sci","LEC","R",835,1125,66
-"PSCI 3900","A","Etudes dirigees","DIR",,,,
-"PSCI 3905","A","Washington Center Internship","OTH",,,,
-"PSCI 3906","A","Full-Year Politi Sci Internshi","OTH",,,,
-"PSCI 3907","A","One-Term Politic Sci Internshi","OTH",,,,
-"PSCI 3999","A","Co-op Work Term","WRK",,,,
+"PSCI 3900","A","Etudes dirigees","DIR",NULL,NULL,NULL,
+"PSCI 3905","A","Washington Center Internship","OTH",NULL,NULL,NULL,
+"PSCI 3906","A","Full-Year Politi Sci Internshi","OTH",NULL,NULL,NULL,
+"PSCI 3907","A","One-Term Politic Sci Internshi","OTH",NULL,NULL,NULL,
+"PSCI 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "PSCI 4003","A","Politics and the Media","SEM","W",1135,1425,25
 "PSCI 4006","A","Legislatures & Represent. Cda","SEM","T",1135,1425,48
 "PSCI 4008","A","Nat'l Security & Intelligence","SEM","R",835,1125,25
@@ -3262,17 +3262,17 @@
 "PSCI 4404","A","Design Evolution Public Inst","SEM","T",835,1125,51
 "PSCI 4603","A","Analysis of IPE","SEM","W",835,1125,39
 "PSCI 4605","A","Gender in Int'l Relations","SEM","M",1135,1425,30
-"PSCI 4609","A","Sel Top: Euro Integ Studies","SEM",,,,
+"PSCI 4609","A","Sel Top: Euro Integ Studies","SEM",NULL,NULL,NULL,
 "PSCI 4702","A","Interm Rsrch Meth for App PSCI","SEM","R",835,1125,26
 "PSCI 4800","A","Adv Int'l Relations Theory","SEM","R",1135,1425,29
 "PSCI 4800","C","Adv Int'l Relations Theory","SEM","R",1805,2055,27
 "PSCI 4801","A","Sel Prob in Global Politics","SEM","M",835,1125,27
 "PSCI 4801","B","Sel Prob in Global Politics","SEM","T",1805,2055,32
-"PSCI 4809","A","Honours Sem on a Sel Top","SEM",,,,
-"PSCI 4900","A","Tutorial in a Selected Field","TUT",,,,
-"PSCI 4901","A","Tutorial in a Selected Field","TUT",,,,
+"PSCI 4809","A","Honours Sem on a Sel Top","SEM",NULL,NULL,NULL,
+"PSCI 4900","A","Tutorial in a Selected Field","TUT",NULL,NULL,NULL,
+"PSCI 4901","A","Tutorial in a Selected Field","TUT",NULL,NULL,NULL,
 "PSYC 1001","A","Introduction to Psychology I","LEC","TR",1005,1125,331
-"PSYC 1001","AOD","Introduction to Psychology I","VOD",,,,
+"PSYC 1001","AOD","Introduction to Psychology I","VOD",NULL,NULL,NULL,
 "PSYC 1001","C","Introduction to Psychology I","LEC","T",1135,1325,120
 "PSYC 1001","C01","Introduction to Psychology I","TUT","T",1335,1425,28
 "PSYC 1001","C02","Introduction to Psychology I","TUT","T",1335,1425,27
@@ -3284,63 +3284,63 @@
 "PSYC 1001","F01","Introduction to Psychology I","TUT","M",1035,1125,42
 "PSYC 1001","F02","Introduction to Psychology I","TUT","M",1035,1125,36
 "PSYC 1001","F03","Introduction to Psychology I","TUT","M",1135,1225,29
-"PSYC 1001","F04","Introduction to Psychology I","TUT",,,,
+"PSYC 1001","F04","Introduction to Psychology I","TUT",NULL,NULL,NULL,
 "PSYC 1001","G","Introduction to Psychology I","LEC","F",1135,1325,102
 "PSYC 1001","G01","Introduction to Psychology I","TUT","F",1335,1425,47
 "PSYC 1001","G02","Introduction to Psychology I","TUT","F",1335,1425,39
 "PSYC 1001","G03","Introduction to Psychology I","TUT","F",1435,1525,29
-"PSYC 1001","G04","Introduction to Psychology I","TUT",,,,
+"PSYC 1001","G04","Introduction to Psychology I","TUT",NULL,NULL,NULL,
 "PSYC 1001","H","Introduction to Psychology I","LEC","M",1435,1625,94
 "PSYC 1001","H01","Introduction to Psychology I","TUT","M",1635,1725,47
 "PSYC 1001","H02","Introduction to Psychology I","TUT","M",1635,1725,43
 "PSYC 1001","H03","Introduction to Psychology I","TUT","M",1735,1825,47
-"PSYC 1001","H04","Introduction to Psychology I","TUT",,,,
+"PSYC 1001","H04","Introduction to Psychology I","TUT",NULL,NULL,NULL,
 "PSYC 1001","J","Introduction to Psychology I","LEC","T",1805,2055,444
-"PSYC 1001","P","Introduction to Psychology I","LEC",,,,
-"PSYC 1001","PA1","Introduction to Psychology I","PAS",,,,
-"PSYC 1001","R","Introduction to Psychology I","LEC",,,,
-"PSYC 1001","T","Introduction to Psychology I","LEC",,,,
-"PSYC 1001","TOD","Introduction to Psychology I","VOD",,,,
-"PSYC 1001","X","Introduction to Psychology I","LEC",,,,
+"PSYC 1001","P","Introduction to Psychology I","LEC",NULL,NULL,NULL,
+"PSYC 1001","PA1","Introduction to Psychology I","PAS",NULL,NULL,NULL,
+"PSYC 1001","R","Introduction to Psychology I","LEC",NULL,NULL,NULL,
+"PSYC 1001","T","Introduction to Psychology I","LEC",NULL,NULL,NULL,
+"PSYC 1001","TOD","Introduction to Psychology I","VOD",NULL,NULL,NULL,
+"PSYC 1001","X","Introduction to Psychology I","LEC",NULL,NULL,NULL,
 "PSYC 1002","A","Introduction to Psychology II","LEC","W",1805,2055,285
 "PSYC 1002","D","Introduction to Psychology II","LEC","M",1435,1725,444
 "PSYC 2001","A","Intro to Res Meth in Psych","LEC","WF",1435,1555,134
-"PSYC 2001","AOD","Intro to Res Meth in Psych","VOD",,,,
+"PSYC 2001","AOD","Intro to Res Meth in Psych","VOD",NULL,NULL,NULL,
 "PSYC 2001","B","Intro to Res Meth in Psych","LEC","W",1805,2055,96
 "PSYC 2001","C","Intro to Res Meth in Psych","LEC","R",1435,1725,96
 "PSYC 2001","D","Intro to Res Meth in Psych","LEC","TR",1305,1425,98
 "PSYC 2001","E","Intro to Res Meth in Psych","LEC","T",1805,2055,204
 "PSYC 2001","PA1","Intro to Res Meth in Psych","PAS","MW",1435,1555,7
-"PSYC 2001","T","Intro to Res Meth in Psych","LEC",,,,
-"PSYC 2001","TOD","Intro to Res Meth in Psych","VOD",,,,
+"PSYC 2001","T","Intro to Res Meth in Psych","LEC",NULL,NULL,NULL,
+"PSYC 2001","TOD","Intro to Res Meth in Psych","VOD",NULL,NULL,NULL,
 "PSYC 2002","A","Intro to Statistics in Psych","LEC","TR",835,955,285
 "PSYC 2100","A","Social Psychology","LEC","TR",1005,1125,151
 "PSYC 2301","A","Introduction to Health Psych","LEC","TR",1635,1755,204
 "PSYC 2301","C","Introduction to Health Psych","LEC","W",1805,2055,391
 "PSYC 2307","A","Human Neuropsychology I","LEC","MW",1305,1425,204
 "PSYC 2400","A","Forensic Psychology","LEC","M",835,1125,148
-"PSYC 2400","AOD","Forensic Psychology","VOD",,,,
+"PSYC 2400","AOD","Forensic Psychology","VOD",NULL,NULL,NULL,
 "PSYC 2400","C","Forensic Psychology","LEC","T",1135,1425,154
-"PSYC 2400","T","Forensic Psychology","LEC",,,,
-"PSYC 2400","TOD","Forensic Psychology","VOD",,,,
+"PSYC 2400","T","Forensic Psychology","LEC",NULL,NULL,NULL,
+"PSYC 2400","TOD","Forensic Psychology","VOD",NULL,NULL,NULL,
 "PSYC 2500","A","Developmental Psychology","LEC","MW",1305,1425,154
 "PSYC 2500","D","Developmental Psychology","LEC","TR",835,955,204
 "PSYC 2600","A","Personality","LEC","T",1435,1725,134
-"PSYC 2600","AOD","Personality","VOD",,,,
-"PSYC 2600","T","Personality","LEC",,,,
-"PSYC 2600","TOD","Personality","VOD",,,,
+"PSYC 2600","AOD","Personality","VOD",NULL,NULL,NULL,
+"PSYC 2600","T","Personality","LEC",NULL,NULL,NULL,
+"PSYC 2600","TOD","Personality","VOD",NULL,NULL,NULL,
 "PSYC 2700","A","Cognitive Psychology","LEC","M",1435,1725,98
-"PSYC 2700","AOD","Cognitive Psychology","VOD",,,,
+"PSYC 2700","AOD","Cognitive Psychology","VOD",NULL,NULL,NULL,
 "PSYC 2700","D","Cognitive Psychology","LEC","WF",835,955,331
-"PSYC 2700","T","Cognitive Psychology","LEC",,,,
-"PSYC 2700","TOD","Cognitive Psychology","VOD",,,,
+"PSYC 2700","T","Cognitive Psychology","LEC",NULL,NULL,NULL,
+"PSYC 2700","TOD","Cognitive Psychology","VOD",NULL,NULL,NULL,
 "PSYC 3000","A","Advanced Design & Analysis","LEC","F",1435,1725,78
 "PSYC 3000","B","Advanced Design & Analysis","LEC","R",835,1125,78
 "PSYC 3000","C","Advanced Design & Analysis","LEC","MW",835,955,134
 "PSYC 3000","D","Advanced Design & Analysis","LEC","MW",1135,1255,91
-"PSYC 3000","PA1","Advanced Design & Analysis","PAS",,,,
+"PSYC 3000","PA1","Advanced Design & Analysis","PAS",NULL,NULL,NULL,
 "PSYC 3000","PA2","Advanced Design & Analysis","PAS","TRF",1335,1425,7
-"PSYC 3000","PB2","Advanced Design & Analysis","PAS",,,,
+"PSYC 3000","PB2","Advanced Design & Analysis","PAS",NULL,NULL,NULL,
 "PSYC 3100","A","Social Psychology Seminar","SEM","M",1435,1725,23
 "PSYC 3100","A1","Social Psychology Seminar","LAB","T",1435,1725,25
 "PSYC 3103","A","Group Processes","SEM","M",1805,2055,94
@@ -3356,15 +3356,15 @@
 "PSYC 3402","E","Criminal Behaviour","LEC","M",1435,1725,148
 "PSYC 3402","F","Criminal Behaviour","LEC","W",1805,2055,151
 "PSYC 3403","A","Addiction","LEC","W",1805,2055,331
-"PSYC 3403","AOD","Addiction","VOD",,,,
-"PSYC 3403","T","Addiction","LEC",,,,
-"PSYC 3403","TOD","Addiction","VOD",,,,
+"PSYC 3403","AOD","Addiction","VOD",NULL,NULL,NULL,
+"PSYC 3403","T","Addiction","LEC",NULL,NULL,NULL,
+"PSYC 3403","TOD","Addiction","VOD",NULL,NULL,NULL,
 "PSYC 3500","A","Developmental Seminar","SEM","T",1435,1725,27
 "PSYC 3500","A1","Developmental Seminar","LAB","F",1135,1425,39
 "PSYC 3505","A","Exceptional Children","LEC","F",1135,1425,134
-"PSYC 3505","AOD","Exceptional Children","VOD",,,,
-"PSYC 3505","T","Exceptional Children","LEC",,,,
-"PSYC 3505","TOD","Exceptional Children","VOD",,,,
+"PSYC 3505","AOD","Exceptional Children","VOD",NULL,NULL,NULL,
+"PSYC 3505","T","Exceptional Children","LEC",NULL,NULL,NULL,
+"PSYC 3505","TOD","Exceptional Children","VOD",NULL,NULL,NULL,
 "PSYC 3507","A","Social Development","LEC","F",835,1125,78
 "PSYC 3508","A","Child Language","LEC","T",1135,1425,78
 "PSYC 3509","A","Adolesce&Emerging Adulthood","LEC","M",1805,2055,77
@@ -3380,15 +3380,15 @@
 "PSYC 4001","A","Special Topics in Psychology","SEM","M",1135,1425,40
 "PSYC 4001","C","Special Topics in Psychology","SEM","T",1135,1425,39
 "PSYC 4001","D","Special Topics in Psychology","SEM","W",835,1125,39
-"PSYC 4001","E","Special Topics in Psychology","SEM",,,,
-"PSYC 4900","A","Independent Study","IND",,,,
-"RELI 1010","A","Elementary Language Tutorial","TUT",,,,
+"PSYC 4001","E","Special Topics in Psychology","SEM",NULL,NULL,NULL,
+"PSYC 4900","A","Independent Study","IND",NULL,NULL,NULL,
+"RELI 1010","A","Elementary Language Tutorial","TUT",NULL,NULL,NULL,
 "RELI 1710","A","Judaism, Christianity, Islam","LEC","R",1435,1725,331
-"RELI 1710","AOD","Judaism, Christianity, Islam","VOD",,,,
-"RELI 1710","T","Judaism, Christianity, Islam","LEC",,,,
-"RELI 1710","TOD","Judaism, Christianity, Islam","VOD",,,,
+"RELI 1710","AOD","Judaism, Christianity, Islam","VOD",NULL,NULL,NULL,
+"RELI 1710","T","Judaism, Christianity, Islam","LEC",NULL,NULL,NULL,
+"RELI 1710","TOD","Judaism, Christianity, Islam","VOD",NULL,NULL,NULL,
 "RELI 1716","A","East Asian Religions","LEC","MW",1605,1725,102
-"RELI 2010","A","Intermediate Language Tutorial","TUT",,,,
+"RELI 2010","A","Intermediate Language Tutorial","TUT",NULL,NULL,NULL,
 "RELI 2210","A","Christianity","LEC","TR",1305,1425,98
 "RELI 2220","A","Early Christianity","LEC","TR",1435,1555,58
 "RELI 2330","A","The Qur’an","LEC","TR",1135,1255,58
@@ -3399,21 +3399,21 @@
 "RELI 2735","A","Greek Religion","LEC","WF",1605,1725,387
 "RELI 2736","A","Religion and Society","LEC","R",1805,2055,98
 "RELI 2738","A","Philosophy of Religion","LEC","MW",1435,1555,120
-"RELI 2843","A","Topics in Islam","LEC",,,,
-"RELI 3010","A","Advanced Language Tutorial","TUT",,,,
+"RELI 2843","A","Topics in Islam","LEC",NULL,NULL,NULL,
+"RELI 3010","A","Advanced Language Tutorial","TUT",NULL,NULL,NULL,
 "RELI 3222","A","Women in Early Christianity","LEC","W",1135,1425,19
 "RELI 3422","A","Buddhism Beyond India","LEC","R",1135,1425,42
 "RELI 3722","A","Religion and Violence","LEC","T",835,1125,48
 "RELI 3733","A","Studies in Roman Art","LEC","F",835,1125,63
 "RELI 4740","A","Theory and Method","SEM","W",835,1125,19
-"RELI 4840","A","Tutorial","TUT",,,,
+"RELI 4840","A","Tutorial","TUT",NULL,NULL,NULL,
 "RELI 4851","A","Seminar in Western Religions","SEM","W",1435,1725,19
 "RELI 4852","A","Seminar in Asian Religions","SEM","T",835,1125,19
 "RUSS 1010","A","First-Year Russian I","LEC","MW",1435,1625,39
 "RUSS 1010","B","First-Year Russian I","LEC","MW",1635,1825,32
 "RUSS 2010","A","Second-Year Russian I","LEC","TR",1135,1325,27
 "RUSS 3010","A","Third-Year Russian I","LEC","MW",1435,1555,27
-"RUSS 4115","A","Russian for Social Studies","SEM",,,,
+"RUSS 4115","A","Russian for Social Studies","SEM",NULL,NULL,NULL,
 "SAST 1001","A","Intro to South Asian Studies I","LEC","TR",1305,1425,58
 "SCIE 1000","LCA","Sci Learning Community Seminar","SEM","R",1435,1525,25
 "SCIE 1000","LCB","Sci Learning Community Seminar","SEM","M",1535,1625,48
@@ -3435,7 +3435,7 @@
 "SOCI 1001","D04","Introduction to Sociology I","GRP","T",2005,2055,96
 "SOCI 1001","D05","Introduction to Sociology I","GRP","T",2005,2055,51
 "SOCI 1001","D06","Introduction to Sociology I","GRP","T",2005,2055,55
-"SOCI 1001","PD1","Introduction to Sociology I","PAS",,,,
+"SOCI 1001","PD1","Introduction to Sociology I","PAS",NULL,NULL,NULL,
 "SOCI 1005","A","Sociology for B.Comm. Students","LEC","W",1805,2055,236
 "SOCI 2001","A","Intr Qualitative Rsrch Methods","LEC","F",835,1125,134
 "SOCI 2002","A","Intr Quantitative Rsrch Method","LEC","F",1135,1325,133
@@ -3456,7 +3456,7 @@
 "SOCI 2160","A","War and Society","LEC","M",1435,1725,96
 "SOCI 2445","A","Sociology of Deviance","LEC","R",1805,2055,285
 "SOCI 2450","A","Criminology","LEC","W",1805,2055,236
-"SOCI 2910","A","Course-Related Tut. in Sociol.","TUT",,,,
+"SOCI 2910","A","Course-Related Tut. in Sociol.","TUT",NULL,NULL,NULL,
 "SOCI 3003","A","Studies in Res. Design & Data","LEC","R",1135,1425,84
 "SOCI 3003","A1","Studies in Res. Design & Data","LAB","R",1435,1525,23
 "SOCI 3003","A2","Studies in Res. Design & Data","LAB","R",1435,1525,26
@@ -3470,8 +3470,8 @@
 "SOCI 3056","A","Women and Health","SEM","T",1135,1425,29
 "SOCI 3410","A","Stud. in Criminal Justice","LEC","F",1135,1425,96
 "SOCI 3430","A","Stud in Collective Action & So","LEC","T",1135,1425,57
-"SOCI 3910","A","Course-Related Tut. in Soc.","TUT",,,,
-"SOCI 3999","A","Co-op Work Term","WRK",,,,
+"SOCI 3910","A","Course-Related Tut. in Soc.","TUT",NULL,NULL,NULL,
+"SOCI 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "SOCI 4002","A","Adv. Stud. in Sociolo. Theory","SEM","T",1135,1425,8
 "SOCI 4039","A","Women Contemporary Middle East","SEM","W",1805,2055,31
 "SOCI 4410","A","Adv. Studies in Criminology","SEM","M",1805,2055,29
@@ -3482,10 +3482,10 @@
 "SOCI 4860","A","Contemp. Problems in Sociology","SEM","R",835,1125,29
 "SOCI 4900","A","Honours Thesis","SEM","T",1135,1425,40
 "SOWK 1000","A","Social Work and Social Welfare","LEC","T",1135,1425,98
-"SOWK 1000","AOD","Social Work and Social Welfare","VOD",,,,
+"SOWK 1000","AOD","Social Work and Social Welfare","VOD",NULL,NULL,NULL,
 "SOWK 1000","PA1","Social Work and Social Welfare","PAS","TRF",1435,1525,8
-"SOWK 1000","V","Social Work and Social Welfare","LEC",,,,
-"SOWK 1000","VOD","Social Work and Social Welfare","VOD",,,,
+"SOWK 1000","V","Social Work and Social Welfare","LEC",NULL,NULL,NULL,
+"SOWK 1000","VOD","Social Work and Social Welfare","VOD",NULL,NULL,NULL,
 "SOWK 2000","A","Structural Social Work","LEC","F",1135,1325,91
 "SOWK 2000","A","Structural Social Work","LEC","F",1335,1425,91
 "SOWK 2000","A1","Structural Social Work","GRP","F",1335,1425,23
@@ -3497,9 +3497,9 @@
 "SOWK 2100","A2","Political Economy: of Welfare","GRP","R",1035,1125,47
 "SOWK 2100","A3","Political Economy: of Welfare","GRP","R",1035,1125,98
 "SOWK 2501","A","Intr Resear Method Social Work","LEC","M",1135,1425,98
-"SOWK 2501","AOD","Intr Resear Method Social Work","VOD",,,,
-"SOWK 2501","T","Intr Resear Method Social Work","LEC",,,,
-"SOWK 2501","TOD","Intr Resear Method Social Work","VOD",,,,
+"SOWK 2501","AOD","Intr Resear Method Social Work","VOD",NULL,NULL,NULL,
+"SOWK 2501","T","Intr Resear Method Social Work","LEC",NULL,NULL,NULL,
+"SOWK 2501","TOD","Intr Resear Method Social Work","VOD",NULL,NULL,NULL,
 "SOWK 3000","A","Structural Social Work","LEC","F",1135,1425,35
 "SOWK 3100","A","Social Administration/Policy","LEC","M",835,1125,67
 "SOWK 3200","A","Communities and Organizations","LEC","T",1435,1725,43
@@ -3524,8 +3524,8 @@
 "SOWK 4600","F","Practicum II","FIE","F",835,1125,35
 "SOWK 4600","H","Practicum II","FIE","F",835,1125,35
 "SOWK 4601","A","Practicum IIA","PRC","F",835,1125,35
-"SOWK 4602","R","Practicum IIB","PRC",,,,
-"SOWK 4900","A","Independent Study","IND",,,,
+"SOWK 4602","R","Practicum IIB","PRC",NULL,NULL,NULL,
+"SOWK 4900","A","Independent Study","IND",NULL,NULL,NULL,
 "SPAN 1010","A","First-Year Spanish I","LEC","TR",1135,1325,40
 "SPAN 1010","B","First-Year Spanish I","LEC","WF",1135,1325,36
 "SPAN 1010","C","First-Year Spanish I","LEC","TR",1135,1325,42
@@ -3547,9 +3547,9 @@
 "SPAN 3110","A","Intensive Third-Year Spanish","LEC","MTR",1235,1425,32
 "SPAN 3110","B","Intensive Third-Year Spanish","LEC","MTR",1635,1825,42
 "SPAN 4215","A","Spanish for Specific Purposes","LEC","TR",1305,1425,31
-"SPAN 4900","A","Independent Study","IND",,,,
-"SPAN 4900","B","Independent Study","IND",,,,
-"SPAN 4901","A","Independent Study","IND",,,,
+"SPAN 4900","A","Independent Study","IND",NULL,NULL,NULL,
+"SPAN 4900","B","Independent Study","IND",NULL,NULL,NULL,
+"SPAN 4901","A","Independent Study","IND",NULL,NULL,NULL,
 "SREE 3001","A","Sustainable & Renewable Energy","LEC","TR",1305,1425,51
 "SREE 3001","A1","Sustainable & Renewable Energy","LAB","T",1035,1125,51
 "SREE 4001","A","Efficient Energy Conversion","LEC","TR",835,955,40
@@ -3652,7 +3652,7 @@
 "SYSC 1005","L3","Intro to Software Development","LAB","R",1435,1725,50
 "SYSC 1005","L4","Intro to Software Development","LAB","T",835,1125,50
 "SYSC 1005","PA1","Intro to Software Development","PAS","TR",1805,1925,52
-"SYSC 1005","PA2","Intro to Software Development","PAS",,,,
+"SYSC 1005","PA2","Intro to Software Development","PAS",NULL,NULL,NULL,
 "SYSC 2001","A","Computer Systems Foundation","LEC","TR",1135,1255,391
 "SYSC 2001","A1","Computer Systems Foundation","LAB","W",1135,1325,52
 "SYSC 2001","A2","Computer Systems Foundation","LAB","F",1135,1325,52
@@ -3671,9 +3671,9 @@
 "SYSC 2006","L4","Foundations Imperative Program","LAB","R",835,1025,50
 "SYSC 2006","L5","Foundations Imperative Program","LAB","T",1135,1325,50
 "SYSC 2006","L6","Foundations Imperative Program","LAB","T",1605,1755,50
-"SYSC 2006","PA1","Foundations Imperative Program","PAS",,,,
-"SYSC 2006","PA2","Foundations Imperative Program","PAS",,,,
-"SYSC 2006","PA3","Foundations Imperative Program","PAS",,,,
+"SYSC 2006","PA1","Foundations Imperative Program","PAS",NULL,NULL,NULL,
+"SYSC 2006","PA2","Foundations Imperative Program","PAS",NULL,NULL,NULL,
+"SYSC 2006","PA3","Foundations Imperative Program","PAS",NULL,NULL,NULL,
 "SYSC 3006","A","Computer Organization","LEC","TR",835,955,96
 "SYSC 3006","A1","Computer Organization","LAB","W",1135,1325,50
 "SYSC 3006","A2","Computer Organization","LAB","R",1135,1325,50
@@ -3689,7 +3689,7 @@
 "SYSC 3500","A","Signals and Systems","LEC","WF",1305,1425,40
 "SYSC 3500","A1E","Signals and Systems","PAN","W",835,1125,25
 "SYSC 3600","A","Systems and Simulation","LEC","WF",1435,1555,391
-"SYSC 3600","B","Systems and Simulation","LEC",,,,
+"SYSC 3600","B","Systems and Simulation","LEC",NULL,NULL,NULL,
 "SYSC 3600","L1","Systems and Simulation","LAB","F",835,1125,50
 "SYSC 3600","L2","Systems and Simulation","LAB","M",1435,1725,50
 "SYSC 3600","L3","Systems and Simulation","LAB","R",1435,1725,50
@@ -3699,12 +3699,12 @@
 "SYSC 3610","A","Biomedical Systems, Modl&Cntrl","LEC","WF",1435,1555,96
 "SYSC 3610","A1","Biomedical Systems, Modl&Cntrl","LAB","M",835,1125,50
 "SYSC 3610","A2","Biomedical Systems, Modl&Cntrl","LAB","M",1135,1425,50
-"SYSC 3999","A","Co-op Work Term","WRK",,,,
+"SYSC 3999","A","Co-op Work Term","WRK",NULL,NULL,NULL,
 "SYSC 4001","A","Operating Systems","LEC","TR",1005,1125,58
 "SYSC 4001","L1","Operating Systems","LAB","T",1635,1825,50
 "SYSC 4101","A","Software Validation","LEC","TR",1135,1255,51
 "SYSC 4101","A1E","Software Validation","LAB","M",835,1125,25
-"SYSC 4101","A2","Software Validation","LAB",,,,
+"SYSC 4101","A2","Software Validation","LAB",NULL,NULL,NULL,
 "SYSC 4120","A","Software Architecture & Design","LEC","TR",1435,1555,66
 "SYSC 4120","A1O","Software Architecture & Design","LAB","M",835,1125,25
 "SYSC 4203","A","Bioinstrumentation and Signals","LEC","WF",1435,1555,36
@@ -3729,20 +3729,20 @@
 "SYSC 4906","A2","Special Topics","LAB","W",935,1125,52
 "SYSC 4906","A3","Special Topics","LAB","W",1605,1755,52
 "TSES 2305","A","Ancient Science and Technology","LEC","T",1735,1925,98
-"TSES 2305","AOD","Ancient Science and Technology","VOD",,,,
-"TSES 2305","V","Ancient Science and Technology","LEC",,,,
-"TSES 2305","VOD","Ancient Science and Technology","VOD",,,,
+"TSES 2305","AOD","Ancient Science and Technology","VOD",NULL,NULL,NULL,
+"TSES 2305","V","Ancient Science and Technology","LEC",NULL,NULL,NULL,
+"TSES 2305","VOD","Ancient Science and Technology","VOD",NULL,NULL,NULL,
 "TSES 3001","A","Technology-Society Interaction","LEC","TR",1605,1725,98
-"TSES 3001","AOD","Technology-Society Interaction","VOD",,,,
-"TSES 3001","T","Technology-Society Interaction","LEC",,,,
-"TSES 3001","TOD","Technology-Society Interaction","VOD",,,,
+"TSES 3001","AOD","Technology-Society Interaction","VOD",NULL,NULL,NULL,
+"TSES 3001","T","Technology-Society Interaction","LEC",NULL,NULL,NULL,
+"TSES 3001","TOD","Technology-Society Interaction","VOD",NULL,NULL,NULL,
 "TSES 4001","A","Technology & Society Risk","LEC","T",1735,2025,56
-"TSES 4006","A","Technology & Society Work","LEC",,,,
+"TSES 4006","A","Technology & Society Work","LEC",NULL,NULL,NULL,
 "TSES 4007","A","Product Life Cycle Analysis","LEC","TR",1735,1855,59
-"TSES 4007","AOD","Product Life Cycle Analysis","VOD",,,,
-"TSES 4007","T","Product Life Cycle Analysis","LEC",,,,
-"TSES 4007","TOD","Product Life Cycle Analysis","VOD",,,,
-"TSES 4009","A","Special Topics","SEM",,,,
+"TSES 4007","AOD","Product Life Cycle Analysis","VOD",NULL,NULL,NULL,
+"TSES 4007","T","Product Life Cycle Analysis","LEC",NULL,NULL,NULL,
+"TSES 4007","TOD","Product Life Cycle Analysis","VOD",NULL,NULL,NULL,
+"TSES 4009","A","Special Topics","SEM",NULL,NULL,NULL,
 "TSES 4014","A","Technology-Society:Time","LEC","MW",1735,1855,58
 "WGST 1808","A","Intro Women's & Gender Studies","LEC","T",1435,1625,444
 "WGST 1808","A01","Intro Women's & Gender Studies","GRP","R",1535,1625,30
@@ -3766,16 +3766,16 @@
 "WGST 2800","A","Intersectional Identities","LEC","M",935,1125,96
 "WGST 2800","A01","Intersectional Identities","GRP","M",1135,1225,40
 "WGST 2800","A02","Intersectional Identities","GRP","M",1235,1325,25
-"WGST 2800","A03","Intersectional Identities","GRP",,,,
-"WGST 2800","A04","Intersectional Identities","GRP",,,,
+"WGST 2800","A03","Intersectional Identities","GRP",NULL,NULL,NULL,
+"WGST 2800","A04","Intersectional Identities","GRP",NULL,NULL,NULL,
 "WGST 2800","A05","Intersectional Identities","GRP","T",1235,1325,40
-"WGST 2800","A06","Intersectional Identities","GRP",,,,
+"WGST 2800","A06","Intersectional Identities","GRP",NULL,NULL,NULL,
 "WGST 2803","A","Body Matter:Politics of Bodies","LEC","T",835,1025,148
 "WGST 2803","A01","Body Matter:Politics of Bodies","GRP","F",1235,1325,32
 "WGST 2803","A02","Body Matter:Politics of Bodies","GRP","F",1335,1425,32
 "WGST 2803","A03","Body Matter:Politics of Bodies","GRP","W",1535,1625,43
 "WGST 2803","A04","Body Matter:Politics of Bodies","GRP","F",1335,1425,32
-"WGST 2803","A05","Body Matter:Politics of Bodies","GRP",,,,
+"WGST 2803","A05","Body Matter:Politics of Bodies","GRP",NULL,NULL,NULL,
 "WGST 2807","A","The Politic of Gender & Health","LEC","F",935,1125,98
 "WGST 2807","A01","The Politic of Gender & Health","GRP","R",1535,1625,25
 "WGST 2807","A02","The Politic of Gender & Health","GRP","R",1635,1725,25
@@ -3790,8 +3790,8 @@
 "WGST 3807","A","Gendered Violence","SEM","M",835,1125,48
 "WGST 3809","A","Feminist Thought","SEM","TR",1135,1255,48
 "WGST 3812","A","Sel Top:Women&Gender Studies","SEM","W",835,1125,66
-"WGST 3812","B","Sel Top:Women&Gender Studies","SEM",,,,
+"WGST 3812","B","Sel Top:Women&Gender Studies","SEM",NULL,NULL,NULL,
 "WGST 4804","A","Digital Lives in Global Spaces","SEM","F",835,1125,35
-"WGST 4811","F","Hons Research Project in WGST","REP",,,,
+"WGST 4811","F","Hons Research Project in WGST","REP",NULL,NULL,NULL,
 "WGST 4812","A","Sel Top:Women's&Gender Studi","SEM","W",1435,1725,42
 "WGST 4812","B","Sel Top:Women's&Gender Studi","SEM","W",1135,1425,35

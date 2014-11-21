@@ -205,7 +205,7 @@ function getAllCourseOfferedNextSemester(){
  		if(!element.room_cap){
  			return true;
  		}
- 		if(element.room_cap > element.students_registered){
+ 		if(parseInt(element.room_cap) > parseInt(element.num_registered)){
  			return true;
  		}
  		return false;
@@ -213,3 +213,10 @@ function getAllCourseOfferedNextSemester(){
  	return filtered.some(hasSpace);
  }
 
+function courseHasLabOrTut(course){
+	function labOrTutFilter(element){
+		return element.instr_type === 'LAB' || element.instr_type === 'TUT';
+	}
+
+	courseOfferingData.some(labOrTutFilter);
+}
