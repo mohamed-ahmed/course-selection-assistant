@@ -4,12 +4,14 @@ var userObject;
 
 var courseOfferingData = [];
 
+var programCourses;
+
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
 		console.log(data);
 		// callback(data);
 		//load courses into table
-		var courseArray = JSON.parse(data);
+		programCourses = JSON.parse(data);
 
 		$.get("../server/main2.php/programCourseData", function (programCourseDataResponse){
 			console.log("got response");
@@ -17,8 +19,8 @@ function getCourses(){
 			for(var i in temp){
 				courseOfferingData.push(temp[i]);
 			}
-			for (var i = 0; i < courseArray.length; i++) {
-				addCourseToTable(courseArray[i]);
+			for (var i = 0; i < programCourses.length; i++) {
+				addCourseToTable(programCourses[i]);
 			}
 		});
 	});
@@ -236,5 +238,28 @@ function userHasTakenPrereqs(course){
 }
 
 function getRegisterableCourses(){
+	var registerableCourses = [];
+
+	for (var i = 0; i < programCourses.length; i++) {
+			if( !hasTaken(programCourses[i].course) && canTakeCourse(programCourses[i].course) ){
+				registerableCourses.push(programCourses[i]);
+			}
+
+	}
+	return registerableCourses;
+}
+
+function buildTimeTable(){
+	//initialize 2d grid which contains posible 30 minute time slots for classes
 	
+	var timeArray = [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105];
+	var timeTable = [];
+	for(var i = 0 ; i < 5; i++){
+		var day = [];
+		for(j = 0 ; j < dayArray.length ; j++){
+			day.push(null);
+		}
+		timeTable.push(day);
+	}
+
 }
