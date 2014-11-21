@@ -214,9 +214,11 @@ function getAllCourseOfferedNextSemester(){
  }
 
 function courseHasLabOrTut(course){
+
+	var filtered = getAllCouresOfName(course);
 	function labOrTutFilter(element){
 		return element.instr_type === 'LAB' || element.instr_type === 'TUT';
 	}
 
-	courseOfferingData.some(labOrTutFilter);
+	return filtered.some(labOrTutFilter);
 }
