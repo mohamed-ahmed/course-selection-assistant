@@ -77,35 +77,27 @@ function canTakeCourse(course){
 		return true;
 	}
 	console.log(course);
-	//todo" remove << courseOfferingData[course] !== undefined >>
-	if(courseOfferingData[course] !== undefined ){
-		if(courseOfferingData[course].room_cap !== 0 && courseOfferingData[course].students_registered > courseOfferingData[course].room_cap ){
-			return false;
-		}
-	}
-	else{
-		throw course + " is undefined";
-	}
+
+	//student has sufficient year status
 	var courseObj = courseMap[course];
 	if(courseObj.yearStatus !== undefined){
 		if(courseObj.yearStatus > getUserYearStatus()){
 			return false;
 		}
 	}
-	//for each group of required courses check if student has taken at least one
-	var prereqGroups = courseObj.courses;
-	for(var j = 0 ; j < prereqGroups.length ; j++){
-		var takenGroupPrereq = false;
-		for(var i  = 0 ; i < prereqGroups[j].length ; i++){
-			console.log("elem: " + prereqGroups[j]);
-			if(hasTaken(prereqGroups[j][i])){
-				takenGroupPrereq = true;
-			}
-		}
-		if(takenGroupPrereq === false){
-			return false;
-		}
+
+	if( !isOfferedNextSemester(course) ){
+		return false;
 	}
+
+	if( !courseHasLectureSpace(course) ){
+		return false;
+	}
+
+	if( !userHasTakenPrereqs(course) ){
+		return false;
+	}
+
 	return true;
 }
 
@@ -221,4 +213,28 @@ function courseHasLabOrTut(course){
 	}
 
 	return filtered.some(labOrTutFilter);
+}
+
+function userHasTakenPrereqs(course){
+	var courseObj = courseMap[course];
+
+	//for each group of required courses check if student has taken at least one
+	var prereqGroups = courseObj.courses;
+	for(var j = 0 ; j < prereqGroups.length ; j++){
+		var takenGroupPrereq = false;
+		for(var i  = 0 ; i < prereqGroups[j].length ; i++){
+			console.log("elem: " + prereqGroups[j]);
+			if(hasTaken(prereqGroups[j][i])){
+				takenGroupPrereq = true;
+			}
+		}
+		if(takenGroupPrereq === false){
+			return false;
+		}
+	}
+	return true;
+}
+
+function getRegisterableCourses(){
+	
 }
