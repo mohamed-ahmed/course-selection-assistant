@@ -263,3 +263,48 @@ function buildTimeTable(){
 	}
 
 }
+
+function getAllSectionsOfCourse(course){
+	function isNameMatched(element){
+		return element.course === course;
+	}
+
+	return courseOfferingData.filter(isNameMatched);
+}
+
+function addCourseToSelectionTable(courseObject){
+	var viewObject = {}
+	viewObject.courseObject = courseObject;
+	var domElem = $("<div/>");
+	domElem.append(document.createTextNode(courseObject.course));
+	viewObject.domElem = domElem;
+	$("#course-selection").append(viewObject.domElem);
+	$(domElem).click(function(){
+		$(".section").remove();
+		console.log(viewObject.courseObject.course + " clicked");
+		var sections = getAllSectionsOfCourse(viewObject.courseObject.course);
+		for(var i in sections){
+			addSectionSelectionToTable(sections[i]);
+		}
+	});
+}
+
+function addSectionSelectionToTable(sectionObject){
+	console.log("adding section");
+	var viewObject = {};
+	viewObject.sectionObject = sectionObject;
+	var domElem = $("<div/>",{
+		"class" : "section"
+	});
+	domElem.append(document.createTextNode(sectionObject.seq));
+	viewObject.domElem = domElem;
+	$("#section-selection").append(viewObject.domElem);
+}
+
+
+function populateCourseSelectionTable(){
+	var registerableCourses = getRegisterableCourses();
+	for(var i in registerableCourses){
+		addCourseToSelectionTable(registerableCourses[i]);
+	}
+}
