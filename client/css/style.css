@@ -64,3 +64,16 @@
 #courses-taken-form-group{
 	display: none;
 }
+
+
+
+#time-table th, td{
+	border: 1px solid black;
+	padding: 2px;
+}
+
+#time-table td{
+	min-width : 80px;
+}
+
+
