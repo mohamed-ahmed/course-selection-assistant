@@ -116,3 +116,9 @@
 .conflict-cell{
 	background-color : red;
 }
+
+.delete-icon{
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+}

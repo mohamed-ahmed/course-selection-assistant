@@ -289,10 +289,9 @@ function addSectionSelectionToTable(sectionObject){
 	console.log("adding section");
 	var viewObject = {};
 	viewObject.sectionObject = sectionObject;
-	var domElem = $("<option/>",{
-		"class" : "section-object"
-	});
-	domElem.append(document.createTextNode(sectionObject.seq));
+	var domElem = dom("option",{"class" : "section-object"},
+						(document.createTextNode(sectionObject.seq))						
+					);
 	viewObject.domElem = domElem;
 	$("#section-selection").append(viewObject.domElem);
 	sectionObject.clicked = false;
@@ -325,7 +324,14 @@ function populateCourseSelectionTable(){
 function addSectionToTimeTable(sectionObject){
 	var ids = getSectionElementIds(sectionObject);
 	for(var i in ids){
-		var courseView = dom("div", {"class":getSectionIDString(sectionObject) + " time-table-entry" }, document.createTextNode(sectionObject.course));
+		var deleteIconElem = dom("img", {"class" : "delete-icon", src: "img/x-icon.png"});
+		$(deleteIconElem).click(function(){
+			removeSectionFromTable(sectionObject);
+		})
+		var courseView = dom("div", {"class":getSectionIDString(sectionObject) + " time-table-entry" },
+							document.createTextNode(sectionObject.course),
+							deleteIconElem
+						);
 		$("#" + ids[i]).append(courseView);
 	}
 
