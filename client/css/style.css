@@ -100,3 +100,19 @@
 	display: table-cell;
 	vertical-align: top;
 }
+
+#build-time-table{
+	margin : 20px;
+}
+
+.time-table-entry{
+	background-color: rgba(0, 122, 255, 0.33);
+}
+
+.hovered{
+	background-color:rgb(200, 200, 200);
+}
+
+.conflict-cell{
+	background-color : red;
+}

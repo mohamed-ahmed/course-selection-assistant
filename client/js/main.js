@@ -6,6 +6,9 @@ var courseOfferingData = [];
 
 var programCourses;
 
+var timeArray = [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105];
+var dayArray = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
 		console.log(data);
@@ -72,6 +75,10 @@ function addCourseToTable(course){
 window.onload=function(){
 	console.log("loaded");
 	getUser(getCourses);
+
+	$("#build-time-table").click(function(){
+		populateCourseSelectionTable();
+	});
 };
 
 function canTakeCourse(course){
@@ -116,14 +123,14 @@ function getNextSemester(){
 	var semester;
 	switch(true){
 		case(month < 4):
-			semester = "summer";
-			break;
+		semester = "summer";
+		break;
 		case(month >=4 && month < 8):
-			semester = "fall";
-			break;
+		semester = "fall";
+		break;
 		case(month >=8 && month < 11):
-			semester = "winter";
-			break;
+		semester = "winter";
+		break;
 		default:
 		throw "Invalid month";
 	}
@@ -135,16 +142,16 @@ function isOfferedNextSemester(course){
 	var semesterShortCode;
 	switch(semester){
 		case "fall":
-			semesterShortCode = "f";
-			break;
+		semesterShortCode = "f";
+		break;
 		case "winter":
-			semesterShortCode = "w";
-			break;
+		semesterShortCode = "w";
+		break;
 		case "summer":
-			semesterShortCode = "s";
-			break;
+		semesterShortCode = "s";
+		break;
 		default:
-			throw "invalid semester";
+		throw "invalid semester";
 	}
 
 	function isOfferedNextSemester(element){
@@ -170,16 +177,16 @@ function getAllCourseOfferedNextSemester(){
 	var semesterShortCode;
 	switch(semester){
 		case "fall":
-			semesterShortCode = "f";
-			break;
+		semesterShortCode = "f";
+		break;
 		case "winter":
-			semesterShortCode = "w";
-			break;
+		semesterShortCode = "w";
+		break;
 		case "summer":
-			semesterShortCode = "s";
-			break;
+		semesterShortCode = "s";
+		break;
 		default:
-			throw "invalid semester";
+		throw "invalid semester";
 	}
 
 	function isOfferedNextSemester(element){
@@ -191,21 +198,21 @@ function getAllCourseOfferedNextSemester(){
 	return filtered;
 }
 
- function courseHasLectureSpace(course){
+function courseHasLectureSpace(course){
 
- 	var filtered = getAllCouresOfName(course);
+	var filtered = getAllCouresOfName(course);
 
- 	function hasSpace(element){
- 		if(!element.room_cap){
- 			return true;
- 		}
- 		if(parseInt(element.room_cap) > parseInt(element.num_registered)){
- 			return true;
- 		}
- 		return false;
- 	}
- 	return filtered.some(hasSpace);
- }
+	function hasSpace(element){
+		if(!element.room_cap){
+			return true;
+		}
+		if(parseInt(element.room_cap) > parseInt(element.num_registered)){
+			return true;
+		}
+		return false;
+	}
+	return filtered.some(hasSpace);
+}
 
 function courseHasLabOrTut(course){
 
@@ -241,28 +248,15 @@ function getRegisterableCourses(){
 	var registerableCourses = [];
 
 	for (var i = 0; i < programCourses.length; i++) {
-			if( !hasTaken(programCourses[i].course) && canTakeCourse(programCourses[i].course) ){
-				registerableCourses.push(programCourses[i]);
-			}
+		if( !hasTaken(programCourses[i].course) && canTakeCourse(programCourses[i].course) ){
+			registerableCourses.push(programCourses[i]);
+		}
 
 	}
 	return registerableCourses;
 }
 
-function buildTimeTable(){
-	//initialize 2d grid which contains posible 30 minute time slots for classes
-	
-	var timeArray = [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105];
-	var timeTable = [];
-	for(var i = 0 ; i < 5; i++){
-		var day = [];
-		for(j = 0 ; j < dayArray.length ; j++){
-			day.push(null);
-		}
-		timeTable.push(day);
-	}
 
-}
 
 function getAllSectionsOfCourse(course){
 	function isNameMatched(element){
@@ -301,11 +295,21 @@ function addSectionSelectionToTable(sectionObject){
 	domElem.append(document.createTextNode(sectionObject.seq));
 	viewObject.domElem = domElem;
 	$("#section-selection").append(viewObject.domElem);
+	sectionObject.clicked = false;
+	$(domElem).click(function(){
+		sectionObject = true;
+	});
 	$(domElem).mouseenter(function(){
 		addSectionToTimeTable(sectionObject);
+		$(domElem).addClass("hovered");
+		console.log(viewObject);
 	});
+
 	$(domElem).mouseleave(function(){
-		removeSectionFromTable(sectionObject);
+		if(!sectionObject.clicked){
+			removeSectionFromTable(sectionObject);
+			$(domElem).removeClass("hovered");
+		}
 	});
 
 }
@@ -321,9 +325,21 @@ function populateCourseSelectionTable(){
 function addSectionToTimeTable(sectionObject){
 	var ids = getSectionElementIds(sectionObject);
 	for(var i in ids){
-		var courseView = dom("div", {"class":getSectionIDString(sectionObject)}, document.createTextNode(sectionObject.course));
+		var courseView = dom("div", {"class":getSectionIDString(sectionObject) + " time-table-entry" }, document.createTextNode(sectionObject.course));
 		$("#" + ids[i]).append(courseView);
 	}
+
+	$(document).ready(function(){;
+		for(var i in dayArray){
+			for(var j in timeArray){
+				var idString = dayArray[i] + "-" + timeArray[j];
+				if( $("#" + idString).children().length > 1 ){
+					$("#" + idString).addClass("conflict-cell");
+				}
+			}
+		}
+	});
+
 }
 
 /*function addSectionToTimeTable(sectionObject){
@@ -337,6 +353,17 @@ function removeSectionFromTable(sectionObject){
 	console.log("remove: " + sectionObject.course);
 	var classString = getSectionIDString(sectionObject);
 	$("." + classString).remove();
+
+	$(document).ready(function(){;
+		for(var i in dayArray){
+			for(var j in timeArray){
+				var idString = dayArray[i] + "-" + timeArray[j];
+				if( $("#" + idString).children().length < 2 ){
+					$("#" + idString).removeClass("conflict-cell");
+				}
+			}
+		}
+	});
 }
 
 function getSectionElementIds(sectionObject){
@@ -346,28 +373,27 @@ function getSectionElementIds(sectionObject){
 		var dayString;
 		switch(dayChar){
 			case "M":
-				dayString = "Monday";
-				break;
+			dayString = "Monday";
+			break;
 			case "T":
-				dayString = "Tuesday";
-				break;
+			dayString = "Tuesday";
+			break;
 			case "W":
-				dayString = "Wednesday";
-				break;
+			dayString = "Wednesday";
+			break;
 			case "R":
-				dayString = "Thursday";
-				break;
+			dayString = "Thursday";
+			break;
 			case "F":
-				dayString = "Friday";
-				break;
+			dayString = "Friday";
+			break;
 			default:
-				throw "invalid day";
+			throw "invalid day";
 		}
 		days.push(dayString);
 	}
 	console.log(days);
 
-	var timeArray = [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105];
 	var times = [];
 	var index = timeArray.indexOf(parseInt(sectionObject.start_time));
 	console.log(index);
