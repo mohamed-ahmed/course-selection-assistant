@@ -275,12 +275,14 @@ function getAllSectionsOfCourse(course){
 function addCourseToSelectionTable(courseObject){
 	var viewObject = {}
 	viewObject.courseObject = courseObject;
-	var domElem = $("<div/>");
+	var domElem = $("<option/>",{
+		"class" : "course-object"
+	});
 	domElem.append(document.createTextNode(courseObject.course));
 	viewObject.domElem = domElem;
 	$("#course-selection").append(viewObject.domElem);
 	$(domElem).click(function(){
-		$(".section").remove();
+		$(".section-object").remove();
 		console.log(viewObject.courseObject.course + " clicked");
 		var sections = getAllSectionsOfCourse(viewObject.courseObject.course);
 		for(var i in sections){
@@ -293,12 +295,19 @@ function addSectionSelectionToTable(sectionObject){
 	console.log("adding section");
 	var viewObject = {};
 	viewObject.sectionObject = sectionObject;
-	var domElem = $("<div/>",{
-		"class" : "section"
+	var domElem = $("<option/>",{
+		"class" : "section-object"
 	});
 	domElem.append(document.createTextNode(sectionObject.seq));
 	viewObject.domElem = domElem;
 	$("#section-selection").append(viewObject.domElem);
+	$(domElem).mouseenter(function(){
+		addSectionToTimeTable(sectionObject);
+	});
+	$(domElem).mouseleave(function(){
+		removeSectionFromTable(sectionObject);
+	});
+
 }
 
 
@@ -307,4 +316,76 @@ function populateCourseSelectionTable(){
 	for(var i in registerableCourses){
 		addCourseToSelectionTable(registerableCourses[i]);
 	}
+}
+
+function addSectionToTimeTable(sectionObject){
+	var ids = getSectionElementIds(sectionObject);
+	for(var i in ids){
+		var courseView = dom("div", {"class":getSectionIDString(sectionObject)}, document.createTextNode(sectionObject.course));
+		$("#" + ids[i]).append(courseView);
+	}
+}
+
+/*function addSectionToTimeTable(sectionObject){
+	var ids = getSectionElementIds(sectionObject);
+	for(var i in ids){
+		$("#" + ids[i]).text(sectionObject.course);
+	}
+}
+*/
+function removeSectionFromTable(sectionObject){
+	console.log("remove: " + sectionObject.course);
+	var classString = getSectionIDString(sectionObject);
+	$("." + classString).remove();
+}
+
+function getSectionElementIds(sectionObject){
+	var days = [];
+	for(var i in sectionObject.days){
+		var dayChar = sectionObject.days[i];
+		var dayString;
+		switch(dayChar){
+			case "M":
+				dayString = "Monday";
+				break;
+			case "T":
+				dayString = "Tuesday";
+				break;
+			case "W":
+				dayString = "Wednesday";
+				break;
+			case "R":
+				dayString = "Thursday";
+				break;
+			case "F":
+				dayString = "Friday";
+				break;
+			default:
+				throw "invalid day";
+		}
+		days.push(dayString);
+	}
+	console.log(days);
+
+	var timeArray = [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105];
+	var times = [];
+	var index = timeArray.indexOf(parseInt(sectionObject.start_time));
+	console.log(index);
+	while(timeArray[index] < parseInt(sectionObject.end_time)){
+		times.push( timeArray[index] );
+		index++;
+	}
+	var ids = [];
+	for(var time in times){
+		for(var day in days){
+			var idString = days[day] + "-" + times[time];
+			console.log(idString);
+			ids.push(idString);
+		}
+	}
+	return ids;
+}
+
+function getSectionIDString(sectionObject){
+	return "timeslot-" + sectionObject.course.split(" ")[0] + "-" + sectionObject.course.split(" ")[1] + "-" + sectionObject.seq;
 }

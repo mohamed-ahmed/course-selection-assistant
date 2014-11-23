@@ -37,26 +37,32 @@ html
 				td(id="sem-f4" class="sem-column")
 				td(id="sem-w4" class="sem-column")
 
-
-		div(id="time-table" border="1")
-			table
-				tr
-					each day in ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-						th= day
-				each time in [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105]
-					tr
-						td= time
-						each block in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-							td(id=block + "-" + time)
-
 		table
-			tr
+			tr(class="table-row")
 				td
-					p Courses
-				
+					div(id="time-table" border="1")
+						table
+							tr
+								each day in ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+									th= day
+							each time in [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105]
+								tr
+									td= time
+									each block in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+										td(id=block + "-" + time class="time-table-cell")
+
+			tr(class="table-row")
 				td
-					p Section
-			tr
-				td(id="course-selection")
-				td(id="section-selection")
-				
+					table(id="selection-table")
+						tr
+							td
+								p Courses
+							
+							td
+								p Section
+						tr
+							td(class="course-cell")
+								select(multiple="true" id="course-selection" class="selection")
+							td( class="course-cell")
+								select(multiple="true" id="section-selection" class="selection")
+							

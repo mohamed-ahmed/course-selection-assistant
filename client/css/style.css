@@ -72,8 +72,31 @@
 	padding: 2px;
 }
 
-#time-table td{
-	min-width : 80px;
+
+
+.selection{
+	min-width : 100px;
 }
 
 
+#selection-table, #selection-table td{
+	vertical-align: top;
+}
+
+
+.selection{
+	height: 400px !important;
+}
+
+.time-table-cell{
+	min-width: 100px;
+}
+
+#time-table, #selection-table{
+	display: table;
+}
+
+.table-row{
+	display: table-cell;
+	vertical-align: top;
+}
