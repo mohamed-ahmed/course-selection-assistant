@@ -12,6 +12,11 @@ foreach ($stringArray as $key => $value) {
   //echo $key . " ". $value . "\n";
 }
 
+if($stringArray[4] == "register"){
+	echo print_r($_POST);
+	register($_POST);
+}
+
 if($stringArray[4] == "userCourses"){
 	getUsersCourses();
 }

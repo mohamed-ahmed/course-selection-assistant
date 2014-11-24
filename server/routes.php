@@ -120,8 +120,51 @@ function getUser(){
 	}
 
 	echo json_encode($userObject);
+}
 
-	
+
+function register($courseSectionObj){
+	$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
+
+
+	// Check connection
+	if (mysqli_connect_errno()) {
+	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+
+	$course=$courseSectionObj["course"];
+	$seq = $courseSectionObj["seq"];
+	echo $course;
+	echo $seq;
+
+	$sql = "SELECT * FROM courses WHERE course='$course' and seq = '$seq'";
+
+	$result = mysqli_query($con, $sql);
+
+	while($row = mysqli_fetch_array($result)){
+
+		$room_cap = $row['room_cap'];
+		$num_registered = $row['num_registered'];
+
+	}
+
+	$num_registered = intval($num_registered) + 1;
+	echo $num_registered;
+
+	if($room_cap > 0){
+		if($room_cap > $num_registered){
+			$sql = "UPDATE courses SET num_registered='$num_registered' WHERE course='$course' AND seq='$seq' ";
+			mysqli_query($con, $sql);
+			echo "success";
+		}
+		else{
+			echo "fail";
+		}
+	}
+	else{
+		echo "success";
+	}
+
 }
 
 ?>

@@ -289,8 +289,10 @@ function addSectionSelectionToTable(sectionObject){
 	console.log("adding section");
 	var viewObject = {};
 	viewObject.sectionObject = sectionObject;
+	var seatsLeft = parseInt(sectionObject.room_cap) - parseInt(sectionObject.num_registered);
+	var availabilityString = sectionObject.room_cap > 0 ? " " + seatsLeft + " seatsLeft" : " unlimited seats";
 	var domElem = dom("option",{"class" : "section-object"},
-						(document.createTextNode(sectionObject.seq))						
+						(document.createTextNode(sectionObject.seq + availabilityString))					
 					);
 	viewObject.domElem = domElem;
 	$("#section-selection").append(viewObject.domElem);
@@ -461,11 +463,31 @@ function RegisterButton(sectionObject){
 
 RegisterButton.prototype.render = function() {
 	console.log(this.sectionObject);
+	var dataObj = this.sectionObject;
 	var buttonText = this.sectionObject.course + " " + this.sectionObject.seq;
+	this.statusElem = dom("div", {"class" : "status-text"}, document.createTextNode("Status"));
 	this.buttomELem = dom("button",{"class" : "register-button"},
 						document.createTextNode("Register for " + buttonText)
-					);
-	$("#registration-submission-container").append(this.buttomELem);	
+						);
+	$("#registration-submission-container").append(this.buttomELem);
+	//$(document).ready(function(){
+		$(this.buttomELem).click(function(){
+			console.log("clicked");
+			$.ajax({
+				type : "POST",
+				url : "../server/main2.php/register",
+				data : dataObj
+			}).done(function(msg){
+				console.log(msg);
+				if(msg==="success"){
+					$(this.statusElem).text("Status: success");
+				}
+				else{
+					$(this.statusElem).text("Status: failure");
+				}
+			});
+		})
+	//});
 };
 
 RegisterButton.prototype.removeELem = function(){
