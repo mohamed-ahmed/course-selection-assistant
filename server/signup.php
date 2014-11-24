@@ -6,6 +6,7 @@
 	$password = $_POST['password'];
 	$program = $_POST['program'];
 	$pattern = $_POST['pattern'];
+	$status = $_POST['status']
 	if($pattern == "Off" && !empty($_POST['courses'])){
 		$courses = $_POST['courses'];
 		foreach ($courses as  $value) {
@@ -21,7 +22,7 @@
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program')";
+	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program', '$status')";
 
 	run_sql_command($connection, $sql_command);
 

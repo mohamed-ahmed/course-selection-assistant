@@ -120,6 +120,12 @@ function getUser(){
 		array_push($userObject["coursesCompleted"], $row["course"]);
 	}
 
+	$sql = "SELECT * FROM userslist WHERE login='$login';";
+	$result = mysqli_query($con, $sql);
+	while($row = mysqli_fetch_array($result)){
+		$userObject["status"] = $row["status"];
+	}
+
 	echo json_encode($userObject);
 }
 

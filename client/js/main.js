@@ -111,7 +111,7 @@ function canTakeCourse(course){
 }
 
 function getUserYearStatus(){
-	return 4;
+	return parseInt(userObject.status);
 }
 
 function hasTaken(course){
