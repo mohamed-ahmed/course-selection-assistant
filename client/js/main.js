@@ -11,7 +11,7 @@ var dayArray = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function getCourses(){
 	$.get( "../server/main2.php/userCourses", function( data ) {
-		console.log(data);
+		//console.log(data);
 		// callback(data);
 		//load courses into table
 		programCourses = JSON.parse(data);
@@ -40,7 +40,7 @@ function getUser(callback){
 }
 
 function addCourseToYear(yearNumber, courseName){
-	console.log("in add course to year: " + courseName);
+	//console.log("in add course to year: " + courseName);
 	var yearObject = $( $(".year")[yearNumber-1] );
 
 
@@ -52,7 +52,7 @@ function addCourseToYear(yearNumber, courseName){
 }
 
 function addCourseToTable(course){
-	console.log(course);
+	//console.log(course);
 	var courseType;
 	if(hasTaken(course.course)){
 		courseType = "course-completed";
@@ -296,18 +296,33 @@ function addSectionSelectionToTable(sectionObject){
 	$("#section-selection").append(viewObject.domElem);
 	sectionObject.clicked = false;
 	$(domElem).click(function(){
-		sectionObject = true;
+		if(sectionObject.clicked !== true){
+			if(!sectionObject.onTable){
+				viewObject.registerButton = new RegisterButton(sectionObject);
+				viewObject.registerButton.render();
+				viewObject.tableView = addSectionToTimeTable(viewObject);
+			}
+			sectionObject.clicked = true;
+
+		}
 	});
 	$(domElem).mouseenter(function(){
-		addSectionToTimeTable(sectionObject);
-		$(domElem).addClass("hovered");
-		console.log(viewObject);
+		if(sectionObject.clicked !== true){
+			viewObject.tableView = addSectionToTimeTable(viewObject);
+			sectionObject.onTable = true;
+			console.log(viewObject.tableView);
+			$(domElem).addClass("hovered");
+			console.log(viewObject);
+		}
 	});
 
 	$(domElem).mouseleave(function(){
-		if(!sectionObject.clicked){
-			removeSectionFromTable(sectionObject);
+		if(sectionObject.clicked !== true){
+			//removeSectionFromTable(sectionObject);
+			$(viewObject.tableView).remove();
 			$(domElem).removeClass("hovered");
+			sectionObject.onTable = false;
+			markConflicts();
 		}
 	});
 
@@ -321,20 +336,33 @@ function populateCourseSelectionTable(){
 	}
 }
 
-function addSectionToTimeTable(sectionObject){
-	var ids = getSectionElementIds(sectionObject);
+function addSectionToTimeTable(viewObject){
+	var ids = getSectionElementIds(viewObject.sectionObject);
+	viewObject.timeTableEntries = [];
 	for(var i in ids){
 		var deleteIconElem = dom("img", {"class" : "delete-icon", src: "img/x-icon.png"});
 		$(deleteIconElem).click(function(){
-			removeSectionFromTable(sectionObject);
+			$(viewObject.timeTableEntries).remove();
+			viewObject.registerButton.remove();
 		})
-		var courseView = dom("div", {"class":getSectionIDString(sectionObject) + " time-table-entry" },
-							document.createTextNode(sectionObject.course),
+		var courseView = dom("div", {"class":getSectionIDString(viewObject.sectionObject) + " time-table-entry" },
+							document.createTextNode(viewObject.sectionObject.course),
 							deleteIconElem
 						);
+		viewObject.timeTableEntries.push(courseView);
 		$("#" + ids[i]).append(courseView);
 	}
 
+	markConflicts();
+	return viewObject.timeTableEntries;
+
+
+
+	
+
+}
+
+function markConflicts(){
 	$(document).ready(function(){;
 		for(var i in dayArray){
 			for(var j in timeArray){
@@ -342,10 +370,12 @@ function addSectionToTimeTable(sectionObject){
 				if( $("#" + idString).children().length > 1 ){
 					$("#" + idString).addClass("conflict-cell");
 				}
+				if( $("#" + idString).children().length <= 1 ){
+					$("#" + idString).removeClass("conflict-cell");
+				}
 			}
 		}
 	});
-
 }
 
 /*function addSectionToTimeTable(sectionObject){
@@ -355,7 +385,8 @@ function addSectionToTimeTable(sectionObject){
 	}
 }
 */
-function removeSectionFromTable(sectionObject){
+
+/*function removeSectionFromTable(sectionObject){
 	console.log("remove: " + sectionObject.course);
 	var classString = getSectionIDString(sectionObject);
 	$("." + classString).remove();
@@ -370,7 +401,7 @@ function removeSectionFromTable(sectionObject){
 			}
 		}
 	});
-}
+}*/
 
 function getSectionElementIds(sectionObject){
 	var days = [];
@@ -411,7 +442,7 @@ function getSectionElementIds(sectionObject){
 	for(var time in times){
 		for(var day in days){
 			var idString = days[day] + "-" + times[time];
-			console.log(idString);
+			//console.log(idString);
 			ids.push(idString);
 		}
 	}
@@ -420,4 +451,21 @@ function getSectionElementIds(sectionObject){
 
 function getSectionIDString(sectionObject){
 	return "timeslot-" + sectionObject.course.split(" ")[0] + "-" + sectionObject.course.split(" ")[1] + "-" + sectionObject.seq;
+}
+
+function RegisterButton(sectionObject){
+	this.sectionObject = sectionObject;
+}
+
+RegisterButton.prototype.render = function() {
+	console.log(this.sectionObject);
+	var buttonText = this.sectionObject.course + " " + this.sectionObject.seq;
+	this.buttomELem = dom("button",{"class" : "register-button"},
+						document.createTextNode("Register for " + buttonText)
+					);
+	$("#registration-submission-container").append(this.buttomELem);	
+};
+
+RegisterButton.prototype.remove = function(){
+	$(this.buttonElem).remove();
 }
