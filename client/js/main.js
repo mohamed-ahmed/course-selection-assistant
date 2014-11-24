@@ -297,13 +297,14 @@ function addSectionSelectionToTable(sectionObject){
 	sectionObject.clicked = false;
 	$(domElem).click(function(){
 		if(sectionObject.clicked !== true){
+			viewObject.registerButton = new RegisterButton(sectionObject);
+			viewObject.registerButton.render();
+
 			if(!sectionObject.onTable){
-				viewObject.registerButton = new RegisterButton(sectionObject);
-				viewObject.registerButton.render();
 				viewObject.tableView = addSectionToTimeTable(viewObject);
 			}
 			sectionObject.clicked = true;
-
+			
 		}
 	});
 	$(domElem).mouseenter(function(){
@@ -343,8 +344,9 @@ function addSectionToTimeTable(viewObject){
 		var deleteIconElem = dom("img", {"class" : "delete-icon", src: "img/x-icon.png"});
 		$(deleteIconElem).click(function(){
 			$(viewObject.timeTableEntries).remove();
-			viewObject.registerButton.remove();
-		})
+			var elem = viewObject.registerButton.buttomELem
+			$(elem).remove();
+		});
 		var courseView = dom("div", {"class":getSectionIDString(viewObject.sectionObject) + " time-table-entry" },
 							document.createTextNode(viewObject.sectionObject.course),
 							deleteIconElem
@@ -466,6 +468,6 @@ RegisterButton.prototype.render = function() {
 	$("#registration-submission-container").append(this.buttomELem);	
 };
 
-RegisterButton.prototype.remove = function(){
+RegisterButton.prototype.removeELem = function(){
 	$(this.buttonElem).remove();
 }
