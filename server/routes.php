@@ -48,6 +48,7 @@ function getAllCourseData(){
 	 	$obj["end_time"] = $row["end_time"];
 	 	$obj["room_cap"] = $row["room_cap"];
 	 	$obj["num_registered"] = $row["num_registered"];
+	 	$obj["sem"] = $row["sem"];
 
 
 		array_push($course_array, $obj);
@@ -134,10 +135,11 @@ function register($courseSectionObj){
 
 	$course=$courseSectionObj["course"];
 	$seq = $courseSectionObj["seq"];
+	$sem = $courseSectionObj["sem"];
 	echo $course;
 	echo $seq;
 
-	$sql = "SELECT * FROM courses WHERE course='$course' and seq = '$seq'";
+	$sql = "SELECT * FROM courses WHERE course='$course' and seq = '$seq' and sem='$sem';";
 
 	$result = mysqli_query($con, $sql);
 
@@ -153,7 +155,7 @@ function register($courseSectionObj){
 
 	if($room_cap > 0){
 		if($room_cap > $num_registered){
-			$sql = "UPDATE courses SET num_registered='$num_registered' WHERE course='$course' AND seq='$seq' ";
+			$sql = "UPDATE courses SET num_registered='$num_registered' WHERE course='$course' AND seq='$seq' AND sem='$sem';";
 			mysqli_query($con, $sql);
 			echo "success";
 		}

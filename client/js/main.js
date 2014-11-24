@@ -155,7 +155,7 @@ function isOfferedNextSemester(course){
 	}
 
 	function isOfferedNextSemester(element){
-		return element.term[0].toLowerCase() == semesterShortCode && element.course == course;
+		return element.sem.toLowerCase() == semesterShortCode && element.course == course;
 	}
 
 	var offered = courseOfferingData.some(isOfferedNextSemester);
@@ -190,7 +190,7 @@ function getAllCourseOfferedNextSemester(){
 	}
 
 	function isOfferedNextSemester(element){
-		return element.term[0].toLowerCase() == semesterShortCode;
+		return element.sem.toLowerCase() == semesterShortCode;
 	}
 
 	var filtered = courseOfferingData.filter(isOfferedNextSemester);
