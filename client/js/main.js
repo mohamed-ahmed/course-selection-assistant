@@ -20,7 +20,7 @@ function getCourses(){
 			console.log("got response");
 			var temp = JSON.parse(programCourseDataResponse);
 			if(userObject.pattern=="On"){
-				setCoursesToYear();
+				setCompetedCourses();
 			}
 			for(var i in temp){
 				courseOfferingData.push(temp[i]);
@@ -51,6 +51,23 @@ function addCourseToYear(yearNumber, courseName){
 	var courseObject = dom("div", {class:"course " + courseType}, document.createTextNode(courseName));
 
 	yearObject.append(courseObject);
+
+}
+
+function setCompetedCourses(){
+	var year = parseInt(userObject.year);
+	for (var i = 0; i < programCourses.length; i++) {
+
+		if(parseInt(programCourses[i].term[1]) <= year ){
+			userObject.coursesCompleted.push(programCourses[i].course);
+		}
+		else if(getNextSemester() == "winter"){
+			if(parseInt(programCourses[i].term[1]) == year + 1 && programCourses[i].term[0] === "F"){
+				userObject.coursesCompleted.push(programCourses[i].course);
+			}
+		}
+
+	}
 
 }
 

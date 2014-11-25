@@ -125,6 +125,7 @@ function getUser(){
 	while($row = mysqli_fetch_array($result)){
 		$userObject["status"] = $row["status"];
 		$userObject["pattern"] = $row["pattern"];
+		$userObject["year"] = $row["year"];
 	}
 
 	echo json_encode($userObject);
