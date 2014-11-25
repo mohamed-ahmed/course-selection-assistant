@@ -19,6 +19,9 @@ function getCourses(){
 		$.get("../server/main2.php/programCourseData", function (programCourseDataResponse){
 			console.log("got response");
 			var temp = JSON.parse(programCourseDataResponse);
+			if(userObject.pattern=="On"){
+				setCoursesToYear();
+			}
 			for(var i in temp){
 				courseOfferingData.push(temp[i]);
 			}

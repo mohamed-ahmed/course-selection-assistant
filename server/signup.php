@@ -6,12 +6,17 @@
 	$password = $_POST['password'];
 	$program = $_POST['program'];
 	$pattern = $_POST['pattern'];
-	$status = $_POST['status']
+	$status = intval($_POST['status']);
 	if($pattern == "Off" && !empty($_POST['courses'])){
+		$year = 0;
 		$courses = $_POST['courses'];
 		foreach ($courses as  $value) {
 			print $value;
 		}
+	}
+	if($pattern == "On" && !empty($_POST['year'])){
+		$status = intval($_POST['year']);
+		$year = intval($_POST['year']);
 	}
 	echo $login . $firstname . $lastname . $password;
 
@@ -22,7 +27,7 @@
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program', '$status')";
+	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program', '$status', '$year', '$pattern')";
 
 	run_sql_command($connection, $sql_command);
 
@@ -33,6 +38,7 @@
 			run_sql_command($connection, $sql_command);
 		}
 	}
+
 
 
 	function run_sql_command($connection, $command){

@@ -13,10 +13,12 @@ window.onload=function(){
 	document.getElementById("input-pattern").onclick = function(){
 		if(!studentIsOnPattern()){
 			showElement(document.getElementById("courses-taken-form-group"));
+			hideElement(document.getElementById("year-form-group"));
 			populateCourseList();
 		}
 		else{
 			hideElement(document.getElementById("courses-taken-form-group"));
+			showElement(document.getElementById("year-form-group"));
 			var elemList = document.getElementsByClassName("course-taken");;
 			while(elemList.length > 0){
 				elemList[0].remove();

@@ -124,6 +124,7 @@ function getUser(){
 	$result = mysqli_query($con, $sql);
 	while($row = mysqli_fetch_array($result)){
 		$userObject["status"] = $row["status"];
+		$userObject["pattern"] = $row["pattern"];
 	}
 
 	echo json_encode($userObject);
