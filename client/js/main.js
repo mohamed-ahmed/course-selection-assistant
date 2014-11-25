@@ -310,7 +310,7 @@ function addSectionSelectionToTable(sectionObject){
 	var viewObject = {};
 	viewObject.sectionObject = sectionObject;
 	var seatsLeft = parseInt(sectionObject.room_cap) - parseInt(sectionObject.num_registered);
-	var availabilityString = sectionObject.room_cap > 0 ? " " + seatsLeft + " seatsLeft" : " unlimited seats";
+	var availabilityString = sectionObject.room_cap > 0 ? " - " + seatsLeft + " seatsLeft" : " - unlimited seats";
 	var domElem = dom("option",{"class" : "section-object"},
 						(document.createTextNode(sectionObject.seq + availabilityString))					
 					);

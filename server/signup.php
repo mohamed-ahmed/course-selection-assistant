@@ -15,7 +15,7 @@
 		}
 	}
 	if($pattern == "On" && !empty($_POST['year'])){
-		$status = intval($_POST['year']);
+		$status = intval($_POST['year'] + 1);
 		$year = intval($_POST['year']);
 	}
 	echo $login . $firstname . $lastname . $password;
