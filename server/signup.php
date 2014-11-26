@@ -23,12 +23,6 @@ include 'db.php';
 	}
 	echo $login . $firstname . $lastname . $password;
 
-	$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
-
-	// Check con
-	if (mysqli_connect_errno()) {
-	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	}
 
 	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program', '$status', '$year', '$pattern')";
 
