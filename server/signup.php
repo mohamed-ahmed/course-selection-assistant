@@ -1,5 +1,8 @@
 <?php
 
+include 'db.php';
+
+
 	$login = $_POST['email'];
 	$firstname = $_POST['first-name'];
 	$lastname = $_POST['last-name'];
@@ -20,32 +23,32 @@
 	}
 	echo $login . $firstname . $lastname . $password;
 
-	$connection=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
+	$con=mysqli_connect("127.0.0.1", "root", NULL, "course_selection_assistant");
 
-	// Check connection
+	// Check con
 	if (mysqli_connect_errno()) {
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
 	$sql_command = "INSERT INTO userslist VALUES('$login', '$firstname', '$lastname', '$password', '$program', '$status', '$year', '$pattern')";
 
-	run_sql_command($connection, $sql_command);
+	run_sql_command($con, $sql_command);
 
 	if($pattern == "Off" && !empty($_POST['courses'])){
 		foreach ($courses as  $value) {
 			print $value;
 			$sql_command = "INSERT INTO off_pattern_courses_completed VALUES('$login', '$value')";
-			run_sql_command($connection, $sql_command);
+			run_sql_command($con, $sql_command);
 		}
 	}
 
 
 
-	function run_sql_command($connection, $command){
-		if($connection->query($command)){
+	function run_sql_command($con, $command){
+		if($con->query($command)){
 		
 		}else{
-			echo "Error encountered ".mysqli_error($connection);
+			echo "Error encountered ".mysqli_error($con);
 		}
 	}	
 	
