@@ -1,4 +1,4 @@
-
+<?php
 
 $sqlData = "
 INSERT INTO `courses` (`course`, `seq`, `catalog_title`, `instr_type`, `days`, `start_time`, `end_time`, `room_cap`, `num_registered`, `sem`) VALUES
@@ -652,6 +652,7 @@ INSERT INTO `courses` (`course`, `seq`, `catalog_title`, `instr_type`, `days`, `
 ('CDNS 1000', 'V03', 'Intro to Canadian St', 'GRP', '', 0, 0, 0, 0, 'F'),
 ('CDNS 1000', 'V4', 'Intro to Canadian St', 'GRP', 'T', 1635, 1725, 40, 0, 'F'),
 ('CDNS 1000', 'V5', 'Intro to Canadian St', 'GRP', 'T', 2005, 2055, 31, 0, 'F');
+
 INSERT INTO `courses` (`course`, `seq`, `catalog_title`, `instr_type`, `days`, `start_time`, `end_time`, `room_cap`, `num_registered`, `sem`) VALUES
 ('CDNS 1000', 'VOD', 'Intro to Canadian St', 'VOD', '', 0, 0, 0, 0, 'F'),
 ('CDNS 1101', 'A', 'Ottawa:Explore Natio', 'LEC', 'R', 1135, 1325, 94, 0, 'F'),
@@ -7726,3 +7727,5 @@ INSERT INTO `course_program` (`course`, `program`, `term`) VALUES
 ('ECOR 4995', 'Software', 'W4'),
 ('SYSC 4806', 'Software', 'W4');
 ";
+
+?>

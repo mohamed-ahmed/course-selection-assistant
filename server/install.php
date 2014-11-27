@@ -1,7 +1,8 @@
 <?php
 
 	include 'db.php';
-	include '../insertion_data.php';
+	include 'insertion_data.php';
+
 
 	$endl = "</br>";
 	
@@ -84,7 +85,8 @@
 	
 	run_sql_command($con, $sql_command);
 
-	loadCSVIntoDB("course_program.csv", "course_program", $con);
+	
+	run_multi_sql_command($con, $sqlData);
 
 
 	function loadCSVIntoDB($filename, $table, $con){
@@ -105,6 +107,14 @@
 			echo "Error encountered ".mysqli_error($con);
 		}
 	}	
+
+	function run_multi_sql_command($con, $command){
+		if($con->multi_query($command)){
+			echo "working" . "</br>";
+		}else{
+			echo "Error encountered ".mysqli_error($con);
+		}
+	}
 
 ?>
 
