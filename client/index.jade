@@ -12,61 +12,63 @@ html
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 
 	body
-		table(id="course-table" width="800" border="1")
-			tr
-				th(colspan="2") Year 1
-				th(colspan="2") Year 2
-				th(colspan="2") Year 3
-				th(colspan="2") Year 4
-			tr
-				td Fall
-				td Winter
-				td Fall
-				td Winter
-				td Fall
-				td Winter
-				td Fall
-				td Winter
-			tr
-				td(id="sem-f1" class="sem-column")
-				td(id="sem-w1" class="sem-column")
-				td(id="sem-f2" class="sem-column")
-				td(id="sem-w2" class="sem-column")
-				td(id="sem-f3" class="sem-column")
-				td(id="sem-w3" class="sem-column")
-				td(id="sem-f4" class="sem-column")
-				td(id="sem-w4" class="sem-column")
+		div.container
+			h1 Course Selection Assistant
+			table(id="course-table" width="800" border="1")
+				tr
+					th(colspan="2") Year 1
+					th(colspan="2") Year 2
+					th(colspan="2") Year 3
+					th(colspan="2") Year 4
+				tr
+					td Fall
+					td Winter
+					td Fall
+					td Winter
+					td Fall
+					td Winter
+					td Fall
+					td Winter
+				tr
+					td(id="sem-f1" class="sem-column")
+					td(id="sem-w1" class="sem-column")
+					td(id="sem-f2" class="sem-column")
+					td(id="sem-w2" class="sem-column")
+					td(id="sem-f3" class="sem-column")
+					td(id="sem-w3" class="sem-column")
+					td(id="sem-f4" class="sem-column")
+					td(id="sem-w4" class="sem-column")
 
-		button(id="build-time-table") Build Time Table
+			button(id="build-time-table" class="btn btn-primary") Build Time Table
 
-		table
-			tr(class="table-row")
-				td
-					table(id="selection-table")
-						tr
-							td
-								p Courses
-							
-							td
-								p Section
-						tr
-							td(class="course-cell")
-								select(multiple="true" id="course-selection" class="selection")
-							td( class="course-cell")
-								select(multiple="true" id="section-selection" class="selection")
-
-			tr(class="table-row")
-				td
-					div(id="time-table" border="1")
-						table
+			table
+				tr(class="table-row")
+					td
+						table(id="selection-table")
 							tr
-								each day in ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-									th= day
-							each time in [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105]
-								tr
-									td= time
-									each block in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-										td(id=block + "-" + time class="time-table-cell")
+								td
+									p Courses
+								
+								td
+									p Section
+							tr
+								td(class="course-cell")
+									select(multiple="true" id="course-selection" class="selection")
+								td( class="course-cell")
+									select(multiple="true" id="section-selection" class="selection")
 
-		div(id="registration-submission-container")
-							
+				tr(class="table-row")
+					td
+						div(id="time-table" border="1")
+							table
+								tr
+									each day in ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+										th= day
+								each time in [805, 835, 905, 935, 1005, 1035, 1105, 1135, 1205, 1235, 1305, 1335, 1405, 1435, 1505, 1535, 1605, 1635, 1705, 1735, 1805, 1835, 1905, 1935, 2005, 2035, 2105]
+									tr
+										td= time
+										each block in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+											td(id=block + "-" + time class="time-table-cell")
+
+			div(id="registration-submission-container")
+								
