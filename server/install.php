@@ -1,17 +1,21 @@
 <?php
 
 	include 'db.php';
+	include '../insertion_data.php';
 
 	$endl = "</br>";
 	
+	//create database;
 
-	//create ables;
 	
 	$sql_command = "CREATE DATABASE IF NOT EXISTS course_selection_assistant;";
 	run_sql_command($con, $sql_command);
 
 	$sql_command = "USE course_selection_assistant;";
 	run_sql_command($con, $sql_command);
+
+	//create tables;
+
 
 	$sql_command = "CREATE TABLE IF NOT EXISTS courses (
 		course varchar(20) DEFAULT NULL,
@@ -54,7 +58,7 @@
 	$sql_command = "CREATE TABLE IF NOT EXISTS registration (
 		email varchar(40) DEFAULT NULL,
 		course varchar(20) DEFAULT NULL,
-		'completion' varchar(20) DEFAULT NULL
+		completion varchar(20) DEFAULT NULL
 	);";
 	
 	run_sql_command($con, $sql_command);
@@ -62,7 +66,7 @@
 	$sql_command = "CREATE TABLE IF NOT EXISTS registration (
 		email varchar(40) DEFAULT NULL,
 		course varchar(20) DEFAULT NULL,
-		'completion' varchar(20) DEFAULT NULL
+		completion varchar(20) DEFAULT NULL
 	);";
 	
 	run_sql_command($con, $sql_command);
@@ -71,19 +75,32 @@
 		login varchar(40) NOT NULL DEFAULT '',
 		firstname varchar(40) DEFAULT NULL,
 		lastname varchar(40) DEFAULT NULL,
-		'password' varchar(100) DEFAULT NULL,
+		password varchar(100) DEFAULT NULL,
 		program varchar(40) DEFAULT NULL,
-		'status' int(11) NOT NULL,
-		'year' int(11) NOT NULL,
+		status int(11) NOT NULL,
+		year int(11) NOT NULL,
 		pattern varchar(20) NOT NULL
 	);";
 	
 	run_sql_command($con, $sql_command);
 
+	loadCSVIntoDB("course_program.csv", "course_program", $con);
+
+
+	function loadCSVIntoDB($filename, $table, $con){
+		$file_directory = "../../htdocs/couse-selection-assistant/" . $filename;
+		$sql_command = "load data local infile '" . $file_directory . "' into table " . $table . " fields terminated by ',' enclosed by '\"' lines terminated by '\n' ";
+		echo "</br>" .  $sql_command . "</br>";
+		run_sql_command($con, $sql_command);
+	}
+
+
+
+
 
 	function run_sql_command($con, $command){
 		if($con->query($command)){
-			echo "working";
+			echo "working" . "</br>";
 		}else{
 			echo "Error encountered ".mysqli_error($con);
 		}
