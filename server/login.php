@@ -35,7 +35,7 @@
 	 	echo "session " . $_SESSION['login'] . endl;
 
 	 	echo "redirecting...";
-	 	header("refresh:q;url=../client/index.html");
+	 	header("refresh:1;url=../client/index.html");
 
 
 
