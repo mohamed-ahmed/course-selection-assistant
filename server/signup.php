@@ -36,6 +36,12 @@ include 'db.php';
 		}
 	}
 
+	echo "</br>";
+	echo "</br>";
+	echo "Signed up successfully, redirecting..";
+ 	header("refresh:3;url=../client/login.html");
+
+
 
 
 	function run_sql_command($con, $command){

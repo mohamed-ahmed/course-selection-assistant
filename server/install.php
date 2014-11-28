@@ -9,9 +9,6 @@
 	//create database;
 
 	
-	$sql_command = "CREATE DATABASE IF NOT EXISTS course_selection_assistant;";
-	run_sql_command($con, $sql_command);
-
 	$sql_command = "USE course_selection_assistant;";
 	run_sql_command($con, $sql_command);
 
@@ -102,7 +99,6 @@
 
 	function run_sql_command($con, $command){
 		if($con->query($command)){
-			echo "working" . "</br>";
 		}else{
 			echo "Error encountered ".mysqli_error($con);
 		}

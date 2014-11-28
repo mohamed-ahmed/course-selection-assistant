@@ -13,7 +13,7 @@ foreach ($stringArray as $key => $value) {
 }
 
 if($stringArray[4] == "register"){
-	echo print_r($_POST);
+	//echo print_r($_POST);
 	register($_POST);
 }
 

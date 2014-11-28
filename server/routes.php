@@ -146,8 +146,8 @@ function register($courseSectionObj){
 	$course=$courseSectionObj["course"];
 	$seq = $courseSectionObj["seq"];
 	$sem = $courseSectionObj["sem"];
-	echo $course;
-	echo $seq;
+	//echo $course;
+	//echo $seq;
 
 	$sql = "SELECT * FROM courses WHERE course='$course' and seq = '$seq' and sem='$sem';";
 
@@ -161,7 +161,7 @@ function register($courseSectionObj){
 	}
 
 	$num_registered = intval($num_registered) + 1;
-	echo $num_registered;
+	//echo $num_registered;
 
 	if($room_cap > 0){
 		if($room_cap > $num_registered){

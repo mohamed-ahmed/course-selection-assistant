@@ -2,17 +2,17 @@ doctype html
 html
 	head
 		title Course Selection Assistant
-		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+		//- link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
 		link(rel='stylesheet', href='css/style.css')
 		script(src="http://code.jquery.com/jquery-2.1.1.min.js")
-		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+		//- script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
 		script(src="/course-selection-assistant/client/js/Utils.js")
 		script(src="/course-selection-assistant/client/js/process_prereqs_in_client.js")
 		script(src="/course-selection-assistant/client/js/main.js")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 
 	body
-		div.container
+		div.container#app-body
 			h1 Course Selection Assistant
 			table(id="course-table" width="800" border="1")
 				tr
@@ -40,6 +40,11 @@ html
 					td(id="sem-w4" class="sem-column")
 
 			button(id="build-time-table" class="btn btn-primary") Build Time Table
+
+			p() Step 1. Click Build Time Table
+			P() Step 2. Click on course
+			p() Step 3. Hover over a section to find one that fits in table. If it has a conflit(red) don't click it
+			p() Step 4. Click a course you want to register for. Scroll down and click the register button
 
 			table
 				tr(class="table-row")

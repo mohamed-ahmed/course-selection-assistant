@@ -366,7 +366,7 @@ function addSectionToTimeTable(viewObject){
 		var deleteIconElem = dom("img", {"class" : "delete-icon", src: "img/x-icon.png"});
 		$(deleteIconElem).click(function(){
 			$(viewObject.timeTableEntries).remove();
-			var elem = viewObject.registerButton.buttomELem
+			var elem = [viewObject.registerButton.buttomELem, viewObject.registerButton.statusElem];
 			$(elem).remove();
 		});
 		var courseView = dom("div", {"class":getSectionIDString(viewObject.sectionObject) + " time-table-entry" },
@@ -484,12 +484,14 @@ function RegisterButton(sectionObject){
 RegisterButton.prototype.render = function() {
 	console.log(this.sectionObject);
 	var dataObj = this.sectionObject;
+	var that = this;
 	var buttonText = this.sectionObject.course + " " + this.sectionObject.seq;
-	this.statusElem = dom("div", {"class" : "status-text"}, document.createTextNode("Status"));
+	this.statusElem = dom("div", {"class" : "status-text"}, document.createTextNode("Status: "));
 	this.buttomELem = dom("button",{"class" : "register-button"},
 						document.createTextNode("Register for " + buttonText)
 						);
 	$("#registration-submission-container").append(this.buttomELem);
+	$("#registration-submission-container").append(this.statusElem);
 	//$(document).ready(function(){
 		$(this.buttomELem).click(function(){
 			console.log("clicked");
@@ -499,11 +501,13 @@ RegisterButton.prototype.render = function() {
 				data : dataObj
 			}).done(function(msg){
 				console.log(msg);
-				if(msg==="success"){
-					$(this.statusElem).text("Status: success");
+				if(msg=="success"){
+					console.log(that.statusElem);
+					$(that.statusElem)[0].innerText = "Status: success";
+					console.log("successful registration");
 				}
 				else{
-					$(this.statusElem).text("Status: failure");
+					$(that.statusElem)[0].innerText = "Status: failure";
 				}
 			});
 		})
