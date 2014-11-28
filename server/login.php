@@ -7,9 +7,7 @@
 	$login = $_POST['email'];
 	$password = $_POST['password'];
 
-	echo $login . " " . $password . endl;
 
-	
 
 	$sql = "SELECT * FROM userslist WHERE login='$login' AND password='$password'";
 
@@ -21,7 +19,7 @@
 	$num = $result->num_rows;
 
 	if($num > 0){
-		echo "You are in";
+		echo "You are in ";
 
 		session_start();
 
@@ -30,13 +28,14 @@
 			$program = $row['program'];
 		}
 
-	 	echo "Program is " . $program . endl;
+	 	echo "Program: " . $program . endl;
 
 	 	$_SESSION['login'] = $login;
 	 	$_SESSION['program'] = $program;
 	 	echo "session " . $_SESSION['login'] . endl;
 
-	 	header("refresh:3;url=../client/index.html");
+	 	echo "redirecting...";
+	 	header("refresh:q;url=../client/index.html");
 
 
 
