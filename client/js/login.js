@@ -1,3 +1,5 @@
+//changes I made
+
 window.onload=function(){
 	console.log("loaded");
 	document.getElementById("login-button").onclick = function(){
@@ -49,3 +51,5 @@ function populateCourseList(){
 	xmlhttp.open("GET", url);
 	xmlhttp.send();
 }
+
+
