@@ -1,5 +1,4 @@
 var globaldata;
-
 var userObject;
 
 var courseOfferingData = [];
