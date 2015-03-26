@@ -1,5 +1,4 @@
-//changes I made//
-//wefewwf
+
 
 window.onload=function(){
 	console.log("loaded");
