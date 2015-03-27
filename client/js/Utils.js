@@ -1,3 +1,86 @@
+egegesome edits
+
+jgjgjg
+function(){
+    regergergergergergergergergergergddddddddsssssss
+}
+console.log(hi anrurtutyutyu )
+function(){
+function function_namef(argument) {
+    // body...
+}    
+    you ARE so funny
+    tyjtyjtj
+    
+    
+    ///
+}
+
+
+function(){
+    
+}
+
+
+var efew = function() {
+    
+};
+
+(function() {
+    this.prop = ""
+}).call(efew.prototype);
+
+exports.efew = efew;
+var classdge = function() {
+    
+};
+ergegregregergergerher
+
+function(){
+    
+    cvxcvxvxcvxcvxcvxvxcvxcvcxvxcvxcvxcvxcvxcv
+}
+(function() {
+    this.prop = ""
+}).call(class.prototype);
+
+exports.class = class;
+
+typing here
+xhghsds
+
+
+bvbxvbvcbzvbcvxzbcnzvcnxzvbvxzv
+gfdjhgjgf
+jhskjsdhfkshkdhfsjhfkjhskdf
+
+
+Hello
+
+123
+123456789
+Hi Vinny
+
+
+ergerge
+
+dfgeg
+
+//testing
+//hello
+//some hanges
+
+function(){
+    var x = 1;
+    return x + 2;
+}
+
+function(){
+    VAR Y = 'hello';
+    return Y + ' NO';
+    
+    sglsdlkglsdlkglsd
+}
 	/*
 	creates cookies
 	@param {String} name -  of coookie
@@ -43,10 +126,18 @@ function eraseCookie(name) {
 /*adds functions to the dom
 
 it works such as dom("element_type like div or h1", {attribute:"value"}, list_of_doms)
+typing does it wstill work?
+
 
 */
 
+1234567890 or 1234567890
+hello 17352023456
 
+
+dsjhksf
+
+im typing here  im typing here
 function dom(name, attributes) {
 	var node = document.createElement(name);
 	if (attributes) {
@@ -82,6 +173,7 @@ function setNodeAttribute(node, attribute, value) {
 	else
 		node.setAttribute(attribute, value);
 }
+123
 
 function hideElement(element){
 	element.style.display="none";
@@ -91,5 +183,64 @@ function showElement(element){
 	element.style.display="block";
 }
 
+var class = function() {
+    hi chuan!
+};
 
-//testing commit
+console.log("hi chuan");
+
+
+(function() {
+    this.prop = ""
+}).call(class.prototype);
+
+exports.class = class;
+
+function function_name(argument) {
+    // body...
+}
+
+var class = function() {
+    
+};
+
+(function() {
+    this.prop = ""
+}).call(class.prototype);
+
+exports.class = class;
+
+function(){
+    var x  5;
+    x = 5 ;
+    hello talim
+}
+
+function() {
+    var v = 6;
+ 
+ hello
+ 123
+ 1234
+ gfhgfhgf
+ 12345
+ 
+ 
+}
+
+fuyegsjhagsjgdsaghdhsahy
+
+function(){
+    
+   
+}
+
+var class = function() {
+    
+};
+
+(function() {
+    this.prop = ""
+}).call(class.prototype);
+
+exports.class = class;
